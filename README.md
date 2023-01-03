@@ -14,7 +14,7 @@ To use this script, "Might and Magic III.sh" must be placed in the "ports" folde
 
 Users will also need to remap the virtual keyboard in DosBox-Pure to the controller button whose default keyboard map is left-control in RetroArch. (Key 9 on the PiBoy DMG.) This can be done within the game from the retroarch system menu under "Controls --> Port 1 Controls." 
 
-You can also choose to launch from your pc games folder; however, this requires "wine = "XINIT:wine_desktop %ROM%"" (no quotes) be added as a line in to /opt/retropie/configs/pc/emulators.cfg and "wine" be selected as the emulator option for this game at startup. The extentions ".sh" and ".SH" will also need to be added as options to the pc section of the systems.cfg file at /opt/retropie/configs/all/emulationstation
+You can also choose to launch from your pc games folder; however, this requires _wine = "XINIT:wine_desktop %ROM%"_ be added as a line in to /opt/retropie/configs/pc/emulators.cfg and "wine" be selected as the emulator option for this game at startup. The extentions ".sh" and ".SH" will also need to be added as options to the pc section of the systems.cfg file at /opt/retropie/configs/all/emulationstation
 
 <b>Might and Magic IV & V: World of Xeen</b>
 
