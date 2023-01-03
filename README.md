@@ -2,7 +2,7 @@
 
 This is a collection of launch scripts with custom keymaps to assist in playing DOS-based CRPGs designed for keyboard and mouse on handheld controller-based devices using DosBox-Pure libretro core in RetroArch on RetroPie. All remaps are implimented using xboxdvr (https://xboxdrv.gitlab.io/).
 
-These scripts were specifically designed for use on the Raspberry Pi-based PiBoy DMG handheld device, but should also work on other systems, possibly requiring minor tweaks to the button codes on Line 14. A six-button layout with trigger buttons and at least one joystick is required. To learn your device's specific button code, SSH into your device and run "evtest", select the number associated with your controller and press a key to output it's device-specific button code.
+These scripts were created for use on the Raspberry Pi-based PiBoy DMG handheld device, but should also work on other systems, possibly requiring minor tweaks to the button codes on Line 14. A six-button layout with trigger buttons and at least one joystick is required. To learn your device's specific button code, SSH into your device and run "evtest", select the number associated with your controller and press a key to output it's device-specific button code.
 
 A full list of Linux virtual keyboard codes are available at https://manpages.ubuntu.com/manpages/focal/man7/virkeycode-linux.7.html. Xboxdvr documentation is available at https://xboxdrv.gitlab.io/xboxdrv.html.
 
