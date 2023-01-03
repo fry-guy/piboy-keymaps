@@ -18,7 +18,9 @@ You can also choose to launch from your pc games folder; however, this requires 
 
 <b>Might and Magic IV & V: World of Xeen</b>
 
-To use this script, "Might and Magic - World of Xeen.sh" must be placed in the "ports" folder in Retroarch and the game file ("Might and Magic IV & V - World of Xeen.dosz") must be placed in the /home/pi/RetroPie/roms/pc/ folder. Additionally, "Might & Magic IV & V - World of Xeen.cfg" must be placed in the /opt/retropie/configs/pc/DOSBox-pure folder. Additional setup instructions are the same as the steps outlined for Might and Magic III.
+To use this script, "Might and Magic - World of Xeen.sh" must be placed in the "ports" folder in Retroarch and the game file ("Might and Magic IV & V - World of Xeen.dosz") must be placed in the /home/pi/RetroPie/roms/pc/ folder. Additionally, "Might & Magic IV & V - World of Xeen.cfg" must be placed in the /opt/retropie/configs/pc/DOSBox-pure folder. 
+
+Additional setup instructions are the same as the steps outlined for Might and Magic III.
 
 <u><b>Overview of key mapping</u></b>
 
