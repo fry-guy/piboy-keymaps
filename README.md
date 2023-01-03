@@ -6,9 +6,9 @@ These scripts were specifically designed for use on the Raspberry Pi-based PiBoy
 
 A full list of Linux virtual keyboard codes are available at https://manpages.ubuntu.com/manpages/focal/man7/virkeycode-linux.7.html. Xboxdvr documentation is available at https://xboxdrv.gitlab.io/xboxdrv.html.
 
-~~Script setup~~
+<u><b>Script setup</b></u>
 
-~Might and Magic III: Isles of Terra~
+<b>Might and Magic III: Isles of Terra</b>
 
 To use this script, "Might and Magic III.sh" must be placed in the "ports" folder in Retroarch and the game file ("Might and Magic III - Isles of Terra.dosz") must be placed in the /home/pi/RetroPie/roms/pc/ folder. Additionally, "Might & Magic III - Isles of Terra.cfg" must be placed in the /opt/retropie/configs/pc/DOSBox-pure folder. (This second file will remap the retroarch menu hotkey to F11, which is required to prevent the first character window from opening every time the system menu is activated.) 
 
@@ -16,11 +16,11 @@ Users will also need to remap the virtual keyboard in DosBox-Pure to the control
 
 You can also choose to launch from your pc games folder; however, this requires "wine = "XINIT:wine_desktop %ROM%"" (no quotes) be added as a line in to /opt/retropie/configs/pc/emulators.cfg and "wine" be selected as the emulator option for this game at startup. The extentions ".sh" and ".SH" will also need to be added as options to the pc section of the systems.cfg file at /opt/retropie/configs/all/emulationstation
 
-~Might and Magic IV & V: World of Xeen~
+<b>Might and Magic IV & V: World of Xeen</b>
 
 To use this script, "Might and Magic - World of Xeen.sh" must be placed in the "ports" folder in Retroarch and the game file ("Might and Magic IV & V - World of Xeen.dosz") must be placed in the /home/pi/RetroPie/roms/pc/ folder. Additionally, "Might & Magic IV & V - World of Xeen.cfg" must be placed in the /opt/retropie/configs/pc/DOSBox-pure folder. Additional setup instructions are the same as the steps outlined for Might and Magic III.
 
-~~Overview of key mapping~~
+<u><b>Overview of key mapping</u></b>
 
 Might and Magic III: Isles of Terra and Might and Magic IV & V: World of Xeen are early '90s computer-based RPGs that came out before many of the standard conventions of computer game navigation. (e.g. No WASD navigation, etc.) It also makes extensive use of many keyboard keys, including nearly every number or function key, as well as a keys whose function alters based upon context (i.e. R functions as "rest," "retreat," or "rumor" depending on the current menu screen). The wide and varying use of keys renders playing these games with a controller a challenge. Use of the the powerful xboxdvr tool allows a standard 10-button controller (plus dpad and joystick) to significantly expand the range of these inputs. Hightlights include:
 
@@ -38,7 +38,7 @@ The left joystick and X button functions as a mouse pointer and left mouse butto
 
 A quick reference sheet with the full list of remapped controls is available at https://github.com/fry-guy/piboy-keymaps/blob/main/MM3%20KEY%20GUIDE.txt.
 
-~~Legal copy~~
+<u><b>Legal copy</u></b>
 
 Might and Magic 1-6 can be purchased on GOG at https://www.gog.com/game/might_and_magic_6_limited_edition.
 
