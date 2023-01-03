@@ -20,5 +20,4 @@ Might and Magic III can be purchased on GOG at https://www.gog.com/game/might_an
 
 Overview of key mapping
 
-
-
+Might and Magic III: Isles of Terra is an early '90s computer RPG released before the establishment of many of the standarded conventions of computer game navigation. (e.g. No WASD navigation, etc.) The game also makes extensive use of the number pad and F1-F8 buttons for character and inventory management. In this remap scheme, the right and left trigger buttons are used extentively to modify the function of the other controller buttons. By holding down the left trigger, for example, players can access the F1-F8 function keys with the six face buttons (C, B, A, Z, Y, and X as well as start and select.) By holding down the right trigger button, players can also access keys 1, 2, 3, 4, 5, 6, 7, 8, 9 and 0 with the front buttons (1-6) or moving the left joystick (7, 8, 9 and 0) clockwise starting from Y+. The left joytick can also be used for navigation if the left trigger is held down. The left or right sidestep function can also be acessed in this mode through the depression of th right trigger in addition to the left.
