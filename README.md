@@ -36,6 +36,8 @@ Several buttons' functions are modified through a long press. A long press of th
 
 The left joystick and X button function as a mouse pointer and left mouse button. The A button functions as Enter. A click of the L3 button will open the virual keyboard. The in game menu is accessed with the right triggler + L3 and the retroarch menu is accessed with select + X. Navigation of the retroarch menu is the same as the defaul settings in retorarch, although each button press will experience a short delay as an a consequence of the key remapping. These delays will not be experienced in game.
 
+<u><b>Quick reference sheet</u></b>
+
 A quick reference sheet with the full list of remapped controls is available at https://github.com/fry-guy/piboy-keymaps/blob/main/MM3_KEY_GUIDE.txt and https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5_KEY_GUIDE.txt.
 
 <u><b>Legal copy</u></b>
