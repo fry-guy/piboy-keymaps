@@ -12,7 +12,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv \
     --mimic-xpad \
     --evdev-absmap ABS_X=x1,ABS_Y=y1 \
        --evdev-keymap BTN_EAST=b,BTN_SOUTH=a,BTN_WEST=y,BTN_NORTH=x,BTN_Z=lb,BTN_C=rb,BTN_TL=tl,BTN_TR=tr,BTN_THUMBL=guide,BTN_SELECT=back,BTN_START=start,BTN_DPAD_DOWN=dd,BTN_DPAD_UP=du,BTN_DPAD_LEFT=dl,BTN_DPAD_RIGHT=dr \
-	--ui-buttonmap start=KEY_ENTER:KEY_Y:500,back=KEY_ESC:KEY_N:500,dd=KEY_UP,du=KEY_DOWN,dl=KEY_LEFT,dr=KEY_RIGHT,b=KEY_F:KEY_ESC:300,x=BTN_LEFT,a=KEY_ENTER:KEY_ENTER:150,dd+a=KEY_A,du+a=KEY_B,rb=KEY_C,lb=KEY_Q:KEY_V:250,y=KEY_M:KEY_EQUAL:250,guide=KEY_LEFTCTRL,tl=KEY_SPACE \
+	--ui-buttonmap start=KEY_ENTER:KEY_Y:500,back=KEY_ESC:KEY_N:500,dd=KEY_UP,du=KEY_DOWN,dl=KEY_LEFT,dr=KEY_RIGHT,b=KEY_F:KEY_ESC:300,x=BTN_LEFT,a=KEY_ENTER:KEY_ENTER:150,dd+a=KEY_A,du+a=KEY_B,rb=KEY_C,lb=KEY_Q:KEY_I:250,y=KEY_M:KEY_V:250,guide=KEY_LEFTCTRL,tl=KEY_SPACE \
 	--ui-buttonmap tl+guide=KEY_TAB,back+x=KEY_LEFTALT+KEY_F11 \
     --ui-buttonmap tr+lb=KEY_F1,tr+y=KEY_F2,tr+x=KEY_F3,tr+rb=KEY_F4,tr+b=KEY_F5,tr+a=KEY_F6,tr+back=KEY_F7,tr+start=KEY_F8 \
 	--ui-axismap tr+x1=KEY_F10:KEY_F8,tr+y1=KEY_F7:KEY_F9 \
@@ -27,7 +27,8 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv \
 	--ui-buttonmap dd+b=KEY_E,dr+b=KEY_N+KEY_D:KEY_ENTER:250,du+b=KEY_O,dl+b=KEY_W \
 	--ui-buttonmap dd+y=KEY_S+KEY_T+KEY_H,dr+y=KEY_D+KEY_F,du+y=KEY_I+KEY_U \
 	--ui-buttonmap dd+start=KEY_Y,dd+back=KEY_N,du+start=KEY_ENTER,du+back=KEY_ESC \
-    --ui-buttonmap dd+x=KEY_Y,du+x=KEY_N \
+        --ui-buttonmap dd+x=KEY_Y,du+x=KEY_N \
+	--ui-buttonmap b+y=KEY_EQUAL \
 	--ui-axismap x1=REL_X:15:20,y1=REL_Y:15:20,y2=REL_WHEEL:5:100,x2=REL_HWHEEL:5:100,trigger=REL_WHEEL:5:100 \
     &
 
