@@ -144,7 +144,6 @@ DOWN + B = GOLD (O)
 
 --GUILD KEY Z--
 
-UP + Z = GUILD INFO (G) 
 RIGHT + Z = BUY SPELLS (B)
 DOWN + Z = SPELL INFO (S)
 
