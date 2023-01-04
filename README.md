@@ -10,7 +10,7 @@ A full list of Linux virtual keyboard codes are available at https://manpages.ub
 
 To use this script, users must place "Might and Magic III.sh" n the "pc" folder in Retroarch and "Might & Magic III - Isles of Terra.cfg" must be placed in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.) The game file ("Might and Magic III - Isles of Terra.dosz") must also be placed in /home/pi/RetroPie/roms/pc/ folder.
 
-Users must next add _wine = "XINIT:wine_desktop %ROM%"_ as a line in /opt/retropie/configs/pc/emulators.cfg, and select "wine" as the emulator option for this game at startup. The extentions ".sh" and ".SH" will also need to be added as options to the pc section of the systems.cfg file at /opt/retropie/configs/all/emulationstation
+Next, users must add _wine = "XINIT:wine_desktop %ROM%"_ as a line in /opt/retropie/configs/pc/emulators.cfg, and select "wine" as the emulator option for this game at startup. The extentions ".sh" and ".SH" will also need to be added as options to the pc section of the systems.cfg file at /opt/retropie/configs/all/emulationstation
 
 Lastly, for virtual keyboard support, users must remap the virtual keyboard in DosBox-Pure to the controller button whose default keyboard map is left-control in RetroArch. (Key 9 on the PiBoy DMG.) This can be done within the game from the retroarch system menu under "Controls --> Port 1 Controls." 
 
