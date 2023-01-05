@@ -8,7 +8,7 @@ A full list of Linux virtual keyboard codes are available at https://manpages.ub
 
 <b>Might and Magic III: Isles of Terra</b>
 
-To use this script, users must place "Might and Magic III.sh" in the "pc" folder in Retroarch and "Might & Magic III - Isles of Terra.cfg" must be placed in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.) The game file ("Might and Magic III - Isles of Terra.dosz") must also be placed in /home/pi/RetroPie/roms/pc/ folder.
+To use this script, users must place "Might and Magic III.sh" in the "pc" folder in Retroarch and "Might & Magic III - Isles of Terra.cfg" must be placed in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.) The game file ("Might & Magic III - Isles of Terra.dosz") must also be placed in /home/pi/RetroPie/roms/pc/ folder.
 
 Next, users must add _wine = "XINIT:wine_desktop %ROM%"_ as a line in /opt/retropie/configs/pc/emulators.cfg, and select "wine" as the emulator option for this game at startup. The extentions ".sh" and ".SH" will also need to be added as options to the pc section of the systems.cfg file at /opt/retropie/configs/all/emulationstation
 
@@ -16,7 +16,7 @@ Lastly, for virtual keyboard support, users must remap the virtual keyboard in D
 
 <b>Might and Magic IV & V: World of Xeen</b>
 
-To use this script, users must place "Might and Magic - World of Xeen.sh" in the "pc" folder in Retroarch and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. The game file ("Might and Magic IV & V - World of Xeen.dosz") must also be placed in the /home/pi/RetroPie/roms/pc/ folder. 
+To use this script, users must place "Might and Magic - World of Xeen.sh" in the "pc" folder in Retroarch and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. The game file ("Might & Magic IV & V - World of Xeen.dosz") must also be placed in the /home/pi/RetroPie/roms/pc/ folder. 
 
 Additional setup instructions are the same as the steps outlined for Might and Magic III.
 
