@@ -42,7 +42,7 @@ A quick reference sheet with the full list of remapped controls is available at 
 
 <u><b>Video demonstration</u><b>
 
-Some video footage of the script in action is available at https://youtu.be/SBv9RiQN-sU.
+A video of the controller script in action is available at https://youtu.be/SBv9RiQN-sU.
 
 <u><b>Legal copy</u></b>
 
