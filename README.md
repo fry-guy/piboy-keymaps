@@ -46,5 +46,5 @@ Video footage of the script in action is available at https://youtu.be/SBv9RiQN-
 
 <u><b>Legal copy</u></b>
 
-Might and Magic 1-6 can be purchased on GOG at https://www.gog.com/game/might_and_magic_6_limited_edition.
+Might and Magic 1-6 is available for purchase on GOG at https://www.gog.com/game/might_and_magic_6_limited_edition.
 
