@@ -40,7 +40,7 @@ The left joystick and X button function as a mouse pointer and left mouse button
 
 A quick reference sheet with the full list of remapped controls is available at https://github.com/fry-guy/piboy-keymaps/blob/main/MM3_KEY_GUIDE.txt and https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5_KEY_GUIDE.txt.
 
-<u><b>Video demonstration</u><b>
+<u><b>Video demonstration</u></b>
 
 A video of the controller script in action is available at https://youtu.be/SBv9RiQN-sU.
 
