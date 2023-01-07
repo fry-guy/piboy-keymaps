@@ -1,0 +1,7 @@
+#!/bin/bash
+
+xset -dpms s off s noblank
+matchbox-window-manager -use_cursor no -use_titlebar no  &
+
+
+/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-dosbox-pure/dosbox_pure_libretro.so --config /opt/retropie/configs/pc/retroarch.cfg "/home/pi/RetroPie/roms/pc/Might & Magic IV & V - World of Xeen.dosz"
