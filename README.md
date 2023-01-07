@@ -1,4 +1,4 @@
-This is a collection of launch scripts with custom keymaps to assist in playing DOS-based CRPGs developed for use with a keyboard and mouse on handheld controllers using DosBox-Pure libretro core in RetroArch on RetroPie. The collection currently only features Might and Magic III: Isles of Terra (1991) and Might and Magic IV & V: World of Xeen (1994), but additional games may be added. All remaps are implimented using xboxdrv (https://xboxdrv.gitlab.io/).
+This is a collection of launch scripts with custom keymaps that allow DOS-based CRPGs -- developed for use with a keyboard and mouse on handheld controllers -- to be played with a controller on RetroPie. The collection currently only features Might and Magic III: Isles of Terra (1991) and Might and Magic IV & V: World of Xeen (1994), but additional games may be added. All remaps are implimented using xboxdrv (https://xboxdrv.gitlab.io/).
 
 These scripts were created for use on the Raspberry Pi-based PiBoy DMG handheld device, but should also work on other systems, possibly requiring minor tweaks to the button codes on Line 14. (To learn your device's specific button codes, SSH into your device and run "evtest", select the number associated with your controller and press a key to output it's device-specific button code.) A six-button layout with trigger buttons, dpad and at least one clickable joystick is required.
 
@@ -10,15 +10,13 @@ Please also note this script requires the installation of the DosBox-Pure emulat
 
 <b>Might and Magic III: Isles of Terra</b>
 
-To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder in Retroarch and "Might & Magic III - Isles of Terra.cfg" must be placed in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.
+To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder of RetroPie and "Might & Magic III - Isles of Terra.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.) Users must also place the game file ("Might & Magic III - Isles of Terra.dosz") in /home/pi/RetroPie/roms/pc/ folder.
 
-The game file ("Might & Magic III - Isles of Terra.dosz") must also be placed in /home/pi/RetroPie/roms/pc/ folder.
-
-After launching the game, users must remap the virtual keyboard in DosBox-Pure to the controller button whose default keyboard map is left-control in RetroArch. (Key 9 on the PiBoy DMG.) This can be done within the game from the retroarch system menu under "Controls --> Port 1 Controls." This step is required to enable virtual keyboard support in game.
+Lastly, after launching the game, users must remap the virtual keyboard in DosBox-Pure to the controller button whose default keyboard map is left-control in RetroArch. (Key 9 on the PiBoy DMG.) This can be done within the game from the retroarch system menu under "Controls --> Port 1 Controls." This step is required to enable virtual keyboard support in game.
 
 <b>Might and Magic IV & V: World of Xeen</b>
 
-To use this script, users must place "MM45Start" and "MM45.sh" in the "pc" folder in Retroarch and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. The game file ("Might & Magic IV & V - World of Xeen.dosz") must also be placed in the /home/pi/RetroPie/roms/pc/ folder. 
+To use this script, users must place "MM45Start" and "MM45.sh" in the "pc" folder of RetroPie and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. Users must also place the game file ("Might & Magic IV & V - World of Xeen.dosz") in the /home/pi/RetroPie/roms/pc/ folder. 
 
 Additional setup instructions are the same as the steps outlined for Might and Magic III.
 
@@ -44,7 +42,7 @@ A quick reference sheet with the full list of remapped controls is available at 
 
 <u><b>Video demonstration</u></b>
 
-A video of the controller script in action is available at https://youtu.be/SBv9RiQN-sU.
+A video demonstration of the controller script in action is available at https://youtu.be/SBv9RiQN-sU.
 
 <u><b>Legal copy</u></b>
 
