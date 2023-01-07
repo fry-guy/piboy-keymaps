@@ -10,15 +10,29 @@ Please also note this script requires the installation of the DosBox-Pure emulat
 
 <b>Might and Magic III: Isles of Terra</b>
 
-To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder of RetroPie and "Might & Magic III - Isles of Terra.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.) Users must also place the game file ("Might & Magic III - Isles of Terra.dosz") in /home/pi/RetroPie/roms/pc/ folder. MM3.sh launches the game.
+To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder of RetroPie and "Might & Magic III - Isles of Terra.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.) Users must also place the game file ("Might & Magic III - Isles of Terra.dosz") in /home/pi/RetroPie/roms/pc/ folder. 
+
+Use the chmod +x command to make both files executable:
+
+chmod +x  /home/pi/RetroPie/roms/ports/MM3.sh
+chmod +x  /home/pi/RetroPie/roms/ports/MM3Start
+
+After resetting EmulationStation, MM3.sh should show up in your Ports folder. This is the file used to launch the game.
 
 Lastly, after launching the game, users must remap the virtual keyboard in DosBox-Pure to the controller button whose default keyboard map is left-control in RetroArch. (Key 9 on the PiBoy DMG.) This can be done within the game from the retroarch system menu under "Controls --> Port 1 Controls." This step is required to enable virtual keyboard support in game.
 
 <b>Might and Magic IV & V: World of Xeen</b>
 
-To use this script, users must place "MM45Start" and "MM45.sh" in the "pc" folder of RetroPie and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. Users must also place the game file ("Might & Magic IV & V - World of Xeen.dosz") in the /home/pi/RetroPie/roms/pc/ folder. MM45.sh launches the game.
+To use this script, users must place "MM45Start" and "MM45.sh" in the "pc" folder of RetroPie and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. Users must also place the game file ("Might & Magic IV & V - World of Xeen.dosz") in the /home/pi/RetroPie/roms/pc/ folder. 
 
-Additional setup instructions are the same as the steps outlined for Might and Magic III.
+User the chmod +x command to make both files executable:
+
+chmod +x  /home/pi/RetroPie/roms/ports/MM45.sh
+chmod +x  /home/pi/RetroPie/roms/ports/MM45Start
+
+After resetting EmulationStation, MM45.sh should show up in your Ports folder. This is the file used to launch the game.
+
+Virtual keyboard setup instructions are the same as outlined for Might and Magic III.
 
 <u><b>Overview of key mapping</u></b>
 
