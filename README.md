@@ -4,11 +4,13 @@ These scripts were created for use on the Raspberry Pi-based PiBoy DMG handheld 
 
 A full list of Linux virtual keyboard codes are available at https://manpages.ubuntu.com/manpages/focal/man7/virkeycode-linux.7.html. Xboxdvr documentation is available at https://xboxdrv.gitlab.io/xboxdrv.html.
 
+Please also note this script requires the installation of the DosBox-Pure emulator in RetroPie. This emulator should be available under the experimental packages section of the RetroPie Setup menu.
+
 <u><b>Script setup</b></u>
 
 <b>Might and Magic III: Isles of Terra</b>
 
-To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder in Retroarch and "Might & Magic III - Isles of Terra.cfg" must be placed in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.) 
+To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder in Retroarch and "Might & Magic III - Isles of Terra.cfg" must be placed in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from opening every time the system menu is activated.
 
 The game file ("Might & Magic III - Isles of Terra.dosz") must also be placed in /home/pi/RetroPie/roms/pc/ folder.
 
