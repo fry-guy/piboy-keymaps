@@ -25,7 +25,7 @@ Lastly, after launching the game, users must remap the virtual keyboard in DosBo
 
 To use this script, users must place "MM45Start" and "MM45.sh" in the "pc" folder of RetroPie and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. Users must also place the game file ("Might & Magic IV & V - World of Xeen.dosz") in the /home/pi/RetroPie/roms/pc/ folder.
 
-User the chmod +x command to make both files executable:
+Use the chmod +x command to make both files executable:
 
 chmod +x  /home/pi/RetroPie/roms/ports/MM45Start</br>
 chmod +x  /home/pi/RetroPie/roms/ports/MM45.sh
