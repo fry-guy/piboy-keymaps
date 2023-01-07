@@ -17,7 +17,7 @@ Then use the chmod +x command to make both files executable:
 chmod +x  /home/pi/RetroPie/roms/ports/MM3Start</br>
 chmod +x  /home/pi/RetroPie/roms/ports/MM3.sh
 
-After resetting EmulationStation, MM3 should show up in your Ports folder. This is the entry used to launch the game. (You can also launch the game from the PC folder in RetroPie, of course, but it will not use the custom controls.)
+After resetting EmulationStation, MM3 should show up in your Ports folder. This is the entry used to launch the game. (You can also launch the game normally from the PC folder in RetroPie, of course, but it will not use the custom controls.)
 
 Lastly, after launching the game, users must remap the virtual keyboard in DosBox-Pure to the controller button whose default keyboard map is left-control in RetroArch. (Key 9 on the PiBoy DMG.) This can be done within the game from the retroarch system menu under "Controls --> Port 1 Controls." This step is required to enable virtual keyboard support in game.
 
