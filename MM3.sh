@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#xinit /dev/shm/retropie_xinitrc -- vt1 -keeptty >> /dev/shm/runcommand.log 2>&1 
-
-#wine_desktop  >> /dev/shm/runcommand.log 2>&1 
-
-#sudo killall >> /dev/shm/runcommand.log 2>&1 
-
 sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 2>&1  \
     --evdev /dev/input/event0 \
     --detach-kernel-driver \
@@ -36,8 +30,6 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
         --ui-buttonmap dd+x=KEY_Y,du+x=KEY_N \
 	--ui-axismap x1=REL_X:15:20,y1=REL_Y:15:20,y2=REL_WHEEL:5:100,x2=REL_HWHEEL:5:100,trigger=REL_WHEEL:5:100 \
     &
-
-#"/opt/retropie/supplementary/runcommand/runcommand.sh" 0 _SYS_ "pc" "/home/pi/RetroPie/roms/pc/Might & Magic III - Isles of Terra.dosz" >> /dev/shm/runcommand.log 2>&1 
 
 xinit /home/pi/RetroPie/roms/ports/MM3Start -- vt$(fgconsole) >> /dev/shm/runcommand.log 2>&1 
 
