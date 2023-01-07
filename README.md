@@ -14,7 +14,7 @@ To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" fold
 
 Use the chmod +x command to make both files executable:
 
-chmod +x  /home/pi/RetroPie/roms/ports/MM3.sh
+chmod +x  /home/pi/RetroPie/roms/ports/MM3.sh</br>
 chmod +x  /home/pi/RetroPie/roms/ports/MM3Start
 
 After resetting EmulationStation, MM3.sh should show up in your Ports folder. This is the file used to launch the game.
@@ -27,7 +27,7 @@ To use this script, users must place "MM45Start" and "MM45.sh" in the "pc" folde
 
 User the chmod +x command to make both files executable:
 
-chmod +x  /home/pi/RetroPie/roms/ports/MM45.sh
+chmod +x  /home/pi/RetroPie/roms/ports/MM45.sh</br>
 chmod +x  /home/pi/RetroPie/roms/ports/MM45Start
 
 After resetting EmulationStation, MM45.sh should show up in your Ports folder. This is the file used to launch the game.
