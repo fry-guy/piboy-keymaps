@@ -12,7 +12,7 @@ Please note this script requires the installation of the DosBox-Pure emulator in
 
 To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder of RetroPie and "Might & Magic III - Isles of Terra.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from briefly opening every time the menu is activated.) Users must also place the game file ("Might & Magic III - Isles of Terra.dosz") in /home/pi/RetroPie/roms/pc/ folder.
 
-Next, use the chmod +x command to make both files executable:
+Next, use the chmod +x command to make these files executable:
 
 chmod +x  /home/pi/RetroPie/roms/ports/MM3Start</br>
 chmod +x  /home/pi/RetroPie/roms/ports/MM3.sh
@@ -27,7 +27,7 @@ For a complete list of the new controls, see https://github.com/fry-guy/piboy-ke
 
 To use this script, users must place "MM45Start" and "MM45.sh" in the "pc" folder of RetroPie and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. Users must also place the game file ("Might & Magic IV & V - World of Xeen.dosz") in the /home/pi/RetroPie/roms/pc/ folder.
 
-Next, use the chmod +x command to make both files executable:
+Next, use the chmod +x command to make these files executable:
 
 chmod +x  /home/pi/RetroPie/roms/ports/MM45Start</br>
 chmod +x  /home/pi/RetroPie/roms/ports/MM45.sh
