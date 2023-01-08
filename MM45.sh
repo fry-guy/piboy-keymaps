@@ -8,6 +8,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv \
     --deadzone-trigger 95% \
     --deadzone 16000 \
     --trigger-as-button \
+    --four-way-restrictor \
     --axismap -y1=y1,-y2=y2,-trigger=trigger \
     --mimic-xpad \
     --evdev-absmap ABS_X=x1,ABS_Y=y1 \
