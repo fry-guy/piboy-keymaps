@@ -21,6 +21,8 @@ After resetting EmulationStation, MM3 should show up in your Ports folder. This 
 
 Lastly, after launching the game, users must remap the virtual keyboard in DosBox-Pure to the controller button whose default keyboard map is left-control in RetroArch. (Key 9 on the PiBoy DMG.) This can be done within the game from the retroarch system menu under "Controls --> Port 1 Controls." This step is required to enable virtual keyboard support in game.
 
+For a complete list of the controls, see https://github.com/fry-guy/piboy-keymaps/blob/main/MM3_KEY_GUIDE.txt.
+
 <b>Might and Magic IV & V: World of Xeen</b>
 
 To use this script, users must place "MM45Start" and "MM45.sh" in the "pc" folder of RetroPie and "Might & Magic IV & V - World of Xeen.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. Users must also place the game file ("Might & Magic IV & V - World of Xeen.dosz") in the /home/pi/RetroPie/roms/pc/ folder.
@@ -33,6 +35,8 @@ chmod +x  /home/pi/RetroPie/roms/ports/MM45.sh
 After resetting EmulationStation, MM45 should show up in your Ports folder. This is the entry used to launch the game.
 
 Virtual keyboard setup instructions are the same as outlined for Might and Magic III.
+
+For a complete list of the controls, see https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5_KEY_GUIDE.txt.
 
 <u><b>Overview of key mapping</u></b>
 
