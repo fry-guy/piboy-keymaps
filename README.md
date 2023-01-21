@@ -64,5 +64,5 @@ A video demonstration of the controller script in action is available at https:/
 
 <u><b>Legal copy</u></b>
 
-Might and Magic 1-6 is available for purchase on GOG at https://www.gog.com/game/might_and_magic_6_limited_edition. I also recommend applying <a href="">Jeff Ludwig's decryption patches</a> to MM3.EXE and MM3.CC, as this will fix several bugs in the original game as well as virtually eliminiate load times your party traverses between sections of the map.
+Might and Magic 1-6 is <a href="https://www.gog.com/game/might_and_magic_6_limited_edition">available for purchase on GOG</a>. I also recommend applying <a href="http://www.jeffludwig.com/mm3/resources.php">Jeff Ludwig's decryption patches</a> to the game files, as this will fix several bugs in the original game as well as virtually eliminiate load times as your party traverses the map.
 
