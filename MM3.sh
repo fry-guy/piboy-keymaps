@@ -18,7 +18,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --ui-buttonmap tr+lb=KEY_F1,tr+y=KEY_F2,tr+x=KEY_F3,tr+rb=KEY_F4,tr+b=KEY_F5,tr+a=KEY_F6,tr+back=KEY_F7,tr+start=KEY_F8 \
     --ui-axismap tr+x1=KEY_F10:KEY_F8,tr+y1=KEY_F7:KEY_F9 \
     --ui-buttonmap tl+lb=KEY_1,tl+y=KEY_2,tl+x=KEY_3,tl+rb=KEY_4,tl+b=KEY_5,tl+a=KEY_6 \
-    --ui-axismap tl+x1=KEY_0+KEY_LEFT:KEY_8+KEY_RIGHT:50,tl+y1=KEY_7:KEY_9:50 \
+    --ui-axismap tl+x1=KEY_0+KEY_LEFT:KEY_8+KEY_RIGHT:1000,tl+y1=KEY_7:KEY_9:1000 \
     --ui-axismap tr+y1=KEY_UP:KEY_DOWN:1000,tr+x1=KEY_LEFT:KEY_RIGHT:1000 \
     --ui-buttonmap tr+tl=KEY_RIGHTCTRL \
     --ui-buttonmap tr+dd=KEY_B+KEY_F:KEY_Y:750,tr+dr=KEY_S:KEY_Y:750,tr+du=KEY_I,tr+dl=KEY_H+KEY_T+KEY_G \
