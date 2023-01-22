@@ -10,7 +10,7 @@ Please note this script requires the installation of the DosBox-Pure emulator in
 
 <b>Might and Magic III: Isles of Terra</b>
 
-To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder of RetroPie and "Might & Magic III - Isles of Terra.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from briefly opening every time the menu is activated.) Users must also place the game file ("Might & Magic III - Isles of Terra.dosz") in /home/pi/RetroPie/roms/pc/ folder.
+To use this script, users must place "MM3Start" and "MM3.sh" in the "ports" folder of RetroPie and "Might & Magic III - Isles of Terra.cfg" in the /opt/retropie/configs/all/retroarch/config/DOSBox-pure/ folder. (This second file will remap the retroarch menu hotkey from F1 to F11, which is required to prevent the first character window from briefly opening every time the menu is activated.) Users must also place the game file ("Might & Magic III - Isles of Terra.dosz") in /home/pi/RetroPie/roms/pc/ folder. Prior to zipping the game files, I recommand applying <a href="http://www.jeffludwig.com/mm3/resources.php">Jeff Ludwig's decryption patch</a> using a program such as <a href="https://www.romhacking.net/utilities/240/">Lunar IPS</a>, which virtually eliminiates load times as your party traverses the map, as well as removes several in-game bugs.
 
 Next, use the chmod +x command to make these files executable:
 
@@ -64,5 +64,5 @@ A video demonstration of the controller script in action is available at https:/
 
 <u><b>Legal copy</u></b>
 
-Might and Magic 1-6 is <a href="https://www.gog.com/game/might_and_magic_6_limited_edition">available for purchase on GOG</a>. I also recommend applying <a href="http://www.jeffludwig.com/mm3/resources.php">Jeff Ludwig's decryption patches</a> to the game files, as this will fix several bugs in the original game as well as virtually eliminiate load times as your party traverses the map.
+Might and Magic 1-6 is <a href="https://www.gog.com/game/might_and_magic_6_limited_edition">available for purchase on GOG</a>.
 
