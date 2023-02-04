@@ -1,0 +1,21 @@
+wait 100
+send KEY_ESC 1
+send KEY_ESC 0
+wait 100
+send KEY_BACKSPACE 1
+send KEY_BACKSPACE 0
+wait 100
+send KEY_A 1
+send KEY_A 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_I 1
+send KEY_I 0
+wait 100
+send KEY_D 1
+send KEY_D 0
+wait 100
+send KEY_ENTER 1
+send KEY_ENTER 0
