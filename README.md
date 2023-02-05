@@ -19,7 +19,7 @@ Next, use the chmod +x command to make these files executable:
 chmod +x  /home/pi/RetroPie/roms/ports/MM3Start</br>
 chmod +x  /home/pi/RetroPie/roms/ports/MM3.sh
 
-Create a subfolder named /xboxdrv_macros in the /ports folder and copy the macro files from /xboxdrv_macros in this repository. These macros will create key combinations to autofill the code words for five towns, four regions and the Arena at magic mirrors throughout the game.
+Next, create a subfolder named /xboxdrv_macros in the /ports folder and copy the macro files from /xboxdrv_macros in this repository. These macros will create key combinations to autofill the code words for five towns, four regions and the Arena at magic mirrors throughout the game.
 
 After resetting EmulationStation, MM3 should show up in your Ports folder. This is the entry used to launch the game. (You can also launch the game normally from the PC folder in RetroPie, of course, but it will not use the custom controls.)
 
