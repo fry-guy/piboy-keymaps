@@ -1,0 +1,4 @@
+        --ui-buttonmap x+du=cycle-key:KEY_1:KEY_2:KEY_3:KEY_4:KEY_5:KEY_6:KEY_7:KEY_8:KEY_9:KEY_DOWN:KEY_1:KEY_2:KEY_3:KEY_4:KEY_5:KEY_6:KEY_7:KEY_8:KEY_9 \
+        --ui-buttonmap x+dd=cycle-key:KEY_9:KEY_8:KEY_7:KEY_6:KEY_5:KEY_4:KEY_3:KEY_2:KEY_1:KEY_UP:KEY_9:KEY_8:KEY_7:KEY_6:KEY_5:KEY_4:KEY_3:KEY_2:KEY_1 \
+        --ui-buttonmap x+dr=cycle-key:KEY_F1:KEY_F2:KEY_F3:KEY_F4:KEY_F5:KEY_F6:KEY_F7:KEY_F8 \
+        --ui-buttonmap x+dl=cycle-key:KEY_F8:KEY_F7:KEY_F6:KEY_F5:KEY_F4:KEY_F3:KEY_F2:KEY_F1 \
