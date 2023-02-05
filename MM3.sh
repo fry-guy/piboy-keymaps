@@ -39,10 +39,10 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
 	--ui-buttonmap guide+dr=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/earth.macro \
 	--ui-buttonmap guide+du=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/water.macro \
 	--ui-buttonmap guide+dl=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/air.macro \
-        --ui-buttonmap x+du=cycle-key:KEY_1:KEY_2:KEY_3:KEY_4:KEY_5:KEY_6:KEY_7:KEY_8:KEY_9:KEY_DOWN:KEY_1:KEY_2:KEY_3:KEY_4:KEY_5:KEY_6:KEY_7:KEY_8:KEY_9:KEY_UP \
-        --ui-buttonmap x+dd=cycle-key:KEY_9:KEY_8:KEY_7:KEY_6:KEY_5:KEY_4:KEY_3:KEY_2:KEY_1:KEY_UP:KEY_9:KEY_8:KEY_7:KEY_6:KEY_5:KEY_4:KEY_3:KEY_2:KEY_1:KEY_DOWN \
-        --ui-buttonmap x+dr=cycle-key:KEY_F1:KEY_F2:KEY_F3:KEY_F4:KEY_F5:KEY_F6 \
-        --ui-buttonmap x+dl=cycle-key:KEY_F6:KEY_F5:KEY_F4:KEY_F3:KEY_F2:KEY_F1 \
+        --ui-buttonmap x+du=cycle-key:KEY_1:KEY_2:KEY_3:KEY_4:KEY_5:KEY_6:KEY_7:KEY_8:KEY_9:KEY_DOWN:KEY_1:KEY_2:KEY_3:KEY_4:KEY_5:KEY_6:KEY_7:KEY_8:KEY_9 \
+        --ui-buttonmap x+dd=cycle-key:KEY_9:KEY_8:KEY_7:KEY_6:KEY_5:KEY_4:KEY_3:KEY_2:KEY_1:KEY_UP:KEY_9:KEY_8:KEY_7:KEY_6:KEY_5:KEY_4:KEY_3:KEY_2:KEY_1 \
+        --ui-buttonmap x+dr=cycle-key:KEY_F1:KEY_F2:KEY_F3:KEY_F4:KEY_F5:KEY_F6:KEY_F7:KEY_F8 \
+        --ui-buttonmap x+dl=cycle-key:KEY_F8:KEY_F7:KEY_F6:KEY_F5:KEY_F4:KEY_F3:KEY_F2:KEY_F1 \
     --ui-axismap x1=REL_X:15:20,y1=REL_Y:15:20,y2=REL_WHEEL:5:100,x2=REL_HWHEEL:5:100,trigger=REL_WHEEL:5:100 \
     &
 
