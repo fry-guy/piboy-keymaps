@@ -1,6 +1,6 @@
 These scripts enable the use of a controller with DOS-based CRPGs in RetroPie, despite the fact these games were originally developed for a keyboard and mouse. The collection currently includes Might and Magic III: Isles of Terra (1991) and Might and Magic IV & V: World of Xeen (1994), but additional games may be added. All remaps are implimented using xboxdrv (https://xboxdrv.gitlab.io/).
 
-The scripts were created for use on the Raspberry Pi-based PiBoy DMG, but should also work on other systems, possibly requiring minor tweaks to the button codes on Line 14. (To learn your device's specific button codes, SSH into your device and run "evtest", select the number associated with your controller and press a key to output it's device-specific button code.) A six-button layout with trigger buttons, dpad and at least one clickable joystick is required.
+The scripts were created for use on the PiBoy DMG, a Raspberry Pi-based handheld gaming device, but should also work on other systems, possibly requiring minor tweaks to the button codes on Line 14. (To learn your device's specific button codes, SSH into your device and run "evtest", select the number associated with your controller and press a key to output it's device-specific button code.) A six-button layout with trigger buttons, dpad and at least one clickable joystick is required.
 
 A full list of Linux virtual keyboard codes are available at https://manpages.ubuntu.com/manpages/focal/man7/virkeycode-linux.7.html. Xboxdvr documentation is available at https://xboxdrv.gitlab.io/xboxdrv.html.
 
