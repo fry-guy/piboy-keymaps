@@ -101,10 +101,10 @@ LEFT = REMOVE (R)
 
 --SELECT ELEMENT--
 
-ACID = UP + C (A)o
-FIRE = RIGHT + C (F)
+FIRE = UP + C (F)
+ELECTRIC = RIGHT + C (E)
 COLD = DOWN + C (C)
-ELECTRIC = LEFT + C (E)
+ACID = LEFT + C (A)
 
 --SPELLS--
 
