@@ -16,7 +16,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv \
 	--ui-buttonmap start=KEY_ENTER:KEY_Y:500,back=KEY_ESC:KEY_N:500,dd^auto:350:500=KEY_UP,du^auto:350:500=KEY_DOWN,dl^auto:350:500=KEY_LEFT,dr^auto:350:500=KEY_RIGHT \
 	--ui-buttonmap b=KEY_F:KEY_ESC:300,x=BTN_LEFT,a=KEY_ENTER:KEY_ENTER:150,dd+a=KEY_A,du+a=KEY_B,rb=KEY_C,lb=KEY_Q:KEY_I:250,y=KEY_M:KEY_V:250,guide=KEY_LEFTCTRL,tl^click-press=KEY_SPACE,tr^click-press=KEY_F12 \
 	--ui-buttonmap tr+guide=KEY_TAB,back+x=KEY_LEFTALT+KEY_F11 \
-    --ui-buttonmap tr+lb=KEY_F1,tr+y=KEY_F2,tr+x=KEY_F3,tr+rb=KEY_F4,tr+b=KEY_F5,tr+a=KEY_F6,tr+back=KEY_F7,tr+start=KEY_F8 \
+        --ui-buttonmap tr+lb=KEY_F1:KEY_F1:500,tr+y=KEY_F2:KEY_F2:500,tr+x=KEY_F3:KEY_F3:500,tr+rb=KEY_F4:KEY_F4:500,tr+b=KEY_F5:KEY_F5:500,tr+a=KEY_F6:KEY_F6:500,tr+back=KEY_F7:KEY_F7:500,tr+start=KEY_F8:KEY_F8:500 \
 	--ui-axismap tr+x1=KEY_F10:KEY_F8,tr+y1=KEY_F7:KEY_F9 \
 	--ui-buttonmap tl+lb=KEY_1,tl+y=KEY_2,tl+x=KEY_3,tl+rb=KEY_4,tl+b=KEY_5,tl+a=KEY_6 \
 	--ui-axismap tl+x1=KEY_0+KEY_LEFT:KEY_8+KEY_RIGHT:2000,tl+y1=KEY_7:KEY_9:2000 \
