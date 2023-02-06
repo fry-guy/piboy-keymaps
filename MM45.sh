@@ -27,7 +27,8 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv \
     --ui-buttonmap dd+rb=KEY_F,dr+rb=KEY_E+KEY_ENTER:KEY_ENTER+KEY_C:300,du+rb=KEY_N+KEY_C,dl+rb=KEY_A \
 	--ui-buttonmap dd+lb=KEY_G+KEY_B+KEY_D,dr+lb=KEY_B+KEY_F,du+lb=KEY_S+KEY_I+KEY_T,dl+lb=KEY_R \
 	--ui-buttonmap dd+b^click-press=KEY_E+KEY_U,dr+b=KEY_N+KEY_W:KEY_U+KEY_ENTER:300,du+b=KEY_O,dl+b=KEY_D \
-	--ui-buttonmap dd+y=KEY_S+KEY_T+KEY_H:KEY_W:300,dr+y=KEY_D+KEY_F:KEY_A:300,du+y=KEY_I+KEY_U:KEY_C:300,dl+y=KEY_F12:KEY_M:300 \
+	--ui-buttonmap dd+y=KEY_S+KEY_T+KEY_W,dr+y=KEY_F+KEY_A,du+y=KEY_I+KEY_C,dl+y=KEY_M \
+      --ui-buttonmap dd+x=KEY_H,dr+x=KEY_D,du+x=KEY_U \
 	--ui-buttonmap dd+start=KEY_Y,dd+back=KEY_N,du+start=KEY_ENTER,du+back=KEY_ESC \
     --ui-buttonmap dd+x=KEY_Y,du+x=KEY_N \
 	--ui-buttonmap b+y=KEY_EQUAL \
