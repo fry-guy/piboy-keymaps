@@ -30,9 +30,9 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
 	--ui-buttonmap tr+tl=KEY_RIGHTCTRL \
 	--ui-buttonmap tr+dd=KEY_S+KEY_U:KEY_Y:750,tr+dr=KEY_B+KEY_E+KEY_F:KEY_Y:750,tr+du=KEY_D+KEY_I:KEY_Y:750,tr+dl^click-press=KEY_H+KEY_T+KEY_G+KEY_R \
 	--ui-buttonmap tl+dr=KEY_E:KEY_U:500,tl+dl=KEY_R:KEY_D:500 \
-    --ui-buttonmap dd+rb=KEY_F,dr+rb=KEY_E+KEY_ENTER:KEY_ENTER+KEY_C:500,du+rb=KEY_N+KEY_C,dl+rb=KEY_A \
+    --ui-buttonmap dd+rb=KEY_F,dr+rb=KEY_E+KEY_ENTER:KEY_ENTER+KEY_C:250,du+rb=KEY_N+KEY_C,dl+rb=KEY_A \
     --ui-buttonmap dd+lb=KEY_G+KEY_B+KEY_D,dr+lb=KEY_B+KEY_F,du+lb=KEY_S+KEY_I+KEY_T,dl+lb=KEY_R \
-	--ui-buttonmap dd+b^click-press=KEY_U,dr+b=KEY_N:KEY_U+KEY_ENTER:500,du+b=KEY_O \
+	--ui-buttonmap dd+b^click-press=KEY_U,dr+b=KEY_N:KEY_U+KEY_ENTER:250,du+b=KEY_O \
 	--ui-buttonmap dd+x^click-press=KEY_O+KEY_Y,dr+x=KEY_W,du+x^click-press=KEY_E+KEY_N,dl+x=KEY_D \
 	--ui-buttonmap dd+y=KEY_S+KEY_W+KEY_T+KEY_H,dr+y^click-press=KEY_D+KEY_A+KEY_F,du+y=KEY_M+KEY_I+KEY_U \
 	--ui-buttonmap dd+start=KEY_Y,dd+back=KEY_N,du+start=KEY_ENTER,du+back=KEY_ESC \
