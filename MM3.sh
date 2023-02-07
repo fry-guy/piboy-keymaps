@@ -32,7 +32,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --ui-buttonmap dd+lb=KEY_G+KEY_B+KEY_D,dr+lb=KEY_B+KEY_F,du+lb=KEY_S+KEY_I+KEY_T,dl+lb=KEY_R \
 	--ui-buttonmap dd+b^click-press=KEY_U,dr+b=KEY_N:KEY_U+KEY_ENTER:250,du+b=KEY_O \
 	--ui-buttonmap dd+x^click-press=KEY_O+KEY_Y,dr+x=KEY_W,du+x^click-press=KEY_E+KEY_N,dl+x=KEY_D \
-	--ui-buttonmap dd+y=KEY_S+KEY_W+KEY_T+KEY_H,dr+y=KEY_D+KEY_A+KEY_F:KEY_Y:750,du+y=KEY_M+KEY_I+KEY_U \
+	--ui-buttonmap dd+y=KEY_S+KEY_W+KEY_T+KEY_H:KEY_Y:750,dr+y=KEY_D+KEY_A+KEY_F:KEY_Y:750,du+y=KEY_M+KEY_U+KEY_I:KEY_Y:750 \
 	--ui-buttonmap dd+start=KEY_Y,dd+back=KEY_N,du+start=KEY_ENTER,du+back=KEY_ESC \
 	--ui-buttonmap b+y=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/wizeye.macro \
 	--ui-buttonmap guide+lb=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/home.macro \
