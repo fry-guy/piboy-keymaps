@@ -20,7 +20,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --evdev-absmap ABS_X=x1,ABS_Y=y1 \
     --evdev-keymap BTN_EAST=b,BTN_SOUTH=a,BTN_WEST=y,BTN_NORTH=x,BTN_Z=lb,BTN_C=rb,BTN_TL=tl,BTN_TR=tr,BTN_THUMBL=guide,BTN_SELECT=back,BTN_START=start,BTN_DPAD_DOWN=dd,BTN_DPAD_UP=du,BTN_DPAD_LEFT=dl,BTN_DPAD_RIGHT=dr \
 	--ui-buttonmap start=KEY_Y:KEY_ENTER:250,back=KEY_N:KEY_ESC:250,dd^auto:250:500=KEY_UP,du^auto:250:500=KEY_DOWN,dl^auto:250:500=KEY_LEFT,dr^auto:250:500=KEY_RIGHT \
-	--ui-buttonmap b=KEY_F,x=BTN_LEFT,a=KEY_A+KEY_ENTER,dd+a=KEY_B,du+a=KEY_R,rb=KEY_C,lb=KEY_Q:KEY_I:250,y=KEY_M:KEY_V:250,guide=KEY_LEFTCTRL,tl^click-press=KEY_SPACE,tr^click-press=KEY_F12 \
+	--ui-buttonmap b=KEY_F,x=BTN_LEFT,a^click-press=KEY_A+KEY_ENTER,dd+a=KEY_B,du+a=KEY_R,rb=KEY_C,lb=KEY_Q:KEY_I:250,y=KEY_M:KEY_V:250,guide=KEY_LEFTCTRL,tl^click-press=KEY_SPACE,tr^click-press=KEY_F12 \
 	--ui-buttonmap tr+guide=KEY_TAB,back+x=KEY_LEFTALT+KEY_F11 \
     --ui-buttonmap tr+lb=KEY_F1:KEY_F1:500,tr+y=KEY_F2:KEY_F2:500,tr+x=KEY_F3:KEY_F3:500,tr+rb=KEY_F4:KEY_F4:500,tr+b=KEY_F5:KEY_F5:500,tr+a=KEY_F6:KEY_F6:500,tr+back=KEY_F7:KEY_F7:500,tr+start=KEY_F8:KEY_F8:500 \
 	--ui-axismap tr+x1=KEY_F10:KEY_F8,tr+y1=KEY_F7:KEY_F9 \
