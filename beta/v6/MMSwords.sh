@@ -49,6 +49,6 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
 	--ui-axismap x1=REL_X:15:20,y1=REL_Y:15:20,y2=REL_WHEEL:5:100,x2=REL_HWHEEL:5:100,trigger=REL_WHEEL:5:100 \
     &
 
-xinit /home/pi/RetroPie/roms/ports/MM45Start -- vt$(fgconsole) >> /dev/shm/runcommand.log 2>&1 
+xinit /home/pi/RetroPie/roms/ports/MMSwordsStart -- vt$(fgconsole) >> /dev/shm/runcommand.log 2>&1 
 
 sudo killall xboxdrv
