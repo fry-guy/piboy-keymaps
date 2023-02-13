@@ -30,7 +30,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
 	--ui-axismap tr+y1=KEY_UP:KEY_DOWN:2000,tr+x1=KEY_LEFT:KEY_RIGHT:2000 \
 	--ui-buttonmap tr+tl=KEY_RIGHTCTRL \
     	--ui-buttonmap dr+rb=KEY_ENTER+KEY_C,du+rb=KEY_ESC+KEY_C+KEY_N \
-	--ui-buttonmap lb+dd=KEY_F,lb+dr^click-press=KEY_E,lb+du=KEY_C,lb+dl=KEY_A \
+	--ui-buttonmap lb+dd=KEY_F,lb+dr^click-both=KEY_E,lb+du=KEY_C,lb+dl=KEY_A \
     	--ui-buttonmap dd+lb=KEY_G+KEY_B+KEY_D,dr+lb=KEY_B+KEY_F,du+lb=KEY_S+KEY_I+KEY_T,dl+lb=KEY_R \
 	--ui-buttonmap dd+b^click-press=KEY_U,dr+b=KEY_N:KEY_ENTER:200,du+b=KEY_O \
 	--ui-buttonmap dd+x^click-press=KEY_O+KEY_Y,dr+x=KEY_W,du+x^click-press=KEY_E+KEY_N,dl+x=KEY_D \
