@@ -34,7 +34,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --ui-buttonmap dd+lb=KEY_B+KEY_G+KEY_D,dr+lb=KEY_B+KEY_F,du+lb=KEY_I+KEY_T,dl+lb=KEY_R \
 	--ui-buttonmap dd+b^click-press=KEY_U,dr+b=KEY_N:KEY_U+KEY_ENTER:250,du+b=KEY_O \
     --ui-buttonmap dd+x^click-press=KEY_O+KEY_B+KEY_Y,dr+x=KEY_S+KEY_W,du+x^click-press=KEY_E+KEY_N,dl+x=KEY_D \
-	--ui-buttonmap dd+y=KEY_H+KEY_S+KEY_T+KEY_W:KEY_Y:750,dr+y=KEY_D+KEY_A+KEY_F:KEY_Y:750,du+y=KEY_U+KEY_C+KEY_I:KEY_Y:750,dl+y=KEY_M \
+	--ui-buttonmap dd+y=KEY_H+KEY_S+KEY_T+KEY_W:KEY_Y:750,dr+y=KEY_A+KEY_D+KEY_F:KEY_Y:750,du+y=KEY_U+KEY_C+KEY_I:KEY_Y:750,dl+y=KEY_M \
 	--ui-buttonmap tl+dr=KEY_S+KEY_E:KEY_U:750,tl+dl=KEY_R:KEY_D:750 \
     --ui-buttonmap tl+du^auto:250:250=cycle-key-named:list:KEY_1:KEY_2:KEY_3:KEY_4:KEY_5:KEY_6:KEY_7:KEY_8:KEY_9:KEY_0 \
     --ui-buttonmap tl+dd^auto:250:250=cycle-key-ref:list:backward \
