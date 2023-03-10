@@ -1,21 +1,15 @@
 wait 100
-send KEY_ESC 1
-send KEY_ESC 0
-wait 100
 send KEY_C 1
 send KEY_C 0
 wait 100
-send KEY_F6 1
-send KEY_F6 0
+send KEY_F1 1
+send KEY_F1 0
 wait 100
 send KEY_N 1
 send KEY_N 0
 wait 100
-send KEY_PAGEDOWN 1
-send KEY_PAGEDOWN 0
-wait 100
-send KEY_2 1
-send KEY_2 0
+send KEY_1 1
+send KEY_1 0
 wait 100
 send KEY_ENTER 1
 send KEY_ENTER 0
