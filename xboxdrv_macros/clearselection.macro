@@ -1,0 +1,5 @@
+send KEY_1 1
+send KEY_1 0
+wait 20
+send KEY_1 1
+send KEY_1 0
