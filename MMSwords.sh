@@ -31,12 +31,12 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
 	--ui-buttonmap tr+guide=KEY_TAB:KEY_I:250,tl+guide=KEY_TAB:KEY_I:250,back+x=KEY_LEFTALT+KEY_F11 \
     --ui-buttonmap tr+lb=KEY_F1:KEY_F1:500,tr+y=KEY_F2:KEY_F2:500,tr+x=KEY_F3:KEY_F3:500,tr+rb=KEY_F4:KEY_F4:500,tr+b=KEY_F5:KEY_F5:500,tr+a=KEY_F6:KEY_F6:500,tr+back=KEY_F7:KEY_F7:500,tr+start=KEY_F8:KEY_F8:500 \
 	--ui-axismap tr+x1=KEY_F10:KEY_F8,tr+y1=KEY_F7:KEY_F9 \
-	--ui-buttonmap tl+lb=KEY_1:KEY_F1:500,tl+y=KEY_2:KEY_F2:500,tl+x=KEY_3:KEY_F3:500,tl+rb=KEY_4:KEY_F4:500,tl+b=KEY_5:KEY_F5:500,tl+a=KEY_6:KEY_F6:500,tl+back=KEY_8:KEY_F7:500,tl+start=KEY_7:KEY_F8:500,tl+tr=KEY_ENTER:KEY_RIGHTCTRL:250 \
+	--ui-buttonmap tl+lb=KEY_1:KEY_F1:500,tl+y=KEY_2:KEY_F2:500,tl+x=KEY_3:KEY_F3:500,tl+rb=KEY_4:KEY_F4:500,tl+b=KEY_5:KEY_F5:500,tl+a=KEY_6:KEY_F6:500,tl+back=KEY_8:KEY_F7:500,tl+start=KEY_7:KEY_F8:500,tl+tr=KEY_7+KEY_ENTER:KEY_RIGHTCTRL:500 \
 	--ui-axismap tl+x1=KEY_LEFT+KEY_0:KEY_RIGHT+KEY_9:1000,tl+y1=KEY_PAGEUP+KEY_UP:KEY_PAGEDOWN+KEY_DOWN:1000 \
 	--ui-axismap rb+x1=KEY_LEFT:KEY_RIGHT:1000,rb+y1=KEY_PAGEUP+KEY_UP:KEY_PAGEDOWN+KEY_DOWN:1000 \
 	--ui-axismap a+x1=KEY_LEFT+KEY_0:KEY_RIGHT+KEY_9:1000,a+y1=KEY_PAGEUP+KEY_UP:KEY_PAGEDOWN+KEY_DOWN:1000 \
 	--ui-axismap tr+y1=KEY_UP:KEY_DOWN:1000,tr+x1=KEY_LEFT:KEY_RIGHT:1000 \
-	--ui-buttonmap tr+tl=KEY_ENTER:KEY_RIGHTCTRL:250 \
+	--ui-buttonmap tr+tl=KEY_7+KEY_ENTER:KEY_RIGHTCTRL:500 \
 		--ui-buttonmap dd+lb=KEY_B+KEY_G+KEY_D,dr+lb=KEY_B+KEY_F,du+lb=KEY_I+KEY_T,dl+lb=KEY_R \
 		--ui-buttonmap lb+dd=KEY_B+KEY_G+KEY_D,lb+dr=KEY_B+KEY_F,lb+du=KEY_I+KEY_T,lb+dl=KEY_R \
 		--ui-buttonmap dd+y=KEY_S+KEY_T+KEY_W:KEY_Y:750,dr+y=KEY_A+KEY_F:KEY_Y:750,du+y=KEY_C+KEY_I:KEY_Y:750,dl+y=KEY_M \
