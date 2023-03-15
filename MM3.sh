@@ -20,9 +20,9 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
 	--ui-buttonmap lb=KEY_Q:KEY_I+KEY_F12:250 \
 	--ui-buttonmap y=KEY_M:KEY_V+KEY_F12:250 \
 	--ui-buttonmap x=KEY_ENTER:BTN_LEFT:250 \
-	--ui-buttonmap a=KEY_A:KEY_B+KEY_F12:1500 \
+	--ui-buttonmap a=KEY_A:KEY_B+KEY_F12:1000 \
 		--ui-buttonmap dd+a=KEY_B,du+a=KEY_R \
-	--ui-buttonmap rb=KEY_C:KEY_N:250 \
+	--ui-buttonmap rb=KEY_C:KEY_N+KEY_F12:250 \
 	    --ui-buttonmap dr+rb=KEY_ENTER+KEY_C+KEY_F12:KEY_ENTER:500,du+rb=KEY_ESC+KEY_C+KEY_N+KEY_F12 \
         --ui-buttonmap rb+dd=KEY_F+KEY_F12:KEY_E+KEY_F12:750,rb+dr=KEY_E+KEY_F12:KEY_R+KEY_F12:750,rb+du=KEY_C+KEY_F12:KEY_D+KEY_F12:750,rb+dl=KEY_A+KEY_F12:KEY_S+KEY_F12:750 \
 	--ui-buttonmap b=KEY_F:KEY_O:250 \
@@ -53,8 +53,8 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --ui-buttonmap tr+dd=KEY_S+KEY_F12:KEY_B+KEY_F12:750,tr+du=KEY_R+KEY_F12:KEY_D+KEY_F12:750 \
     --ui-buttonmap tr+dr^auto:250:250=cycle-key-named:characters:KEY_F1:KEY_F2:KEY_F3:KEY_F4:KEY_F5:KEY_F6:KEY_F7:KEY_F8 \
     --ui-buttonmap tr+dl^auto:250:250=cycle-key-ref:characters:backward \
-   --ui-buttonmap rb+a^auto:250:250=cycle-key-ref:characters:forward \
-    --ui-buttonmap rb+b^auto:250:250=cycle-key-ref:characters:backward \
+   --ui-buttonmap rb+a^auto:0:250=cycle-key-ref:characters:forward \
+    --ui-buttonmap rb+b^auto:0:250=cycle-key-ref:characters:backward \
     --ui-buttonmap rb+start=KEY_C+KEY_ENTER:KEY_N+KEY_I+KEY_F12:250,rb+back=KEY_ESC:KEY_ESC:250,rb+tl=KEY_PAGEDOWN+KEY_DOWN:KEY_RIGHTCTRL:250,rb+tr=KEY_PAGEUP+KEY_UP:KEY_RIGHTCTRL:250,rb+guide=KEY_TAB:KEY_I:250 \
     --ui-buttonmap a+start=KEY_C+KEY_ENTER:KEY_N+KEY_I+KEY_F12:250,a+back=KEY_ESC:KEY_ESC:250,a+tl=KEY_PAGEDOWN+KEY_DOWN:KEY_RIGHTCTRL:250,a+tr=KEY_PAGEUP+KEY_UP:KEY_RIGHTCTRL:250,a+guide=KEY_TAB:KEY_I:250 \
 				--ui-buttonmap a+y=KEY_E+KEY_F12:KEY_U+KEY_F12:750,a+x=KEY_R+KEY_F12:KEY_D+KEY_F12:750 \
