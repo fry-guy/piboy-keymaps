@@ -54,11 +54,11 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --ui-buttonmap tr+dl^auto:250:250=cycle-key-ref:characters:backward \
     --ui-buttonmap rb+a^auto:0:250=cycle-key-ref:characters:forward \
     --ui-buttonmap rb+b^auto:0:250=cycle-key-ref:characters:backward \
-	--ui-buttonmap rb+start=KEY_C+KEY_I:KEY_N+KEY_F12,rb+back=KEY_ESC:KEY_ESC:250,rb+tl=KEY_PAGEDOWN:KEY_RIGHTCTRL:250,rb+tr=KEY_PAGEUP:KEY_RIGHTCTRL:250,rb+guide=KEY_I+KEY_F12 \
+	--ui-buttonmap rb+start=KEY_C+KEY_I+KEY_ENTER+KEY_7:KEY_N+KEY_F12,rb+back=KEY_ESC:KEY_ESC:250,rb+tl=KEY_PAGEDOWN:KEY_RIGHTCTRL:250,rb+tr=KEY_PAGEUP:KEY_RIGHTCTRL:250,rb+guide=KEY_I+KEY_F12 \
 		--ui-buttonmap rb+x=KEY_DOWN+KEY_F12:KEY_UP+KEY_F12:250,rb+y=KEY_UP+KEY_F12:KEY_DOWN+KEY_F12:250 \
 		--ui-buttonmap rb+lb=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/clearselection.macro \
-		--ui-buttonmap a+start=KEY_C+KEY_I:KEY_N+KEY_F12,a+back=KEY_ESC:KEY_ESC:250,a+tl=KEY_PAGEDOWN:KEY_RIGHTCTRL:250,a+tr=KEY_PAGEUP:KEY_RIGHTCTRL:250,a+guide=KEY_I+KEY_F12 \
-		--ui-buttonmap a+b=KEY_E+KEY_F12:KEY_R+KEY_F12:750,a+y=KEY_U+KEY_F12:KEY_D+KEY_F12:750 \
+	--ui-buttonmap a+start=KEY_C+KEY_I+KEY_ENTER+KEY_7:KEY_N+KEY_F12,a+back=KEY_ESC:KEY_ESC:250,a+tl=KEY_PAGEDOWN:KEY_RIGHTCTRL:250,a+tr=KEY_PAGEUP:KEY_RIGHTCTRL:250,a+guide=KEY_I+KEY_F12 \
+		--ui-buttonmap a+b=KEY_PAGEDOWN+KEY_E+KEY_F12:KEY_R+KEY_F12:750,a+y=KEY_PAGEUP+KEY_U+KEY_F12:KEY_D+KEY_F12:750 \
 		--ui-buttonmap a+x=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/clearselection.macro \
 		--ui-buttonmap back+tl^auto:0:250=cycle-key-ref:characters:forward,back+tr^auto:0:250=cycle-key-ref:characters:backward,back+b^auto:250:250=cycle-key-ref:list:forward,back+y^auto:250:250=cycle-key-ref:list:backward,back+rb=KEY_DOWN+KEY_F12:KEY_UP+KEY_F12:250,back+lb=KEY_UP+KEY_F12:KEY_DOWN+KEY_F12:250,back+a=KEY_E+KEY_F12:KEY_R+KEY_F12:250,back+x=KEY_U+KEY_F12:KEY_D+KEY_F12:250,back+start=KEY_I:KEY_ESC+KEY_F12:250 \
 	--ui-buttonmap back+guide=KEY_F1+KEY_I:KEY_ESC:500 \
