@@ -15,12 +15,12 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --evdev-absmap ABS_X=x1,ABS_Y=y1 \
     --evdev-keymap BTN_EAST=b,BTN_SOUTH=a,BTN_WEST=y,BTN_NORTH=x,BTN_Z=lb,BTN_C=rb,BTN_TL=tl,BTN_TR=tr,BTN_THUMBL=guide,BTN_SELECT=back,BTN_START=start,BTN_DPAD_DOWN=dd,BTN_DPAD_UP=du,BTN_DPAD_LEFT=dl,BTN_DPAD_RIGHT=dr \
 	--ui-buttonmap dd^auto:250:500=KEY_UP,du^auto:250:500=KEY_DOWN,dl^auto:250:500=KEY_LEFT,dr^auto:250:500=KEY_RIGHT \
-	--ui-buttonmap start=KEY_Y+KEY_F12:KEY_ENTER+KEY_F12:250,back=KEY_ESC+KEY_F12:KEY_N+KEY_F12:250 \
+	--ui-buttonmap start=KEY_Y+KEY_F12:KEY_ENTER+KEY_F12:250,back=KEY_ESC+KEY_F12:KEY_ESC+KEY_F12:250 \
 		--ui-buttonmap dd+start=KEY_Y+KEY_F12,du+start=KEY_ENTER+KEY_F12,dd+back=KEY_N+KEY_F12,du+back=KEY_ESC+KEY_F12 \
 	--ui-buttonmap lb=KEY_Q:KEY_I+KEY_F12:250 \
 	--ui-buttonmap y=KEY_M:KEY_V+KEY_F12:250 \
 	--ui-buttonmap x=KEY_ENTER+KEY_F12:BTN_LEFT:250 \
-	--ui-buttonmap rb=KEY_C:KEY_N:250 \
+	--ui-buttonmap rb=KEY_C:KEY_N+KEY_F12:250 \
 	    --ui-buttonmap dr+rb=KEY_ENTER+KEY_C+KEY_F12:KEY_ENTER:500,du+rb=KEY_ESC+KEY_C+KEY_N+KEY_F12 \
         --ui-buttonmap rb+dd=KEY_F+KEY_F12:KEY_E+KEY_F12:750,rb+dr=KEY_E+KEY_F12:KEY_R+KEY_F12:750,rb+du=KEY_C+KEY_F12:KEY_D+KEY_F12:750,rb+dl=KEY_A+KEY_F12:KEY_S+KEY_F12:750 \
 	--ui-buttonmap b=KEY_F+KEY_F12:KEY_O+KEY_F12:250 \
@@ -53,14 +53,14 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --ui-buttonmap tr+dl^auto:250:250=cycle-key-ref:characters:backward \
     --ui-buttonmap rb+a^auto:0:250=cycle-key-ref:characters:forward \
     --ui-buttonmap rb+b^auto:0:250=cycle-key-ref:characters:backward \
-    --ui-buttonmap rb+start=KEY_C+KEY_I+KEY_ENTER+KEY_7:KEY_N+KEY_F12,rb+back=KEY_ESC:KEY_ESC:250,rb+tl=KEY_PAGEDOWN:KEY_RIGHTCTRL:250,rb+tr=KEY_PAGEUP:KEY_RIGHTCTRL:250,rb+guide=KEY_I+KEY_F12 \
-		--ui-buttonmap rb+x=KEY_DOWN+KEY_F12:KEY_UP+KEY_F12:250,rb+y=KEY_UP+KEY_F12:KEY_DOWN+KEY_F12:250 \
+    --ui-buttonmap rb+start=KEY_C:KEY_N+KEY_ENTER+KEY_F12:250,rb+back=KEY_ESC:KEY_ESC:250,rb+tl=KEY_PAGEUP:KEY_RIGHTCTRL:250,rb+tr=KEY_PAGEDOWN:KEY_RIGHTCTRL:250,rb+guide=KEY_I+KEY_F12 \
+		--ui-buttonmap rb+x^auto:250:250=cycle-key-ref:list:backward,rb+y^auto:250:250=cycle-key-ref:list:forward \
 		--ui-buttonmap rb+lb=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/clearselection.macro \
---ui-buttonmap a+start=KEY_C+KEY_I+KEY_ENTER+KEY_7:KEY_N+KEY_F12,a+back=KEY_ESC:KEY_ESC:250,a+tl=KEY_PAGEDOWN:KEY_RIGHTCTRL:250,a+tr=KEY_PAGEUP:KEY_RIGHTCTRL:250,a+guide=KEY_I+KEY_F12 \
+--ui-buttonmap a+start=KEY_I:KEY_ENTER+KEY_F12:250,a+back=KEY_ESC:KEY_ESC:250,a+tl=KEY_PAGEDOWN:KEY_RIGHTCTRL:250,a+tr=KEY_PAGEUP:KEY_RIGHTCTRL:250,a+guide=KEY_I+KEY_F12 \
 		--ui-buttonmap a+b=KEY_PAGEDOWN+KEY_E+KEY_F12:KEY_R+KEY_F12:750,a+y=KEY_PAGEUP+KEY_U+KEY_F12:KEY_D+KEY_F12:750 \
 		--ui-buttonmap a+x=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/clearselection.macro \
-    --ui-buttonmap back+tl^auto:0:250=cycle-key-ref:characters:forward,back+tr^auto:0:250=cycle-key-ref:characters:backward,back+b^auto:250:250=cycle-key-ref:list:forward,back+y^auto:250:250=cycle-key-ref:list:backward,back+rb=KEY_DOWN+KEY_F12:KEY_UP+KEY_F12:250,back+lb=KEY_UP+KEY_F12:KEY_DOWN+KEY_F12:250,back+a=KEY_E+KEY_F12:KEY_R+KEY_F12:250,back+x=KEY_U+KEY_F12:KEY_D+KEY_F12:250,back+start=KEY_I:KEY_ESC+KEY_F12:250 \
-    --ui-buttonmap back+guide=KEY_F1+KEY_I:KEY_ESC:500 \
+    --ui-buttonmap back+tl^auto:0:250=cycle-key-ref:characters:forward,back+tr^auto:0:250=cycle-key-ref:characters:backward,back+b^auto:250:250=cycle-key-ref:list:forward,back+y^auto:250:250=cycle-key-ref:list:backward,back+rb=KEY_DOWN+KEY_F12:KEY_UP+KEY_F12:250,back+lb=KEY_UP+KEY_F12:KEY_DOWN+KEY_F12:250,back+a=KEY_E+KEY_F12:KEY_R+KEY_F12:250,back+x=KEY_U+KEY_F12:KEY_D+KEY_F12:250 \
+    --ui-buttonmap back+start=KEY_F1+KEY_I:KEY_ESC:500 \
 		--ui-buttonmap start+back=KEY_LEFTALT+KEY_F11,guide+back=KEY_ENTER:KEY_ESC:250,back+guide=KEY_ENTER:KEY_ESC:250 \
 	--ui-axismap back+y1=KEY_UP:KEY_DOWN:1000,back+x1=KEY_LEFT:KEY_RIGHT:1000 \
 	--ui-buttonmap b+y=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/wizeye.macro \
