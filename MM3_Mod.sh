@@ -60,7 +60,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
 		--ui-buttonmap a+b=KEY_PAGEDOWN+KEY_E+KEY_F12:KEY_R+KEY_F12:750,a+y=KEY_PAGEUP+KEY_U+KEY_F12:KEY_D+KEY_F12:750 \
 		--ui-buttonmap a+x=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/clearselection.macro \
     --ui-buttonmap back+tl^auto:0:250=cycle-key-ref:characters:forward,back+tr^auto:0:250=cycle-key-ref:characters:backward,back+b^auto:250:250=cycle-key-ref:list:forward,back+y^auto:250:250=cycle-key-ref:list:backward,back+rb=KEY_DOWN+KEY_F12:KEY_UP+KEY_F12:250,back+lb=KEY_UP+KEY_F12:KEY_DOWN+KEY_F12:250,back+a=KEY_E+KEY_F12:KEY_R+KEY_F12:250,back+x=KEY_U+KEY_F12:KEY_D+KEY_F12:250 \
-    --ui-buttonmap back+start=KEY_F1+KEY_I:KEY_ESC:500 \
+    --ui-buttonmap back+start=KEY_F1+KEY_I+KEY_Y:KEY_ESC+KEY_F12:500 \
 		--ui-buttonmap start+back=KEY_LEFTALT+KEY_F11,guide+back=KEY_ENTER:KEY_ESC:250,back+guide=KEY_ENTER:KEY_ESC:250 \
 	--ui-axismap back+y1=KEY_UP:KEY_DOWN:1000,back+x1=KEY_LEFT:KEY_RIGHT:1000 \
 	--ui-buttonmap b+y=macro:/home/pi/RetroPie/roms/ports/xboxdrv_macros/wizeye.macro \
