@@ -15,7 +15,7 @@ sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv >> /dev/shm/runcommand.log 
     --evdev-absmap ABS_X=x1,ABS_Y=y1 \
     --evdev-keymap BTN_EAST=b,BTN_SOUTH=a,BTN_WEST=y,BTN_NORTH=x,BTN_Z=lb,BTN_C=rb,BTN_TL=tl,BTN_TR=tr,BTN_THUMBL=guide,BTN_SELECT=back,BTN_START=start,BTN_DPAD_DOWN=dd,BTN_DPAD_UP=du,BTN_DPAD_LEFT=dl,BTN_DPAD_RIGHT=dr \
 	--ui-buttonmap dd^auto:250:500=KEY_UP,du^auto:250:500=KEY_DOWN,dl^auto:250:500=KEY_LEFT,dr^auto:250:500=KEY_RIGHT \
-	--ui-buttonmap start=KEY_Y+KEY_F12:KEY_ENTER+KEY_F12:250,back=KEY_ESC+KEY_F12:KEY_ESC+KEY_F12:250 \
+	--ui-buttonmap start=KEY_Y+KEY_F12:KEY_ENTER+KEY_F12:250,back=KEY_ESC+KEY_F12:KEY_N+KEY_F12:250 \
 		--ui-buttonmap dd+start=KEY_Y+KEY_F12,du+start=KEY_ENTER+KEY_F12,dd+back=KEY_N+KEY_F12,du+back=KEY_ESC+KEY_F12 \
 	--ui-buttonmap lb=KEY_Q:KEY_I+KEY_F12:250 \
 	--ui-buttonmap y=KEY_M:KEY_V+KEY_F12:250 \
