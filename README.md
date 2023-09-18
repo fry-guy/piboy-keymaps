@@ -48,7 +48,7 @@ Might and Magic III: Isles of Terra and Might is an early '90s computer-based RP
 
 The wide and various use of keyboard commands makes playing these games with a controller a challenge. The use of the powerful xboxdrv tool allows a standard controller to significantly expand the range of these inputs with tricks such as the ability to alter key inputs based upon button combinations or button press lengths, the ability to advance along a sequence of multiple keys with same button, and the ability to covert analog input to key input. In the case of the PiBoy DMG, six face buttons – x, y, z, c, b, and a – a right and left trigger button, a start and select button, a directional pad, and a clickable left joystick are more than sufficent to provide every key required to play the game. 
 
-Please note the instructions will indicate whether a button should be clicked, briefly held (aka “long pressed”) or held down. No button will ever need to be briefly held longer than 1 second to activate, although many buttons commands — both clicked or briefly held — requre some other button to remain held down. Most briefly held buttons activate between 250 to 500 milliseconds. A click should not last longer than 300 milliseconds.
+Please note the instructions will indicate whether a button should be clicked, briefly held (aka “long pressed”) or held down. No button will ever need to be briefly held longer than 1 second to activate, although many buttons commands — both clicked or briefly held — requre some other button remain held down. Most briefly held buttons activate between 250 to 500 milliseconds. A click should not last longer than 300 milliseconds.
  
 <b><i>Character menus and inventory</b></i>
  
