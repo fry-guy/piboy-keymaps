@@ -162,5 +162,5 @@ A video demonstration of the controller script in action is available at https:/
 
 <u><b>Legal copy</u></b>
 
-Might and Magic 1-6 is <a href="https://www.gog.com/game/might_and_magic_6_limited_edition">available for purchase on GOG</a>. 
+Might and Magic 1-6 are <a href="https://www.gog.com/game/might_and_magic_6_limited_edition">available for purchase on GOG</a>. 
 
