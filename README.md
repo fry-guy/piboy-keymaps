@@ -84,7 +84,7 @@ Optional: Continuing to hold the c button after opening a new spell window will 
 
 To move across characters, click the b (left) or a (right) buttons. To go up or down the spell slots, click the y (up) or x (down) buttons. To page up and down, click the left (page up) and right (page down) triggers. To select and then immediately cast a spell, click the start button. To exit the menu, hold the start button.
  
-Exploration
+<i>Exploration</i>
  
 To traverse the map, use the dpad or hold the right or left trigger and use the left joystick. To sidestep, hold the right and left triggers and then use the east or west directionals on the left joystick.
  
