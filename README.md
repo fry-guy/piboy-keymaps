@@ -72,7 +72,7 @@ To choose the spell, click start. To cast the spell, click the c button.
  
 Some spells require additional input after casting:
  
-·      To choose a character to heal or apply some other status effects (bless, holy shield, etc.), hold the right trigger and then click the button that corresponds to the target character.
+·      To choose a character to heal or apply some other status effects (heroism, bless, power shield, etc.), hold the right trigger and then click the button that corresponds to the target character.
  
 ·      For elemental spells, hold the c button and then click the dpad to choose an element (e.g.: dpad up is fire, dpad right is electricity, dpad down is cold, and dpad left is acid).
  
