@@ -134,15 +134,15 @@ In the <i>inn</i>, hold the <b>right trigger</b> and then click <b>dpad left</b>
 
 <b><i>Magic mirrors</i></b>
 
-Magic mirrors provide fast travel to various locations on the word map with a secret code. To enter a fast travel code, hold the <b>left joystick</b> button and then click the <b>z button for HOME</b> (Fountain Head), the <b>y button for SEADOG</b> (Baywatch), the <b>x button for FREEMAN</b> (Wildabar), the <b>c button for DOOMED</b> (Swamptown), the <b>b button for REDHOT</b> (Blistering Heights), the <b>a button for ARENA</b> (The Arena), <b>dpad up for FIRE</b> (Area C2 X12 Y0), <b>dpad right for EARTH</b> (Area E4 X3 Y3), <b>dpad downfor WATER</b>  (Area E3 X7 Y10), or <b>dpad left for AIR</b> (Area F1 X0 Y12). For all other passwords, use the virtual keyboard – see below.
+Magic mirrors provide fast travel to various locations on the word map with a secret code. To enter a fast travel code, hold the <b>left joystick button (l3)</b> and then click the <b>z button for HOME</b> (Fountain Head), the <b>y button for SEADOG</b> (Baywatch), the <b>x button for FREEMAN</b> (Wildabar), the <b>c button for DOOMED</b> (Swamptown), the <b>b button for REDHOT</b> (Blistering Heights), the <b>a button for ARENA</b> (The Arena), <b>dpad up for FIRE</b> (Area C2 X12 Y0), <b>dpad right for EARTH</b> (Area E4 X3 Y3), <b>dpad downfor WATER</b>  (Area E3 X7 Y10), or <b>dpad left for AIR</b> (Area F1 X0 Y12). For all other passwords, use the virtual keyboard – see below.
 
 <b><i>Menus</i></b>
 
-To open the in-game menu, hold the <b>left trigger</b> and click the <b>left joystick</b> button. (The <b>left joystick</b> also acts as a mouse pointer. To left click this virtual mouse, briefly hold the <b>a button</b>. To open a virtual keyboard, click the <b>left joystick</b> button.
+To open the in-game menu, hold the <b>left trigger</b> and click the <b>left joystick</b> button. (The <b>left joystick</b> also acts as a mouse pointer. To left click this virtual mouse, briefly hold the <b>a button</b>. To open a virtual keyboard, click the <b>left joystick button (l3)</b>.
 
 To open or close the RetroArch menu, hold the <b>start button</b> and then click the <b>select button</b>. To use the enter key, click <b>dpad right</b> without releasing the <b>start button</b>. To use the escape key, click <b>dpad left</b> without releasing the <b>start button</b>. To navigate the menus, click <b>dpad up</b> or <b>dpad down</b> — or use the <b>left joystick</b> — without releasing the <b>start button</b>. 
 
-<i>*You can also use the <b>left joystick</b> button – without releasing the <b>left trigger</b> – to open the inventory menu of the currently selected character from their character sheet screen. (This is useful if you do not want to bother to locate the button assigned to a given character to open their inventory.)</i>
+<i>*You can also use the <b>left joystick button (l3)</b> – without releasing the <b>left trigger</b> – to open the inventory menu of the currently selected character from their character sheet screen. (This is useful if you do not want to bother to locate the button assigned to a given character to open their inventory.)</i>
 
 <i>†These button combinations can also be used to enter numbers for the teleportation spell, gem or gold totals for the bank, coordinates for the Interspatial Transport Box, etc.</i>
  
