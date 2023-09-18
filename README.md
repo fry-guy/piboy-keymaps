@@ -44,9 +44,9 @@ For a complete list of the new controls, see https://github.com/fry-guy/piboy-ke
 
 <u><b>Might and Magic III instructions</u></b>
 
-Might and Magic III: Isles of Terra and Might -- and its sequel Magic IV & V: World of Xeen -- are early '90s computer-based RPGs that came out before many of the standard conventions of modern computer game navigation. (e.g. No WASD controls, no standard "exit" key, etc.) The games also make extensive use of many keyboard keys, including nearly every number or function key, as well as a keys whose function alter based upon context (e.g.: The R key selects "rest," "retreat," "return," "recharge," or "rumor," depending on the situation). 
+Might and Magic III: Isles of Terra and Might is an early '90s computer-based RPGs that came out before many of the standard conventions of modern computer game navigation. (e.g. No WASD controls, no standard "exit" key, etc.) The game also makes extensive use of many keyboard keys, including nearly every number or function key, as well as keys whose function alter based upon context (e.g.: The r key selects "rest," "retreat," "return," "recharge," or "rumor," depending on the situation). 
 
-The wide and varying use of keys renders playing these games with a controller a challenge. Use of the powerful xboxdrv tool allows a standard controller to significantly expand the range of these inputs. The PiBoy controller includes six face buttons – x, y, z, c, b, and a – a right and left trigger button, a start and select button, a directional pad, and a clickable left joystick. The four cardinal directions of the joystick can also function as button inputs under certain conditions. Using these tools, every keyboard input required for the game is available. 
+The wide and various use of keyboard commands makes playing these games with a controller a challenge. The use of the powerful xboxdrv tool allows a standard controller to significantly expand the range of these inputs. In the case of the PiBoy DMG, six face buttons – x, y, z, c, b, and a – a right and left trigger button, a start and select button, a directional pad, and a clickable left joystick are more than sufficent to provide every key required to play the game. <i>(The four cardinal directions of the joystick can also function as button inputs under certain conditions.)</i>
 
 Please note the instructions will indicate whether a button should be clicked, briefly held (aka “long pressed”) or held down. No button will ever need to be briefly held longer than 1 second to activate, although many buttons commands — both clicked or briefly held — requre some other button to remain held down. Most briefly held buttons activate between 250 to 500 milliseconds. A click should not last longer than 300 milliseconds.
  
@@ -58,11 +58,11 @@ To select an item in the inventory, hold the right trigger and then select the b
 
 To pass a selected item between two characters, click the button that corresponds to the target character without releasing the right trigger. To go straight to the inventory of the character who received the item, briefly hold the button after the item transfers.
 
-Optional: Holding the select button will activate a second, optional control scheme for navigating the inventory. The following commands require that you to continue to hold the select button: 
+<i>Optional: Holding the select button will activate a second, optional control scheme for navigating the inventory. The following commands require that you to continue to hold the select button: 
 
 To move across characters, click the left or right triggers. To navigate the inventory, click the y (up) and b (down) buttons. To page up and down, click the z button. (Click to page down or briefly hold to page up.) To clear a selection, click the c button.*** To equip or unequip an item, use the a button. (Click to equip or briefly hold to unequip). To use or discard an item, use the x button. (Click to use or briefly hold to discard.) To exit the inventory, briefly hold the start button. To re-open the inventory screen from the character sheet, click the start button.
 
-Tip: Swapping between holding the select button (for swapping characters) and right trigger (for navigating inventory and equipping or removing items) and will allow you to manage inventories across multiple characters with maximum efficiency. 
+Tip: Swapping between holding the select button (for swapping characters) and right trigger (for navigating inventory and equipping or removing items) and will allow you to manage inventories across multiple characters with maximum efficiency.</i>
  
 <b>Spell sheets</b>
  
@@ -80,9 +80,9 @@ Some spells require additional input after casting:
  
 ·      For Lloyd’s Beacon, hold the c button and then click dpad left to set the beacon or dpad right to return to a set beacon.
  
-Optional: Continuing to hold the c button after opening a new spell window will activate a second, optional control scheme for spell casting. The following commands require that you to continue to hold the c button: 
+<i>Optional: Continuing to hold the c button after opening a new spell window will activate a second, optional control scheme for spell casting. The following commands require that you to continue to hold the c button:
 
-To move across characters, click the b (left) or a (right) buttons. To go up or down the spell slots, click the y (up) or x (down) buttons. To page up and down, click the left (page up) and right (page down) triggers. To select and then immediately cast a spell, click the start button. To exit the menu, hold the start button.
+To move across characters, click the b (left) or a (right) buttons. To go up or down the spell slots, click the y (up) or x (down) buttons. To page up and down, click the left (page up) and right (page down) triggers. To select and then immediately cast a spell, click the start button. To exit the menu, hold the start button.</i>
  
 <i>Exploration</i>
  
