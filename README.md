@@ -102,7 +102,7 @@ Other commands in combat mode are block and retreat (click the a button after ho
 
 <i><b>NPC shops</b></i>
  
-Each shop (temple, etc.) is assigned to one of several top row face buttons – x, y, or z. Hold down a dpad  button and then click the button assigned to the shop to select. In general, the dpad button to hold correspond to menu items in a clockwise direction (e.g. the dpad up is option 1, dpad right is option 2, dpad down is option 3, and the dpad left is option 4).
+Each shop (temple, etc.) is assigned to one of several top row face buttons – x, y, or z. To select a menu item in the shop, hold down a dpad button and then click the face button associated with the shop. In general, the dpad button to hold correspond to menu items in a clockwise direction (e.g. the dpad up is option 1, dpad right is option 2, dpad down is option 3, and the dpad left is option 4).
 
 <i>Blacksmith, Training grounds, and Temple – Y</i>
 
