@@ -134,7 +134,7 @@ In the inn, hold the right trigger and then click dpad left to remove a characte
 
 Magic mirrors provide fast travel to various locations on the word map with a secret code. To enter a fast travel code, hold the left joystick button and then click the z button for HOME (Fountain Head), the y button for SEADOG (Baywatch), the x button for FREEMAN (Wildabar), the c button for DOOMED (Swamptown), the b button for REDHOT (Blistering Heights), the a button for ARENA (The Arena), dpad up for FIRE (Area C2 X12 Y0), dpad right for EARTH (Area E4 X3 Y3), dpad down for WATER (Area E3 X7 Y10), or dpad left for AIR (Area F1 X0 Y12). For all other passwords, use the virtual keyboard – see below.
 
-<b></i>Menus</i></b>
+<b><i>Menus</i></b>
 
 To open the in-game menu, hold the left trigger and click the left joystick button. (The left joystick also acts as a mouse pointer. To left click this virtual mouse,” briefly hold the a button. To open a virtual keyboard, click the left joystick button.
 
