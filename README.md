@@ -130,7 +130,7 @@ In the bank, click the x button while holding dpad up to choose gold or dpad dow
 
 In the inn, hold the right trigger and then click dpad left to remove a character or hold the left trigger and briefly hold dpad down to delete a character. To create a new character, click the c button. In the character creation menu, use the mouse pointer to create a character. The left joystick acts as a mouse pointer. To left click the virtual mouse,” briefly hold the a button.
 
-<b><i>Magic mirrors</i><b>
+<b><i>Magic mirrors</i></b>
 
 Magic mirrors provide fast travel to various locations on the word map with a secret code. To enter a fast travel code, hold the left joystick button and then click the z button for HOME (Fountain Head), the y button for SEADOG (Baywatch), the x button for FREEMAN (Wildabar), the c button for DOOMED (Swamptown), the b button for REDHOT (Blistering Heights), the a button for ARENA (The Arena), dpad up for FIRE (Area C2 X12 Y0), dpad right for EARTH (Area E4 X3 Y3), dpad down for WATER (Area E3 X7 Y10), or dpad left for AIR (Area F1 X0 Y12). For all other passwords, use the virtual keyboard – see below.
 
