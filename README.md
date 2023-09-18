@@ -50,7 +50,7 @@ The wide and various use of keyboard commands makes playing these games with a c
 
 Please note the instructions will indicate whether a button should be clicked, briefly held (aka “long pressed”) or held down. No button will ever need to be briefly held longer than 1 second to activate, although many buttons commands — both clicked or briefly held — requre some other button to remain held down. Most briefly held buttons activate between 250 to 500 milliseconds. A click should not last longer than 300 milliseconds.
  
-<b>Character menus and inventory</b>
+<b><i>Character menus and inventory</b></i>
  
 The six face buttons, plus the start and select buttons, correspond to the six characters in your party, plus hirings, moving left to right across the three rows, top to bottom. (e.g.: x for character 1, y for character 2, z for character 3, c for character 4, b for character 5, a for character 6, and start and select for character 7 and 8, respectively.) To open a character sheet, hold the left trigger, then click the button that corresponds to the desired character. (To jump straight into the character’s inventory, briefly hold character button instead.) To open the inventory from the character sheet, briefly hold the y button — or briefly hold the character button without releasing the left trigger.* To cycle through characters, click the right or left dpad buttons without releasing the left trigger. To select a character attribute, use with the dpad to highlight the attribute and then click the a button to open the attribute information.
  
@@ -64,7 +64,7 @@ To move across characters, click the left or right triggers. To navigate the inv
 
 Tip: Swapping between holding the select button (for swapping characters) and right trigger (for navigating inventory and equipping or removing items) and will allow you to manage inventories across multiple characters with maximum efficiency.</i>
  
-<b>Spell sheets</b>
+<b><i>Spell sheets</b></i>
  
 To open the spell menu, click the c button. To open the new spell menu, briefly hold the c button. To navigate the spell list, click dpad up or down. To highlight a spell, hold right trigger and then click dpad up or down. (Alternately, you may elect to jump directly to a spell slot with same buttons combination used to select item in the inventory.) 
 
@@ -84,7 +84,7 @@ Some spells require additional input after casting:
 
 To move across characters, click the b (left) or a (right) buttons. To go up or down the spell slots, click the y (up) or x (down) buttons. To page up and down, click the left (page up) and right (page down) triggers. To select and then immediately cast a spell, click the start button. To exit the menu, hold the start button.</i>
  
-<i>Exploration</i>
+<i><b>Exploration</i></b>
  
 To traverse the map, use the dpad or hold the right or left trigger and use the left joystick. To sidestep, hold the right and left triggers and then use the east or west directionals on the left joystick.
  
@@ -94,13 +94,13 @@ To open the map, click the y button. To view the quest log, briefly hold the y b
  
 To shoot an arrow or bash a wall, hold the left trigger and then click dpad up. (Click to shoot or briefly hold to bash.) To rest or dismiss a party member, hold the left trigger and then click dpad down. (Click to rest or briefly hold to dismiss.) To choose a character for dismissal, hold the right trigger and then click the button that corresponds to the target character.
  
-<b>Combat</b>
+<i><b>Combat</b></i>
  
 To combat, click the a button to attack or the b button to execute a quick fight action (attack, block, cast, or retreat). To open the quick fight action selection menu, hold the b button and then hold the dpad right button to cycle options. To set a quick fight action, hold the dpad down button and then click the b button, or simply click the start button.
 
 Other commands in combat mode are block and retreat (click the a button after holding down dpad up or dpad down, respectively), and cast (click the c button, or see section titled “spell sheets”). Spell menus function the same in combat or exploration mode.
 
-<b>NPC shops</b>
+<i><b>NPC shops</b></i>
  
 Each shop (temple, etc.) is assigned to one of several top row face buttons – x, y, or z. Hold down a dpad  button and then click the button assigned to the shop to select. In general, the dpad button to hold correspond to menu items in a clockwise direction (e.g. the dpad up is option 1, dpad right is option 2, dpad down is option 3, and the dpad left is option 4).
 
@@ -130,11 +130,11 @@ In the bank, click the x button while holding dpad up to choose gold or dpad dow
 
 In the inn, hold the right trigger and then click dpad left to remove a character or hold the left trigger and briefly hold dpad down to delete a character. To create a new character, click the c button. In the character creation menu, use the mouse pointer to create a character. The left joystick acts as a mouse pointer. To left click the virtual mouse,” briefly hold the a button.
 
-<i>Magic mirrors</i>
+<b><i>Magic mirrors</i><b>
 
 Magic mirrors provide fast travel to various locations on the word map with a secret code. To enter a fast travel code, hold the left joystick button and then click the z button for HOME (Fountain Head), the y button for SEADOG (Baywatch), the x button for FREEMAN (Wildabar), the c button for DOOMED (Swamptown), the b button for REDHOT (Blistering Heights), the a button for ARENA (The Arena), dpad up for FIRE (Area C2 X12 Y0), dpad right for EARTH (Area E4 X3 Y3), dpad down for WATER (Area E3 X7 Y10), or dpad left for AIR (Area F1 X0 Y12). For all other passwords, use the virtual keyboard – see below.
 
-</i>Menus</i>
+<b></i>Menus</i></b>
 
 To open the in-game menu, hold the left trigger and click the left joystick button. (The left joystick also acts as a mouse pointer. To left click this virtual mouse,” briefly hold the a button. To open a virtual keyboard, click the left joystick button.
 
