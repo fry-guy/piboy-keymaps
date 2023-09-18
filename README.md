@@ -44,7 +44,9 @@ For a complete list of the new controls, see https://github.com/fry-guy/piboy-ke
 
 <u><b>Might and Magic III instructions</u></b>
 
-The PiBoy controller includes six face buttons – x, y, z, c, b, and a – a right and left trigger button, a start and select button, a directional pad, and a clickable left joystick. The four cardinal directions of the joystick can also function as button inputs under certain conditions. Using these tools, every keyboard input required for the game is available. 
+Might and Magic III: Isles of Terra and Might -- and its sequel Magic IV & V: World of Xeen -- are early '90s computer-based RPGs that came out before many of the standard conventions of modern computer game navigation. (e.g. No WASD controls, no standard "exit" key, etc.) The games also make extensive use of many keyboard keys, including nearly every number or function key, as well as a keys whose function alter based upon context (e.g.: The R key selects "rest," "retreat," "return," "recharge," or "rumor," depending on the situation). 
+
+The wide and varying use of keys renders playing these games with a controller a challenge. Use of the powerful xboxdrv tool allows a standard controller to significantly expand the range of these inputs. The PiBoy controller includes six face buttons – x, y, z, c, b, and a – a right and left trigger button, a start and select button, a directional pad, and a clickable left joystick. The four cardinal directions of the joystick can also function as button inputs under certain conditions. Using these tools, every keyboard input required for the game is available. 
 
 Please note the instructions will indicate whether a button should be clicked, briefly held (aka “long pressed”) or held down. No button will ever need to be briefly held longer than 1 second to activate, although many buttons commands — both clicked or briefly held — requre some other button to remain held down. Most briefly held buttons activate between 250 to 500 milliseconds. A click should not last longer than 300 milliseconds.
  
