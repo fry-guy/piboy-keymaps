@@ -88,7 +88,7 @@ To move across characters, click the <b>b (left)</b> or a <b>(right) buttons</b>
  
 <i><b>Exploration</i></b>
  
-To traverse the map, use the <b>dpad</b> or hold the <b>right</b> or <b>left trigger</b> and use the <b>left joystick</b>. To sidestep, hold the <b>right</b> and <b>left trigger</b>s and then use the <b>east</b> or <b>west directionals</b> on the <b>left joystick</b>.
+To traverse the map, use the <b>dpad</b> or hold the <b>right</b> or <b>left trigger</b> and use the <b>left joystick</b>. To sidestep, hold the <b>right</b> and <b>left trigger</b>s and then use the <b>east (right)</b> or <b>west (left) directionals</b> on the <b>left joystick</b>.
  
 To interact with an object, click the <b>right trigger</b>. To use the mouse pointer, use the <b>left joystick</b> to control the pointer and then briefly hold <b>x button</b> to left click. To choose “yes” or “no,” click the <b>start</b> or <b>select button</b>, respectively. (To choose enter or escape, briefly hold the <b>start</b> or <b>select button</b>, respectively.)‡
  
