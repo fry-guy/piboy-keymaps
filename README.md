@@ -58,7 +58,7 @@ To select an item in the inventory, hold the <b>right trigger</b> and then choos
 
 To pass a selected item between two characters, click the button that corresponds to the target character without releasing the <b>right trigger</b>. To go straight to the inventory of the character who received the item, briefly hold the button after the item transfers.
 
-<i>Optional: Holding the <b>select button</b> will activate a second, optional control scheme for navigating the inventory. The following commands require that you to continue to hold the <b>select button</b>: 
+<i>Optional: Holding the <b>select button</b> will activate a second, optional mini-control scheme to fast navigate the inventory. The following commands require that you to continue to hold the <b>select button</b>: 
 
 To move across characters, click the <b>left</b> or <b>right triggers</b>. To navigate the inventory, click the <b>y (up)</b> and <b>b (down)</b> buttons. To page up and down, use the <b>z button</b>. (Click to page down or briefly hold to page up.) To clear a selection, click the <b>c button</b>.‡ To equip or unequip an item, use the <b>a button</b>. (Click to equip or briefly hold to unequip). To use or discard an item, use the <b>x button</b>. (Click to use or briefly hold to discard.) To exit the inventory, briefly hold the <b>start button</b>. To re-open the inventory screen from the character sheet, click the <b>start button</b>.
 
@@ -82,7 +82,7 @@ Some spells require additional input after casting:
 <li>For Lloyd’s Beacon, hold the <b>c button</b> and then click <b>dpad left</b> to set the beacon or <b>dpad right</b> to return to a set beacon.</li>
 </ul>
  
-<i>Optional: Continuing to hold the <b>c button</b> after opening a new spell window will activate a second, optional control scheme for spell casting. The following commands require that you to continue to hold the <b>c button</b>:
+<i>Optional: Continuing to hold the <b>c button</b> after opening a new spell window will activate a second, optional mini-control scheme to fast navigate spell casting. The following commands require that you to continue to hold the <b>c button</b>:
 
 To move across characters, click the <b>b (left)</b> or a <b>(right) buttons</b>. To go up or down the spell slots, click the <b>y (up)</b> or <b>x (down) buttons</b>. To page up and down, click the <b>left (page up)</b> and <b>right (page down) triggers</b>. To select and then immediately cast a spell, click the <b>start button</b>. To exit the menu, hold the <b>start button</b>.</i>
  
