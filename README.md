@@ -142,15 +142,15 @@ To open the in-game menu, hold the <b>left trigger</b> and click the <b>left joy
 
 To open or close the RetroArch menu, hold the <b>start button</b> and then click the <b>select button</b>. To use the enter key, click <b>dpad right</b> without releasing the <b>start button</b>. To use the escape key, click <b>dpad left</b> without releasing the <b>start button</b>. To navigate the menus, click <b>dpad up</b> or <b>dpad down</b> — or use the <b>left joystick</b> — without releasing the <b>start button</b>. 
 
-<i>*You can also use the <b>left joystick</b> button – without releasing the <b>left trigger</b> – to open the inventory menu of the currently selected character from their character sheet screen. (This is useful if you do not want to bother to locate the button assigned to a given character to open their inventory.)
+<i>*You can also use the <b>left joystick</b> button – without releasing the <b>left trigger</b> – to open the inventory menu of the currently selected character from their character sheet screen. (This is useful if you do not want to bother to locate the button assigned to a given character to open their inventory.)</i>
 
-†These button combinations can also be used to enter numbers for the teleportation spell, gem or gold totals for the bank, coordinates for the Interspatial Transport Box, etc.
+<i>†These button combinations can also be used to enter numbers for the teleportation spell, gem or gold totals for the bank, coordinates for the Interspatial Transport Box, etc.</i>
  
-‡This function does not work if the inventory has six or fewer items. In this case, use the <b>y (up)</b> or <b>b (down) buttons</b> navigate to an unoccupied item slot and equip (if item is equipped) or remove (if item is unequipped) to clear the selection.
+<i>‡This function does not work if the inventory has six or fewer items. In this case, use the <b>y (up)</b> or <b>b (down) buttons</b> navigate to an unoccupied item slot and equip (if item is equipped) or remove (if item is unequipped) to clear the selection.</i>
  
-§Alternately, to choose yes or no, hold the up button and then use start or select, respectively. To choose enter or escape, hold the <b>down button</b> and then use the <b>start</b> or <b>select buttons</b>, respectively.
+<i>§Alternately, to choose yes or no, hold the up button and then use start or select, respectively. To choose enter or escape, hold the <b>down button</b> and then use the <b>start</b> or <b>select buttons</b>, respectively.</i>
  
-¶Requires a sorcerer in the sixth character slot with complete spellbook.</i>
+<i>¶Requires a sorcerer in the sixth character slot with complete spellbook.</i>
 
 <u><b>Quick reference sheet</u></b>
 
