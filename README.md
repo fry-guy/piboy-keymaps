@@ -25,7 +25,7 @@ After resetting EmulationStation, MM3 should show up in your Ports folder. Use t
 
 Lastly, after launching the game, users must remap the virtual keyboard in DosBox-Pure to the controller button whose default keyboard map is left-control in RetroArch. (Key 9 on the PiBoy DMG.) This can be done within the game from the retroarch system menu under "Controls --> Port 1 Controls." This step is required to enable virtual keyboard support in game.
 
-For a complete list of the new controls, see <a href="https://github.com/fry-guy/piboy-keymaps/blob/main/MM3 KEY GUIDE.txt">https://github.com/fry-guy/piboy-keymaps/blob/main/MM3_KEY_GUIDE.txt</a>.
+For a complete list of the new controls, see <a href="https://github.com/fry-guy/piboy-keymaps/blob/main/MM3 KEY GUIDE.txt">https://github.com/fry-guy/piboy-keymaps/blob/main/MM3 KEY GUIDE.txt</a>.
 
 <b>Might and Magic IV & V: World of Xeen</b>
 
@@ -40,7 +40,7 @@ After resetting EmulationStation, MM45 should show up in your Ports folder. This
 
 Virtual keyboard setup instructions are the same as outlined for Might and Magic III.
 
-For a complete list of the new controls, see <a href="https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5 KEY GUIDE.txt">https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5_KEY_GUIDE.txt</a>.
+For a complete list of the new controls, see <a href="https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5 KEY GUIDE.txt">https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5 KEY GUIDE.txt</a>.
 
 <u><b>Might and Magic III instructions</u></b>
 
@@ -154,7 +154,7 @@ To open or close the RetroArch menu, hold the <b>start button</b> and then click
 
 <u><b>Quick reference sheet</u></b>
 
-A quick reference sheet with the full list of remapped controls is available at <a href="https://github.com/fry-guy/piboy-keymaps/blob/main/MM3 KEY GUIDE.txt">https://github.com/fry-guy/piboy-keymaps/blob/main/MM3_KEY_GUIDE.txt</a> and  <a href="https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5 KEY GUIDE.txt">https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5_KEY_GUIDE.txt</a>.
+A quick reference sheet with the full list of remapped controls is available at <a href="https://github.com/fry-guy/piboy-keymaps/blob/main/MM3 KEY GUIDE.txt">https://github.com/fry-guy/piboy-keymaps/blob/main/MM3 KEY GUIDE.txt</a> and  <a href="https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5 KEY GUIDE.txt">https://github.com/fry-guy/piboy-keymaps/blob/main/MM4-5 KEY GUIDE.txt</a>.
 
 <u><b>Video demonstration</u></b>
 
