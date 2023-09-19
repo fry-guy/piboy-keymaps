@@ -62,7 +62,7 @@ To pass a selected item between two characters, click the button that correspond
 
 To move across characters, click the <b>left</b> or <b>right triggers</b>. To navigate the inventory, click the <b>y (up)</b> and <b>b (down)</b> buttons. To page up and down, use the <b>z button</b>. (Click to page down or briefly hold to page up.) To clear a selection, click the <b>c button</b>.‡ To equip or unequip an item, use the <b>a button</b>. (Click to equip or briefly hold to unequip). To use or discard an item, use the <b>x button</b>. (Click to use or briefly hold to discard.) To exit the inventory, briefly hold the <b>start button</b>. To re-open the inventory screen from the character sheet, click the <b>start button</b>.
 
-Tip: Swapping between holding the <b>select button</b> (for swapping characters) and <b>right trigger</b> (for navigating inventory and equipping or removing items) and will allow you to manage inventories across multiple characters with maximum efficiency.</i>
+Tip: Swapping between holding the <b>select button</b> (for swapping characters with the <b>left</b> and <b>right triggers</b>) and <b>right trigger</b> (for navigating inventory and equipping or removing items with the face buttons) and will allow you to manage inventories across multiple characters with maximum efficiency.</i>
  
 <b><i>Spell sheets</b></i>
  
