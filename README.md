@@ -146,7 +146,7 @@ To open or close the RetroArch menu, hold the <b>start button</b> and then click
 
 <i>†These button combinations can also be used to enter numbers for the teleportation spell, gem or gold totals for the bank, coordinates for the Interspatial Transport Box, etc.</i>
  
-<i>‡This function does not work if the inventory has two or fewer items. If it does not work, use the <b>y (up)</b> or <b>b (down) buttons</b> navigate to an unoccupied item slot and use equip (if item is equipped) or remove (if item is unequipped) to clear the selection.</i>
+<i>‡This function requires at least two items in the inventory. If there is only one item in the inventory, use the <b>y (up)</b> or <b>b (down) buttons</b> navigate to an occuppied item slot and use equip (if item is equipped) or remove (if item is unequipped) to deselect the item.</i>
  
 <i>§Alternately, to choose yes or no, hold the up button and then use start or select, respectively. To choose enter or escape, hold the <b>down button</b> and then use the <b>start</b> or <b>select buttons</b>, respectively.</i>
  
