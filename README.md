@@ -84,7 +84,7 @@ Some spells require additional input after casting:
  
 <i>Optional: Continuing to hold the <b>c button</b> after opening a new spell window will activate a second, optional mini-control scheme to fast navigate spell casting. The following commands require that you to continue to hold the <b>c button</b>:
 
-To move across characters, click the <b>y (left)</b> or x <b>(right) buttons</b>. To go up or down the spell slots, click the <b>b (up)</b> or <b>a (down) buttons</b>. To page up and down, click the <b>left (page up)</b> and <b>right (page down) triggers</b>. To select and then immediately cast a spell, click the <b>start button</b>. To exit the menu, hold the <b>start button</b>.</i>
+To go up or down the spell slots, click the <b>b (up)</b> or <b>a (down) buttons</b>. To page up and down, click the <b>left (page up)</b> and <b>right (page down) triggers</b>. To move across characters, click the <b>y (left)</b> or <b>x (right) buttons</b>. To select and then immediately cast a spell, click the <b>start button</b>. To exit the menu, hold the <b>start button</b>.</i>
  
 <i><b>Exploration</i></b>
  
