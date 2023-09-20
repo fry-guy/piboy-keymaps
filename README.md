@@ -60,7 +60,7 @@ To pass a selected item between two characters, click the button that correspond
 
 <i>Optional: Holding the <b>select button</b> will activate a second, optional mini-control scheme to fast navigate the inventory. The following commands require that you to continue to hold the <b>select button</b>: 
 
-To move across characters, click the <b>left</b> or <b>right triggers</b>. To navigate the inventory, click the <b>y (up)</b> and <b>b (down)</b> buttons. To page up and down, use the <b>z button</b>. (Click to page down or briefly hold to page up.) To clear a selection, click the <b>c button</b>.‡ To equip or unequip an item, use the <b>a button</b>. (Click to equip or briefly hold to unequip). To use or discard an item, use the <b>x button</b>. (Click to use or briefly hold to discard.) To exit the inventory, briefly hold the <b>start button</b>. To re-open the inventory screen from the character sheet, click the <b>start button</b>.
+To move across characters, click the <b>left</b> or <b>right triggers</b>. To navigate the inventory, click the <b>y (up)</b> and <b>b (down)</b> buttons. To page up and down, click the <b>z (page up)</b> and <b>c (page down)</b> buttons. To clear a selection, briefly hold the <b>c button</b>.‡ To equip or unequip an item, use the <b>a button</b>. (Click to equip or briefly hold to unequip). To use or discard an item, use the <b>x button</b>. (Click to use or briefly hold to discard.) To exit the inventory, briefly hold the <b>start button</b>. To re-open the inventory screen from the character sheet, click the <b>start button</b>.
 
 Tip: Swapping between holding the <b>select button</b> (for swapping characters with the <b>left</b> and <b>right triggers</b>) and <b>right trigger</b> (for navigating inventory and equipping or removing items with the face buttons) and will allow you to manage inventories across multiple characters with maximum efficiency.</i>
  
@@ -146,7 +146,7 @@ To open or close the RetroArch menu, hold the <b>start button</b> and then click
 
 <i>†These button combinations can also be used to enter numbers for the teleportation spell, gem or gold totals for the bank, coordinates for the Interspatial Transport Box, etc.</i>
  
-<i>‡This function does not work if the inventory has six or fewer items. In this case, use the <b>y (up)</b> or <b>b (down) buttons</b> navigate to an unoccupied item slot and equip (if item is equipped) or remove (if item is unequipped) to clear the selection.</i>
+<i>‡This function does not work if the inventory has two or fewer items. If it does not work, use the <b>y (up)</b> or <b>b (down) buttons</b> navigate to an unoccupied item slot and use equip (if item is equipped) or remove (if item is unequipped) to clear the selection.</i>
  
 <i>§Alternately, to choose yes or no, hold the up button and then use start or select, respectively. To choose enter or escape, hold the <b>down button</b> and then use the <b>start</b> or <b>select buttons</b>, respectively.</i>
  
