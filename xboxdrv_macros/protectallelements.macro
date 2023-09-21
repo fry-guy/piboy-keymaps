@@ -1,0 +1,84 @@
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_F4 1
+send KEY_F4 0
+wait 100
+send KEY_N 1
+send KEY_N 0
+wait 100
+send KEY_9 1
+send KEY_9 0
+wait 100
+send KEY_ENTER 1
+send KEY_ENTER 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_F 1
+send KEY_F 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_F4 1
+send KEY_F4 0
+wait 100
+send KEY_N 1
+send KEY_N 0
+wait 100
+send KEY_9 1
+send KEY_9 0
+wait 100
+send KEY_ENTER 1
+send KEY_ENTER 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_E 1
+send KEY_E 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_F4 1
+send KEY_F4 0
+wait 100
+send KEY_N 1
+send KEY_N 0
+wait 100
+send KEY_9 1
+send KEY_9 0
+wait 100
+send KEY_ENTER 1
+send KEY_ENTER 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_F4 1
+send KEY_F4 0
+wait 100
+send KEY_N 1
+send KEY_N 0
+wait 100
+send KEY_9 1
+send KEY_9 0
+wait 100
+send KEY_ENTER 1
+send KEY_ENTER 0
+wait 100
+send KEY_C 1
+send KEY_C 0
+wait 100
+send KEY_A 1
+send KEY_A 0
