@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       3.1
+VERSION:       3.2
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -12,7 +12,7 @@ VERSION:       3.1
     3.  Inventory & Party Management...................................[SEC3]
     4.  Spell Menu & Elemental Arrows..................................[SEC4]
     5.  Quick Spells & Transport Macros................................[SEC5]
-    6.  Magic Mirrors, OSK & System....................................[SEC6]
+    6.  Magic Mirrors and On Screen Keyboard...........................[SEC6]
     7.  Shops & Services...............................................[SEC7]
     8.  Character Creation & Inn.......................................[SEC8]
     9.  RetroArch Navigation...........................................[SEC9]
@@ -83,7 +83,7 @@ VERSION:       3.1
                  [X:1] [Y:2] [Z:3] [C:4] [B:5] [A:6] [ST:7] [SL:8] [J-E:9] [J-W:0]
 
 ===============================================================================
-[SEC6] MAGIC MIRRORS, OSK & SYSTEM
+[SEC6] MAGIC MIRRORS AND ON SCREEN KEYBOARD
 ===============================================================================
 
 * MIRRORS:       L3 + [Z:Home] [Y:Seadog] [X:Freeman] [C:Doomed] [B:Redhot] [A:Arena]
