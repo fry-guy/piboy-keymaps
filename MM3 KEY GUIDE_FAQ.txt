@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       2.7
+VERSION:       2.8
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -55,7 +55,7 @@ VERSION:       2.7
     - EQUIP:     Tap D-PAD RIGHT.
     - REMOVE:    Tap D-PAD LEFT.
 * TRANSFER:      While holding RT, click the recipient's button.
-                 *PRO TIP: Keep holding the button to jump directly into their 
+                 *PRO-TIP: Keep holding the button to jump directly into their 
                  inventory after the item transfers.*
 
 ===============================================================================
@@ -148,6 +148,7 @@ VERSION:       2.7
   Note: Game pauses while RA Menu is open.
 -------------------------------------------------------------------------------
 
+* OPEN MENU:     START + SELECT.
 * MOVE:          Hold START + D-PAD UP/DOWN.
 * ENTER:         Hold START + D-PAD RIGHT.
 * BACK:          Hold START + D-PAD LEFT.
