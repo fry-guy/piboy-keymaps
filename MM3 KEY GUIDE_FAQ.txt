@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       2.8
+VERSION:       2.9
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -16,8 +16,8 @@ VERSION:       2.8
     7.  Shops & Services...............................................[SEC7]
     8.  Character Creation & Inn.......................................[SEC8]
     9.  On-Screen Keyboard (OSK).......................................[SEC9]
-    10. Pro-Tips for Efficiency........................................[SEC10]
-    11. RetroArch Navigation...........................................[SEC11]
+    10. RetroArch Navigation...........................................[SEC10]
+    11. Pro-Tips for Efficiency........................................[SEC11]
     12. Scenario Walkthroughs..........................................[SEC12]
 
 ===============================================================================
@@ -135,15 +135,7 @@ VERSION:       2.8
 * EXIT:          Click L3 again or press B.
 
 ===============================================================================
-[SEC10] PRO-TIPS FOR EFFICIENCY
-===============================================================================
-
-* GEAR SHUFFLE:  Hold SELECT (Fast Mode) + LT/RT to scroll through party.
-                 Tap A to equip gear instantly without menu loops.
-* CONFIRMATION:  START is always "Yes." SELECT is always "No/Esc."
-
-===============================================================================
-[SEC11] RETROARCH NAVIGATION
+[SEC10] RETROARCH NAVIGATION
 -------------------------------------------------------------------------------
   Note: Game pauses while RA Menu is open.
 -------------------------------------------------------------------------------
@@ -152,6 +144,14 @@ VERSION:       2.8
 * MOVE:          Hold START + D-PAD UP/DOWN.
 * ENTER:         Hold START + D-PAD RIGHT.
 * BACK:          Hold START + D-PAD LEFT.
+
+===============================================================================
+[SEC11] PRO-TIPS FOR EFFICIENCY
+===============================================================================
+
+* GEAR SHUFFLE:  Hold SELECT (Fast Mode) + LT/RT to scroll through party.
+                 Tap A to equip gear instantly without menu loops.
+* CONFIRMATION:  START is always "Yes." SELECT is always "No/Esc."
 
 ===============================================================================
 [SEC12] SCENARIO WALKTHROUGHS
