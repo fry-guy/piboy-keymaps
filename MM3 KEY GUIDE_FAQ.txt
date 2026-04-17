@@ -2,19 +2,19 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       2.2 (2026 Revision - Inventory Logic Fix)
+VERSION:       2.5
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
 
     1.  Exploration & Overworld........................................[SEC1]
     2.  Combat & Quick Fight...........................................[SEC2]
-    3.  Quick Spells & Transport Macros................................[SEC3]
-    4.  Shops & Services (Spatial Mapping).............................[SEC4]
-    5.  Inventory & Party Management...................................[SEC5]
-    6.  Spell Menu & Elemental Shifts..................................[SEC6]
-    7.  Character Creation & Inn.......................................[SEC7]
-    8.  Magic Mirrors & System.........................................[SEC8]
+    3.  Inventory & Party Management...................................[SEC3]
+    4.  Spell Menu & Elemental Arrows..................................[SEC4]
+    5.  Quick Spells & Transport Macros................................[SEC5]
+    6.  Magic Mirrors & System.........................................[SEC6]
+    7.  Shops & Services (Spatial Mapping).............................[SEC7]
+    8.  Character Creation & Inn.......................................[SEC8]
     9.  On-Screen Keyboard (OSK).......................................[SEC9]
     10. Pro-Tips for Efficiency........................................[SEC10]
     11. RetroArch Navigation...........................................[SEC11]
@@ -42,7 +42,35 @@ VERSION:       2.2 (2026 Revision - Inventory Logic Fix)
 * MODIFIERS:     D-UP + A (Block) | D-DOWN + A (Retreat).
 
 ===============================================================================
-[SEC3] QUICK SPELLS & TRANSPORT MACROS
+[SEC3] INVENTORY & PARTY MANAGEMENT
+-------------------------------------------------------------------------------
+  Note: Cross-Logic Mapping (D-PAD) used while holding RT.
+-------------------------------------------------------------------------------
+
+* SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
+* OPEN BAG:      LT + Hold Character Button (or LT + L3).
+* IN-BAG (RT):   While holding RT, use D-PAD:
+    - USE ITEM:  Tap D-PAD UP    (Vertical = Action).
+    - DISCARD:   Tap D-PAD DOWN  (Vertical = Action).
+    - EQUIP:     Tap D-PAD RIGHT (Horizontal = Toggle).
+    - REMOVE:    Tap D-PAD LEFT  (Horizontal = Toggle).
+* TRANSFER:      While holding RT, click the recipient's button.
+                 *PRO: Hold the button to jump directly into their inventory.*
+
+===============================================================================
+[SEC4] SPELL MENU & ELEMENTAL ARROWS
+-------------------------------------------------------------------------------
+  Elemental logic follows N/E/S/W directions like the Inn menu.
+-------------------------------------------------------------------------------
+
+* OPEN MENU:     C (Click for Current / Hold for New).
+* SHIFT (C-HOLD):D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
+* WIZARD EYE:    B + Y (Quick Cast).
+* UTILITY MACRO: B + D-DOWN (Casts Wizard Eye, Levitate, Light, Walk on Water).
+* BUFF MACROS:   B + D-LEFT (Prot Elements) | B + D-UP (Exploration Buffs).
+
+===============================================================================
+[SEC5] QUICK SPELLS & TRANSPORT MACROS
 -------------------------------------------------------------------------------
   Input Logic: A + D-PAD
 -------------------------------------------------------------------------------
@@ -57,7 +85,15 @@ VERSION:       2.2 (2026 Revision - Inventory Logic Fix)
                  [X:1] [Y:2] [Z:3] [C:4] [B:5] [A:6] [ST:7] [SL:8] [J-E:9] [J-W:0]
 
 ===============================================================================
-[SEC4] SHOPS & SERVICES (SPATIAL MAPPING)
+[SEC6] MAGIC MIRRORS & SYSTEM
+===============================================================================
+
+* MIRRORS:       L3 + [Z:Home] [Y:Seadog] [X:Freeman] [C:Doomed] [B:Redhot] [A:Arena]
+                 *Use D-Pad for Elemental Planes.*
+* RA MENU:       Hold START + SELECT.
+
+===============================================================================
+[SEC7] SHOPS & SERVICES (SPATIAL MAPPING)
 -------------------------------------------------------------------------------
   Logic: Directions correspond to visual list order (1st, 2nd, 3rd Choice).
 -------------------------------------------------------------------------------
@@ -81,35 +117,7 @@ VERSION:       2.2 (2026 Revision - Inventory Logic Fix)
     - SELECT:    D-LEFT (Deposit) | D-RIGHT (Withdraw).
 
 ===============================================================================
-[SEC5] INVENTORY & PARTY MANAGEMENT
--------------------------------------------------------------------------------
-  Note: Inventory functions rely on RT as the primary modifier.
--------------------------------------------------------------------------------
-
-* SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
-* OPEN BAG:      LT + Hold Character Button (or LT + L3).
-* IN-BAG (RT):   While holding RT:
-    - USE ITEM:  Tap LT.
-    - DISCARD:   Tap SELECT.
-    - EQUIP:     Tap D-PAD RIGHT.
-    - REMOVE:    Tap D-PAD LEFT.
-* TRANSFER:      While holding RT, click the recipient's button.
-                 *PRO: Hold the button to jump directly into their inventory.*
-
-===============================================================================
-[SEC6] SPELL MENU & ELEMENTAL SHIFTS
--------------------------------------------------------------------------------
-  Elemental logic follows N/E/S/W directions like the Inn menu.
--------------------------------------------------------------------------------
-
-* OPEN MENU:     C (Click for Current / Hold for New).
-* SHIFT (C-HOLD):D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
-* WIZARD EYE:    B + Y (Quick Cast).
-* UTILITY MACRO: B + D-DOWN (Casts Wizard Eye, Levitate, Light, Walk on Water).
-* BUFF MACROS:   B + D-LEFT (Prot Elements) | B + D-UP (Exploration Buffs).
-
-===============================================================================
-[SEC7] CHARACTER CREATION & INN
+[SEC8] CHARACTER CREATION & INN
 ===============================================================================
 
 * NAVIGATE:      D-UP / D-DOWN.
@@ -117,14 +125,6 @@ VERSION:       2.2 (2026 Revision - Inventory Logic Fix)
 * REROLL STATS:  Hold SELECT and press X.
 * SAVE/CONFIRM:  Hold START (Enter).
 * EXIT/DISCARD:  Hold SELECT (Esc).
-
-===============================================================================
-[SEC8] MAGIC MIRRORS & SYSTEM
-===============================================================================
-
-* MIRRORS:       L3 + [Z:Home] [Y:Seadog] [X:Freeman] [C:Doomed] [B:Redhot] [A:Arena]
-                 *Use D-Pad for Elemental Planes.*
-* RA MENU:       Hold START + SELECT.
 
 ===============================================================================
 [SEC9] ON-SCREEN KEYBOARD (OSK)
@@ -158,10 +158,10 @@ VERSION:       2.2 (2026 Revision - Inventory Logic Fix)
 ===============================================================================
 
 [A] TRADING GEAR:
-    1. LT + Hold X (Bag 1 opens).
-    2. RT + Tap Y (Cursor on slot 2).
-    3. Hold RT + Tap B (Sends to Character 5). 
-    4. Keep holding B to jump to Character 5's bag to equip it.
+    1. LT + Hold X (Character 1's bag opens).
+    2. Use D-Pad to highlight the item.
+    3. Hold RT + Tap B (Sends item to Character 5). 
+    4. Keep holding B to jump directly into Character 5's bag to equip it.
 
 [B] HEALING:
     1. LT + Tap Z (Cleric).
@@ -177,4 +177,4 @@ VERSION:       2.2 (2026 Revision - Inventory Logic Fix)
 ===============================================================================
 (c) 2026 PIBOY SCRIPTING PROJECT. ALL RIGHTS RESERVED.
 ===============================================================================
-EOF
+EOF```
