@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       2.9
+VERSION:       3.0
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -94,7 +94,8 @@ VERSION:       2.9
 ===============================================================================
 [SEC7] SHOPS & SERVICES
 -------------------------------------------------------------------------------
-  Logic: Directions correspond to visual list order (1st, 2nd, 3rd Choice).
+  Logic: D-Pad directions follow the visual menu list order:
+  1st (Up/North) | 2nd (Right/East) | 3rd (Down/South) | 4th (Left/West)
 -------------------------------------------------------------------------------
 
 * BLACKSMITH / TEMPLE (Y): Hold Y + Direction.
