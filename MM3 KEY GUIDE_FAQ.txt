@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       3.0
+VERSION:       3.1
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -12,13 +12,12 @@ VERSION:       3.0
     3.  Inventory & Party Management...................................[SEC3]
     4.  Spell Menu & Elemental Arrows..................................[SEC4]
     5.  Quick Spells & Transport Macros................................[SEC5]
-    6.  Magic Mirrors & System.........................................[SEC6]
+    6.  Magic Mirrors, OSK & System....................................[SEC6]
     7.  Shops & Services...............................................[SEC7]
     8.  Character Creation & Inn.......................................[SEC8]
-    9.  On-Screen Keyboard (OSK).......................................[SEC9]
-    10. RetroArch Navigation...........................................[SEC10]
-    11. Pro-Tips for Efficiency........................................[SEC11]
-    12. Scenario Walkthroughs..........................................[SEC12]
+    9.  RetroArch Navigation...........................................[SEC9]
+    10. Pro-Tips for Efficiency........................................[SEC10]
+    11. Scenario Walkthroughs..........................................[SEC11]
 
 ===============================================================================
 [SEC1] EXPLORATION & OVERWORLD
@@ -84,12 +83,16 @@ VERSION:       3.0
                  [X:1] [Y:2] [Z:3] [C:4] [B:5] [A:6] [ST:7] [SL:8] [J-E:9] [J-W:0]
 
 ===============================================================================
-[SEC6] MAGIC MIRRORS & SYSTEM
+[SEC6] MAGIC MIRRORS, OSK & SYSTEM
 ===============================================================================
 
 * MIRRORS:       L3 + [Z:Home] [Y:Seadog] [X:Freeman] [C:Doomed] [B:Redhot] [A:Arena]
                  *Use D-Pad for Elemental Planes.*
-* RA MENU:       Hold START + SELECT.
+
+* KEYBOARD (OSK):Click Left Joystick (L3) to Activate.
+    - TYPING:    D-Pad (Move) | A (Select) | X (Backspace).
+    - MODIFIERS: Y (Space) | START (Enter).
+    - EXIT:      Click L3 again or press B.
 
 ===============================================================================
 [SEC7] SHOPS & SERVICES
@@ -127,16 +130,7 @@ VERSION:       3.0
 * EXIT/DISCARD:  Hold SELECT (Esc).
 
 ===============================================================================
-[SEC9] ON-SCREEN KEYBOARD (OSK)
-===============================================================================
-
-* ACTIVATE:      Click Left Joystick (L3).
-* TYPING:        D-Pad (Move) | A (Select) | X (Backspace).
-* MODIFIERS:     Y (Space) | START (Enter).
-* EXIT:          Click L3 again or press B.
-
-===============================================================================
-[SEC10] RETROARCH NAVIGATION
+[SEC9] RETROARCH NAVIGATION
 -------------------------------------------------------------------------------
   Note: Game pauses while RA Menu is open.
 -------------------------------------------------------------------------------
@@ -147,7 +141,7 @@ VERSION:       3.0
 * BACK:          Hold START + D-PAD LEFT.
 
 ===============================================================================
-[SEC11] PRO-TIPS FOR EFFICIENCY
+[SEC10] PRO-TIPS FOR EFFICIENCY
 ===============================================================================
 
 * GEAR SHUFFLE:  Hold SELECT (Fast Mode) + LT/RT to scroll through party.
@@ -155,7 +149,7 @@ VERSION:       3.0
 * CONFIRMATION:  START is always "Yes." SELECT is always "No/Esc."
 
 ===============================================================================
-[SEC12] SCENARIO WALKTHROUGHS
+[SEC11] SCENARIO WALKTHROUGHS
 ===============================================================================
 
 [A] TRADING GEAR:
@@ -178,4 +172,4 @@ VERSION:       3.0
 ===============================================================================
 (c) 2026 PIBOY SCRIPTING PROJECT. ALL RIGHTS RESERVED.
 ===============================================================================
-EOF
+EOF```
