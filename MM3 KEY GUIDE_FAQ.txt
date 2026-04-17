@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       2.1 (2026 Revision)
+VERSION:       2.2 (2026 Revision - Inventory Logic Fix)
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -82,11 +82,17 @@ VERSION:       2.1 (2026 Revision)
 
 ===============================================================================
 [SEC5] INVENTORY & PARTY MANAGEMENT
-===============================================================================
+-------------------------------------------------------------------------------
+  Note: Inventory functions rely on RT as the primary modifier.
+-------------------------------------------------------------------------------
 
 * SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
 * OPEN BAG:      LT + Hold Character Button (or LT + L3).
-* IN-BAG (RT):   LT (Equip/Use) | RT (Remove/Discard).
+* IN-BAG (RT):   While holding RT:
+    - USE ITEM:  Tap LT.
+    - DISCARD:   Tap SELECT.
+    - EQUIP:     Tap D-PAD RIGHT.
+    - REMOVE:    Tap D-PAD LEFT.
 * TRANSFER:      While holding RT, click the recipient's button.
                  *PRO: Hold the button to jump directly into their inventory.*
 
@@ -171,4 +177,4 @@ VERSION:       2.1 (2026 Revision)
 ===============================================================================
 (c) 2026 PIBOY SCRIPTING PROJECT. ALL RIGHTS RESERVED.
 ===============================================================================
-EOF```
+EOF
