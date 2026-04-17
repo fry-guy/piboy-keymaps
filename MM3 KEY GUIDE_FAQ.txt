@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       2.5
+VERSION:       2.6
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -13,7 +13,7 @@ VERSION:       2.5
     4.  Spell Menu & Elemental Arrows..................................[SEC4]
     5.  Quick Spells & Transport Macros................................[SEC5]
     6.  Magic Mirrors & System.........................................[SEC6]
-    7.  Shops & Services ..............................................[SEC7]
+    7.  Shops & Services...............................................[SEC7]
     8.  Character Creation & Inn.......................................[SEC8]
     9.  On-Screen Keyboard (OSK).......................................[SEC9]
     10. Pro-Tips for Efficiency........................................[SEC10]
@@ -43,15 +43,17 @@ VERSION:       2.5
 
 ===============================================================================
 [SEC3] INVENTORY & PARTY MANAGEMENT
-===============================================================================
+-------------------------------------------------------------------------------
+  Note: D-PAD Cross-Logic is active while holding RT.
+-------------------------------------------------------------------------------
 
 * SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
 * OPEN BAG:      LT + Hold Character Button (or LT + L3).
 * IN-BAG (RT):   While holding RT, use D-PAD:
-    - USE ITEM:  Tap D-PAD UP    (Vertical = Action).
-    - DISCARD:   Tap D-PAD DOWN  (Vertical = Action).
-    - EQUIP:     Tap D-PAD RIGHT (Horizontal = Toggle).
-    - REMOVE:    Tap D-PAD LEFT  (Horizontal = Toggle).
+    - USE ITEM:  Tap D-PAD UP.
+    - DISCARD:   Tap D-PAD DOWN.
+    - EQUIP:     Tap D-PAD RIGHT.
+    - REMOVE:    Tap D-PAD LEFT.
 * TRANSFER:      While holding RT, click the recipient's button.
                  *PRO: Hold the button to jump directly into their inventory.*
 
@@ -89,7 +91,7 @@ VERSION:       2.5
 * RA MENU:       Hold START + SELECT.
 
 ===============================================================================
-[SEC7] SHOPS & SERVICES (SPATIAL MAPPING)
+[SEC7] SHOPS & SERVICES
 -------------------------------------------------------------------------------
   Logic: Directions correspond to visual list order (1st, 2nd, 3rd Choice).
 -------------------------------------------------------------------------------
@@ -173,4 +175,4 @@ VERSION:       2.5
 ===============================================================================
 (c) 2026 PIBOY SCRIPTING PROJECT. ALL RIGHTS RESERVED.
 ===============================================================================
-EOF```
+EOF
