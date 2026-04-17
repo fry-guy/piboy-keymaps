@@ -109,7 +109,7 @@ VIII. MAGIC MIRRORS & SYSTEM
 
 IX.  ON-SCREEN KEYBOARD (FOR NAMES & MIRRORS)
 -------------------------------------------------------------------------------
-Since MM3 requires typing for custom names and Mirror destinations, use the 
+Since MM3 requires typing for some custom names and Mirror destinations, you can also use the 
 DOSBox Pure built-in keyboard:
 * ACTIVATE: Click Left Joystick (L3). 
 * TYPING: D-Pad to move, A to select, X to Backspace.
