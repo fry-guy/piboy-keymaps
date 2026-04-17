@@ -39,17 +39,30 @@ III. QUICK SPELLS & TRANSPORT BOX (MACROS)
 
 IV.  SHOPS & SERVICES (SPATIAL MAPPING)
 -------------------------------------------------------------------------------
-Logic: Button directions correspond to the menu's visual layout (Top/Right/Bottom).
+Logic: Button directions correspond to the menu's visual list order. This 
+pattern is consistent across all main and nested shop menus.
 
 * BLACKSMITH / TEMPLE / TRAINING (Y): Hold Y + Direction.
-    - D-UP (Top Option): Buy / Heal / Train.
-    - D-RIGHT (Middle Option): Armor / Donate / (N/A).
-    - D-DOWN (Bottom Option): Sell / Uncurse / (N/A).
+    - D-UP (1st Choice): Buy / Heal / Train.
+    - D-RIGHT (2nd Choice): Armor / Donate / (N/A).
+    - D-DOWN (3rd Choice): Sell / Uncurse / (N/A).
+    
+    * NESTED BUY MENU (Y + Direction):
+        - D-UP (1st): Weapons.
+        - D-RIGHT (2nd): Armor.
+        - D-DOWN (3rd): Misc.
+    
+    * NESTED SELL MENU (Y + Direction):
+        - D-UP (1st): Sell.
+        - D-RIGHT (2nd): Repair.
+        - D-DOWN (3rd): Identify.
+
 * TAVERN / GUILD (Z): Hold Z + Direction.
-    - D-UP (Top): Drink / Info.
-    - D-RIGHT (Middle): Food / Buy Spells.
-    - D-DOWN (Bottom): Tip / Spell Info.
-    - D-LEFT: Rumor.
+    - D-UP (1st Choice): Drink / Info.
+    - D-RIGHT (2nd Choice): Food / Buy Spells.
+    - D-DOWN (3rd Choice): Tip / Spell Info.
+    - D-LEFT (4th Choice): Rumor.
+
 * BANK (X): Hold X + Direction.
     - D-UP: Gold / D-DOWN: Gems.
     - Once selected: D-LEFT (Deposit) / D-RIGHT (Withdraw).
@@ -138,11 +151,11 @@ SCENARIO C: CONFIGURING QUICK FIGHT AND ATTACKING
    "Quick Fight" routine you just configured.
 
 SCENARIO D: BUYING AND SELLING ARMOR AT THE BLACKSMITH
-1. Walk into the Blacksmith. To buy (top option), hold D-UP and tap Y.
-2. Inside the Buy menu, hold D-RIGHT (middle option) and tap Y for Armor.
+1. Walk into the Blacksmith. To buy (1st choice), hold D-UP and tap Y.
+2. Inside the Buy menu, hold D-RIGHT (2nd choice) and tap Y for Armor.
 3. Use the D-Pad to highlight the armor you want. Hold START to purchase.
-4. Exit the buy menu. To sell (bottom option), hold D-DOWN and tap Y.
-5. In the Sell menu, hold D-UP (top option) to select Sell.
+4. Exit the buy menu. To sell (3rd choice), hold D-DOWN and tap Y.
+5. In the Sell menu, hold D-UP (1st choice) to select Sell.
 6. Highlight your old gear and hold Y to confirm "Yes" when prompted.
 
 *******************************************************************************
