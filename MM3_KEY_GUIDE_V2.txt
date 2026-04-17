@@ -82,8 +82,12 @@ V.   INVENTORY & PARTY MANAGEMENT
 VI.  SPELL MENU & ELEMENTS
 -------------------------------------------------------------------------------
 * SPELL MENU: C (Click: Current / Hold: New).
-* ELEMENTAL SHIFT: C (HOLD) + D-PAD (Up: Fire, Right: Elec, Down: Cold, 
-  Left: Acid).
+* ELEMENTAL SHIFT: C (HOLD) + D-PAD. This follows the North/East/South/West 
+  logic used in the Inn menus:
+    - D-UP (1st): Fire.
+    - D-RIGHT (2nd): Electricity.
+    - D-DOWN (3rd): Cold.
+    - D-LEFT (4th): Acid.
 * UTILITY MACROS: B + D-LEFT (Protect Elements) | B + D-UP (Exploration Spells).
 
 
