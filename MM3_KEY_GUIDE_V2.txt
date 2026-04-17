@@ -107,7 +107,17 @@ VIII. MAGIC MIRRORS & SYSTEM
 * RETROARCH MENU TOGGLE: Hold START + SELECT.
 
 
-IX.  PRO-TIPS FOR MAXIMUM EFFICIENCY
+IX.  ON-SCREEN KEYBOARD (FOR NAMES & MIRRORS)
+-------------------------------------------------------------------------------
+Since MM3 requires typing for custom names and Mirror destinations, use the 
+DOSBox Pure built-in keyboard:
+* ACTIVATE: Click Left Joystick (L3). 
+* TYPING: D-Pad to move, A to select, X to Backspace.
+* SPECIAL KEYS: Y (Space), START (Enter).
+* CLOSE: Click L3 again or press B.
+
+
+X.   PRO-TIPS FOR MAXIMUM EFFICIENCY
 -------------------------------------------------------------------------------
 * THE GEAR SHUFFLE: Hold SELECT (Fast Inventory Mode) to flip through party 
   members via LT/RT and toggle gear with A—no menu-looping required.
@@ -118,7 +128,7 @@ IX.  PRO-TIPS FOR MAXIMUM EFFICIENCY
   "No/Esc." This works for shops, resting, and character deletion.
 
 
-X.   NAVIGATING RETROARCH MENUS
+XI.  NAVIGATING RETROARCH MENUS
 -------------------------------------------------------------------------------
 When the RetroArch menu is open, the game is paused. To navigate the system 
 menus, you must CONTINUE HOLDING THE START BUTTON:
@@ -128,7 +138,7 @@ menus, you must CONTINUE HOLDING THE START BUTTON:
 * EXIT MENU: Hold START + SELECT to return to the game.
 
 
-XI.  SAMPLE WALKTHROUGH SCENARIOS
+XII. SAMPLE WALKTHROUGH SCENARIOS
 -------------------------------------------------------------------------------
 SCENARIO A: TRADING GEAR BETWEEN CHARACTERS
 1. Hold LT and hold down the button for Character 1 (X) until their 
