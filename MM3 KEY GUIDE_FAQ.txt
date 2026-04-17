@@ -1,0 +1,196 @@
+_________________________________________________________________________
+    /                                                                         \
+   |    _________________________________________________________________      |
+   |   |                                                                 |     |
+   |   |   __  __ _       _     _     ___     __  __                       |     |
+   |   |  |  \/  (_) __ _| |__ | |_  ( _ )   |  \/  | __ _  __ _ _  ___    |     |
+   |   |  | |\/| | |/ _` | '_ \| __| / _ \   | |\/| |/ _` |/ _` | |/ _ \   |     |
+   |   |  | |  | | | (_| | | | | |_ | (_) |  | |  | | (_| | (_| | |  __/   |     |
+   |   |  |_|  |_|_|\__, |_| |_|\__| \___/   |_|  |_|\__,_|\__, |_|\___|   |     |
+   |   |            |___/        _____  ___  ___           |___/           |     |
+   |   |                        |_   _||_  ||_  |                          |     |
+   |   |                          | |    | |   | |                         |     |
+   |   |                          | |    | |   | |                         |     |
+   |   |                         _| |_  _| |_ _| |_                        |     |
+   |   |                        |_____||_____|_____|                       |     |
+   |   |                                                                   |     |
+   |   |                    --- PIBOY DMG SCRIPT GUIDE ---                 |     |
+   |   |___________________________________________________________________|     |
+   |                                                                             |
+   |      (O)  (O)                                           [ START ] [ SELECT ]|
+    \___________________________________________________________________________/
+
+===============================================================================
+SYSTEM:        Retropie / PiBoy DMG
+GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
+AUTHOR:        Gemini / Fry-Guy
+VERSION:       2.1 (2026 Revision)
+===============================================================================
+
+[ TABLE OF CONTENTS ]
+
+    1.  Exploration & Overworld........................................[SEC1]
+    2.  Combat & Quick Fight...........................................[SEC2]
+    3.  Quick Spells & Transport Macros................................[SEC3]
+    4.  Shops & Services (Spatial Mapping).............................[SEC4]
+    5.  Inventory & Party Management...................................[SEC5]
+    6.  Spell Menu & Elemental Shifts..................................[SEC6]
+    7.  Character Creation & Inn.......................................[SEC7]
+    8.  Magic Mirrors & System.........................................[SEC8]
+    9.  On-Screen Keyboard (OSK).......................................[SEC9]
+    10. Pro-Tips for Efficiency........................................[SEC10]
+    11. RetroArch Navigation...........................................[SEC11]
+    12. Scenario Walkthroughs..........................................[SEC12]
+
+===============================================================================
+[SEC1] EXPLORATION & OVERWORLD
+===============================================================================
+
+* MOVE:          D-Pad (or LT + Joystick). 
+* SIDESTEP:      LT + RT + Joystick.
+* INTERACT:      RT (Maps to SPACE).
+* MOUSE MODE:    Left Joystick. Hold X for Left Click.
+* UTILITY MACRO: B + D-DOWN. (Casts Wizard Eye, Levitate, Light, Walk on Water).
+* QUICK CAST:    B + Y (Wizard Eye).
+* SHOOT/BASH:    LT + D-UP. (Click to Shoot / Hold to Bash).
+* REST/DISMISS:  LT + D-DOWN. (Click to Rest / Hold to Dismiss).
+
+===============================================================================
+[SEC2] COMBAT & QUICK FIGHT
+===============================================================================
+
+* STANDARD:      A (Attack), B (Quick Fight), C (Cast).
+* QUICK FIGHT:   Executes a pre-set action (Attack/Block/Cast/Retreat).
+    - CYCLE:     Hold B + D-RIGHT to rotate stances.
+    - LOCK/SET:  Hold B + D-DOWN or press START.
+* MODIFIERS:     D-UP + A (Block) | D-DOWN + A (Retreat).
+
+===============================================================================
+[SEC3] QUICK SPELLS & TRANSPORT MACROS
+-------------------------------------------------------------------------------
+  Input Logic: A + D-PAD
+-------------------------------------------------------------------------------
+* D-LEFT:        Transport Box.
+* D-UP:          Teleport.
+* D-DOWN:        Town Portal.
+* D-RIGHT:       Lloyd's Beacon (Cast).
+    - SET:       When prompted, hold D-LEFT.
+    - RETURN:    When prompted, hold D-RIGHT.
+
+* ENTER NUMS:    Hold RT and use:
+                 [X:1] [Y:2] [Z:3] [C:4] [B:5] [A:6] [ST:7] [SL:8] [J-E:9] [J-W:0]
+
+===============================================================================
+[SEC4] SHOPS & SERVICES (SPATIAL MAPPING)
+-------------------------------------------------------------------------------
+  Logic: Directions correspond to visual list order (1st, 2nd, 3rd Choice).
+-------------------------------------------------------------------------------
+
+* BLACKSMITH / TEMPLE (Y): Hold Y + Direction.
+    - D-UP:      Buy / Heal / Train (1st).
+    - D-RIGHT:   Armor / Donate (2nd).
+    - D-DOWN:    Sell / Uncurse (3rd).
+
+    * NESTED BUY MENU:  D-UP: Weapons | D-RIGHT: Armor | D-DOWN: Misc.
+    * NESTED SELL MENU: D-UP: Sell | D-RIGHT: Repair | D-DOWN: Identify.
+
+* TAVERN / GUILD (Z): Hold Z + Direction.
+    - D-UP:      Drink / Info (1st).
+    - D-RIGHT:   Food / Buy Spells (2nd).
+    - D-DOWN:    Tip / Spell Info (3rd).
+    - D-LEFT:    Rumor (4th).
+
+* BANK (X): Hold X + Direction.
+    - D-UP/DN:   Gold / Gems.
+    - SELECT:    D-LEFT (Deposit) | D-RIGHT (Withdraw).
+
+===============================================================================
+[SEC5] INVENTORY & PARTY MANAGEMENT
+===============================================================================
+
+* SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
+* OPEN BAG:      LT + Hold Character Button (or LT + L3).
+* IN-BAG (RT):   LT (Equip/Use) | RT (Remove/Discard).
+* TRANSFER:      While holding RT, click the recipient's button.
+                 *PRO: Hold the button to jump directly into their inventory.*
+
+===============================================================================
+[SEC6] SPELL MENU & ELEMENTAL SHIFTS
+-------------------------------------------------------------------------------
+  Elemental logic follows N/E/S/W directions like the Inn menu.
+-------------------------------------------------------------------------------
+
+* OPEN MENU:     C (Click for Current / Hold for New).
+* SHIFT (C-HOLD):D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
+* MACROS:        B + D-LEFT (Prot Elements) | B + D-UP (Exploration Buffs).
+
+===============================================================================
+[SEC7] CHARACTER CREATION & INN
+===============================================================================
+
+* NAVIGATE:      D-UP / D-DOWN.
+* CYCLE OPTIONS: Hold SELECT and tap LT or RT.
+* REROLL STATS:  Hold SELECT and press X.
+* SAVE/CONFIRM:  Hold START (Enter).
+* EXIT/DISCARD:  Hold SELECT (Esc).
+
+===============================================================================
+[SEC8] MAGIC MIRRORS & SYSTEM
+===============================================================================
+
+* MIRRORS:       L3 + [Z:Home] [Y:Seadog] [X:Freeman] [C:Doomed] [B:Redhot] [A:Arena]
+                 *Use D-Pad for Elemental Planes.*
+* RA MENU:       Hold START + SELECT.
+
+===============================================================================
+[SEC9] ON-SCREEN KEYBOARD (OSK)
+===============================================================================
+
+* ACTIVATE:      Click Left Joystick (L3).
+* TYPING:        D-Pad (Move) | A (Select) | X (Backspace).
+* MODIFIERS:     Y (Space) | START (Enter).
+* EXIT:          Click L3 again or press B.
+
+===============================================================================
+[SEC10] PRO-TIPS FOR EFFICIENCY
+===============================================================================
+
+* GEAR SHUFFLE:  Hold SELECT (Fast Mode) + LT/RT to scroll through party.
+                 Tap A to equip gear instantly without menu loops.
+* CONFIRMATION:  START is always "Yes." SELECT is always "No/Esc."
+
+===============================================================================
+[SEC11] RETROARCH NAVIGATION
+-------------------------------------------------------------------------------
+  Note: Game pauses while RA Menu is open.
+-------------------------------------------------------------------------------
+
+* MOVE:          Hold START + D-PAD UP/DOWN.
+* ENTER:         Hold START + D-PAD RIGHT.
+* BACK:          Hold START + D-PAD LEFT.
+
+===============================================================================
+[SEC12] SCENARIO WALKTHROUGHS
+===============================================================================
+
+[A] TRADING GEAR:
+    1. LT + Hold X (Bag 1 opens).
+    2. RT + Tap Y (Cursor on slot 2).
+    3. Hold RT + Tap B (Sends to Character 5). 
+    4. Keep holding B to jump to Character 5's bag to equip it.
+
+[B] HEALING:
+    1. LT + Tap Z (Cleric).
+    2. Tap C (Spells) -> Highlight "Heal" -> START.
+    3. LT + Tap X (Target Char 1).
+
+[C] BLACKSMITH BUY/SELL:
+    1. Y + D-UP (Enter Buy).
+    2. Y + D-RIGHT (Select Armor) -> START to buy.
+    3. Exit -> Y + D-DOWN (Enter Sell).
+    4. Y + D-UP (Choose Sell) -> Hold Y (Confirm Yes).
+
+===============================================================================
+(c) 2026 PIBOY SCRIPTING PROJECT. ALL RIGHTS RESERVED.
+===============================================================================
+EOF
