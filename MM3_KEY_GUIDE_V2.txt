@@ -1,0 +1,145 @@
+*******************************************************************************
+                     MIGHT AND MAGIC III: PIBOY DMG GUIDE
+*******************************************************************************
+
+I.   EXPLORATION & OVERWORLD
+-------------------------------------------------------------------------------
+* MOVE: D-Pad (or LT + Joystick). LT + RT + Joystick to Sidestep.
+* INTERACT / SPACE: RT.
+* MOUSE MODE: Left Joystick. X (Hold) = Left Click.
+* OVERWORLD UTILITY MACRO: B + D-DOWN. (Casts Wizard Eye, Levitate, Light, 
+  and Walk on Water).
+* QUICK CAST Wizard Eye: B + Y.
+* SHOOT / BASH: LT + D-UP (Click: Shoot / Hold: Bash).
+* REST / DISMISS: LT + D-DOWN (Click: Rest / Hold: Dismiss).
+
+
+II.  COMBAT & QUICK FIGHT
+-------------------------------------------------------------------------------
+* STANDARD ACTIONS: A (Attack), B (Quick Fight), C (Cast).
+* UNDERSTANDING QUICK FIGHT: Quick Fight executes a pre-set action (Attack, 
+  Block, Cast, or Retreat) for the whole party.
+    - To Cycle Options: Hold B + D-RIGHT to rotate options (N key).
+    - To Set/Confirm: Hold B + D-DOWN (or click START) lock selection.
+* COMBAT MODIFIERS: D-UP + A (Block) | D-DOWN + A (Retreat).
+
+
+III. QUICK SPELLS & TRANSPORT BOX (MACROS)
+-------------------------------------------------------------------------------
+* TRANSPORT BOX: A + D-LEFT.
+* TELEPORT: A + D-UP.
+* TOWN PORTAL: A + D-DOWN.
+* LLOYD'S BEACON (CAST): A + D-RIGHT.
+    - LLOYD'S BEACON NOTE: When prompted after casting, press and hold 
+      D-RIGHT for a few seconds to Return (R) or D-LEFT for a few seconds 
+      to Set (S).
+    - ENTERING NUMBERS: For the Box or Teleport prompts, hold RT and use: 
+      X=1, Y=2, Z=3, C=4, B=5, A=6, START=7, SELECT=8, J-EAST=9, J-WEST=0.
+
+
+IV.  SHOPS & SERVICES (HOLD DPAD + BUTTON)
+-------------------------------------------------------------------------------
+* BLACKSMITH / TEMPLE / TRAINING (Y): D-UP (Buy/Heal/Train), 
+  D-RIGHT (Armor/Donate), D-DOWN (Sell/Uncurse).
+    - Inside Buy Menu (Y + D-Pad): D-UP (Weapon), D-RIGHT (Armor), D-DOWN (Misc).
+    - Inside Sell Menu (Y + D-Pad): D-UP (Sell), D-RIGHT (Fix), D-DOWN (Identify).
+      Hold Y to confirm "Yes."
+* TAVERN / GUILD (Z): D-UP (Drink/Info), D-RIGHT (Food/Buy Spells), 
+  D-DOWN (Tip/Spell Info), D-LEFT (Rumor).
+* BANK (X): D-UP (Gold), D-DOWN (Gems) -> D-LEFT (Deposit), D-RIGHT (Withdraw). 
+  Use RT + Numbers to enter amounts.
+
+
+V.   INVENTORY & PARTY MANAGEMENT
+-------------------------------------------------------------------------------
+* SELECT CHARACTER: LT + Face Button (X, Y, Z / C, B, A / START, SELECT).
+* OPEN INVENTORY: LT + Hold Character Button (or LT + L3).
+* IN INVENTORY (RT HELD):
+    - SELECT ITEM (1-0): Face buttons/Joystick.
+    - EQUIP / REMOVE: LT (Equip) / RT (Remove).
+    - USE / DISCARD: LT (Hold: Use) / RT (Hold: Discard).
+    - TRANSFER ITEM: Click target Character's button while holding RT.
+
+
+VI.  SPELL MENU & ELEMENTS
+-------------------------------------------------------------------------------
+* SPELL MENU: C (Click: Current / Hold: New).
+* ELEMENTAL SHIFT: C (HOLD) + D-PAD (Up: Fire, Right: Elec, Down: Cold, 
+  Left: Acid).
+* UTILITY MACROS: B + D-LEFT (Protect Elements) | B + D-UP (Exploration Spells).
+
+
+VII. CHARACTER CREATION & INN
+-------------------------------------------------------------------------------
+* NAVIGATE LISTS: D-UP / D-DOWN.
+* CYCLE OPTIONS (RACE/CLASS/ALIGN): Hold SELECT and tap LT or RT.
+* REROLL STATS: Hold SELECT and press X (U key).
+* CONFIRM / SAVE NAME: Hold START (ENTER).
+* DISCARD / EXIT: Hold SELECT (ESC).
+
+
+VIII. MAGIC MIRRORS & SYSTEM
+-------------------------------------------------------------------------------
+* MAGIC MIRRORS (L3 + BUTTON): Z (Home), Y (Seadog), X (Freeman), C (Doomed), 
+  B (Redhot), A (Arena). D-PAD for Elemental Planes.
+* RETROARCH MENU TOGGLE: Hold START + SELECT.
+
+
+IX.  PRO-TIPS FOR MAXIMUM EFFICIENCY
+-------------------------------------------------------------------------------
+* THE GEAR SHUFFLE: Hold SELECT (Fast Inventory Mode) to flip through party 
+  members via LT/RT and toggle gear with A—no menu-looping required.
+* INSTANT INVENTORY JUMP: If you transfer an item via RT, keep holding that 
+  character's button. The script will jump directly into their backpack so 
+  you can equip it immediately.
+* QUICK CONFIRMATION: START is your universal "Yes," while SELECT is your 
+  "No/Esc." This works for shops, resting, and character deletion.
+
+
+X.   NAVIGATING RETROARCH MENUS
+-------------------------------------------------------------------------------
+When the RetroArch menu is open, the game is paused. To navigate the system 
+menus, you must CONTINUE HOLDING THE START BUTTON:
+* MOVE SELECTION: Hold START + D-PAD UP or DOWN.
+* CONFIRM / ENTER: Hold START + D-PAD RIGHT.
+* BACK / ESCAPE: Hold START + D-PAD LEFT.
+* EXIT MENU: Hold START + SELECT to return to the game.
+
+
+XI.  SAMPLE WALKTHROUGH SCENARIOS
+-------------------------------------------------------------------------------
+SCENARIO A: TRADING GEAR BETWEEN CHARACTERS
+1. Hold LT and hold down the button for Character 1 (X) until their 
+   inventory opens. 
+2. Hold RT + tap the face button corresponding to the item (e.g., tap Y for 
+   slot 2). The cursor will lock onto that item.
+3. While still holding RT, tap the face button for the recipient character 
+   (e.g., tap B for Character 5).
+4. The item is transferred. Continue holding B to jump directly into 
+   Character 5's inventory to equip it.
+
+SCENARIO B: CASTING HEAL ON A PARTY MEMBER
+1. Hold LT + tap the button for your Cleric (e.g., Character 3 = tap Z).
+2. Tap C to open the Cleric's current spell menu.
+3. Use the D-Pad to highlight "Heal" and hold START to select it.
+4. When the game asks "On Who?", hold LT and tap the button of the injured 
+   party member (e.g., Character 1 = tap X).
+
+SCENARIO C: CONFIGURING QUICK FIGHT AND ATTACKING
+1. Spot an enemy. Hold B and tap D-RIGHT to cycle through party combat 
+   stances (Attack, Cast, etc.). Watch the indicator change.
+2. Once the desired stance is shown, hold B and tap D-DOWN to "set" it.
+3. To engage, tap A for a standard party attack, or tap B to execute the 
+   "Quick Fight" routine you just configured.
+
+SCENARIO D: BUYING AND SELLING ARMOR AT THE BLACKSMITH
+1. Walk into the Blacksmith. To buy, hold D-UP and tap Y.
+2. Inside the Buy menu, hold D-RIGHT and tap Y to filter for Armor.
+3. Use the D-Pad to highlight the armor you want. Hold START to purchase.
+4. Exit the buy menu. To sell your old gear, hold D-DOWN and tap Y.
+5. In the Sell menu, hold D-UP and tap Y. Use the D-Pad to highlight your 
+   old armor piece.
+6. Hold Y to confirm "Yes" when prompted to complete the sale.
+
+*******************************************************************************
+EOF
