@@ -13,7 +13,7 @@ VERSION:       2.5
     4.  Spell Menu & Elemental Arrows..................................[SEC4]
     5.  Quick Spells & Transport Macros................................[SEC5]
     6.  Magic Mirrors & System.........................................[SEC6]
-    7.  Shops & Services (Spatial Mapping).............................[SEC7]
+    7.  Shops & Services ..............................................[SEC7]
     8.  Character Creation & Inn.......................................[SEC8]
     9.  On-Screen Keyboard (OSK).......................................[SEC9]
     10. Pro-Tips for Efficiency........................................[SEC10]
