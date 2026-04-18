@@ -107,7 +107,7 @@ VERSION:       5.1
 [SEC6] MAGIC MIRRORS AND ON SCREEN KEYBOARD
 ===============================================================================
 
-* MIRRORS:       L3 + [Z:HOME] [Y:SEADOG] [X:FREEMAN] [C:DOOMED] [B:REDHOT] [A:ARENA]
+* MIRRORS: L3 + [Z:HOME] [Y:SEADOG] [X:FREEMAN] [C:DOOMED] [B:REDHOT] [A:ARENA]
 
 * TOWN KEY (MIRROR DESTINATIONS):
     - [Z] HOME:       Fountain Head
