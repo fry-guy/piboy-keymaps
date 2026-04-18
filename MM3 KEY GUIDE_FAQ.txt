@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       4.1
+VERSION:       4.2 (The Complete Reference)
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -94,13 +94,21 @@ VERSION:       4.1
 [SEC6] MAGIC MIRRORS AND ON SCREEN KEYBOARD
 ===============================================================================
 
-* MIRRORS:       L3 + [Z:Home] [Y:Seadog] [X:Freeman] [C:Doomed] [B:Redhot] [A:Arena]
+* MIRRORS:       L3 + [Z:HOME] [Y:SEADOG] [X:FREEMAN] [C:DOOMED] [B:REDHOT] [A:ARENA]
+
+* TOWN KEY (MIRROR DESTINATIONS):
+    - [Z] HOME:       Fountain Head
+    - [Y] SEADOG:     Baywatch
+    - [X] FREEMAN:    Wildabar
+    - [C] DOOMED:     Swamptown
+    - [B] REDHOT:     Blistering Heights
+    - [A] ARENA:      The Arena
 
 * ELEMENTAL PLANES (L3 + D-PAD Macros):
-    - D-UP:      Plane of Fire
-    - D-RIGHT:   Plane of Electricity
-    - D-DOWN:    Plane of Cold
-    - D-LEFT:    Plane of Acid
+    - D-UP:      FIRE (Plane of Fire)
+    - D-RIGHT:   AIR (Plane of Electricity)
+    - D-DOWN:    WATER (Plane of Cold)
+    - D-LEFT:    EARTH (Plane of Acid)
 
 * KEYBOARD (OSK):Click Left Joystick (L3) to Activate.
     - TYPING:    D-Pad (Move) | A (Select) | X (Backspace).
