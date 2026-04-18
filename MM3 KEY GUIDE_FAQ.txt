@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       3.2
+VERSION:       3.6
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -10,7 +10,7 @@ VERSION:       3.2
     1.  Exploration & Overworld........................................[SEC1]
     2.  Combat & Quick Fight...........................................[SEC2]
     3.  Inventory & Party Management...................................[SEC3]
-    4.  Spell Menu & Elemental Arrows..................................[SEC4]
+    4.  Spell Menu & Elemental Spells..................................[SEC4]
     5.  Quick Spells & Transport Macros................................[SEC5]
     6.  Magic Mirrors and On Screen Keyboard...........................[SEC6]
     7.  Shops & Services...............................................[SEC7]
@@ -42,27 +42,32 @@ VERSION:       3.2
 
 ===============================================================================
 [SEC3] INVENTORY & PARTY MANAGEMENT
--------------------------------------------------------------------------------
-  Note: D-PAD Cross-Logic is active while holding RT.
--------------------------------------------------------------------------------
+===============================================================================
 
 * SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
 * OPEN BAG:      LT + Hold Character Button (or LT + L3).
 * IN-BAG (RT):   While holding RT, use D-PAD:
+    - NAVIGATE:  D-UP / D-DOWN (Single Item).
+    - PAGE UP:   Joystick UP (Moves cursor beyond visible screen).
+    - PAGE DOWN: Joystick DOWN (Moves cursor beyond visible screen).
     - USE ITEM:  Tap D-PAD UP.
     - DISCARD:   Tap D-PAD DOWN.
     - EQUIP:     Tap D-PAD RIGHT.
     - REMOVE:    Tap D-PAD LEFT.
+* SWITCH PAGE:   Hold SELECT + Tap Z (Page Up) / Tap C (Page Down).
 * TRANSFER:      While holding RT, click the recipient's button.
                  *PRO-TIP: Keep holding the button to jump directly into their 
                  inventory after the item transfers.*
 
 ===============================================================================
-[SEC4] SPELL MENU & ELEMENTAL ARROWS
+[SEC4] SPELL MENU & ELEMENTAL SPELLS
 ===============================================================================
 
 * OPEN MENU:     C (Click for Current / Hold for New).
-* SHIFT (C-HOLD):D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
+* NAVIGATE:      D-UP / D-DOWN (Scrolls list).
+* PAGE SCROLL:   Joystick UP / DOWN (Fast scroll through large spellbooks).
+* SELECT/CAST:   START (Confirm) or C again.
+* SELECT ELEMENT (C-HOLD): D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
 * WIZARD EYE:    B + Y (Quick Cast).
 * UTILITY MACRO: B + D-DOWN (Casts Wizard Eye, Levitate, Light, Walk on Water).
 * BUFF MACROS:   B + D-LEFT (Prot Elements) | B + D-UP (Exploration Buffs).
@@ -160,7 +165,7 @@ VERSION:       3.2
 
 [B] HEALING:
     1. LT + Tap Z (Cleric).
-    2. Tap C (Spells) -> Highlight "Heal" -> START.
+    2. Tap C (Spells) -> Use D-Pad/Joystick to highlight "Heal" -> START.
     3. LT + Tap X (Target Char 1).
 
 [C] BLACKSMITH BUY/SELL:
@@ -172,4 +177,4 @@ VERSION:       3.2
 ===============================================================================
 (c) 2026 PIBOY SCRIPTING PROJECT. ALL RIGHTS RESERVED.
 ===============================================================================
-EOF```
+EOF
