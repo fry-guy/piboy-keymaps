@@ -51,9 +51,7 @@ VERSION:       5.1
 [SEC3] INVENTORY & PARTY MANAGEMENT
 ===============================================================================
 * SELECT CHAR:   LT + Button (Selects Party Position 1-8).
-    - [X: 1] [Y: 2] [Z: 3]
-    - [C: 4] [B: 5] [A: 6]
-    - [START: 7] [SELECT: 8]
+    - [X: 1] [Y: 2] [Z: 3] [C: 4] [B: 5] [A: 6] [START: 7] [SELECT: 8]
     
     * QUICK TAP: Character Info Screen.
     * LONG HOLD: Character Inventory Bag.
