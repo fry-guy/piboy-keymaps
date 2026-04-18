@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       3.6
+VERSION:       3.7
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -54,7 +54,9 @@ VERSION:       3.6
     - DISCARD:   Tap D-PAD DOWN.
     - EQUIP:     Tap D-PAD RIGHT.
     - REMOVE:    Tap D-PAD LEFT.
-* SWITCH PAGE:   Hold SELECT + Tap Z (Page Up) / Tap C (Page Down).
+* SWITCH PAGE:   Hold SELECT and use:
+                 - PAGE UP:   Tap Z or LT.
+                 - PAGE DOWN: Tap C or RT.
 * TRANSFER:      While holding RT, click the recipient's button.
                  *PRO-TIP: Keep holding the button to jump directly into their 
                  inventory after the item transfers.*
