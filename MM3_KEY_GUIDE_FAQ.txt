@@ -34,8 +34,8 @@ VERSION:       5.1
     - HOLD Z:    General Information (I).
 
 * MOUSE EMULATION: 
-    - POINTER:   Left Joystick (Moves cursor).
-    - LEFT CLICK:Hold X (Registers click).
+    - POINTER:    Left Joystick (Moves cursor).
+    - LEFT CLICK: Hold X (Registers click).
 
 ===============================================================================
 [SEC2] COMBAT & QUICK FIGHT
