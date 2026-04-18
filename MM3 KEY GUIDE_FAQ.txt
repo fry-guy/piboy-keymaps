@@ -67,9 +67,10 @@ VERSION:       5.1
     - EXIT BAG:   Tap START.
 
 * STANDARD BAG (Hold RT):
-    - NAVIGATE:  D-UP / D-DOWN (Single Item).
-    - USE/DROP:  D-UP (Use) / D-DOWN (Discard).
-    - EQUIP/REM: D-RIGHT (Equip) / D-LEFT (Remove).
+    - MOVE LIST:  D-UP / D-DOWN (Single Item).
+    - PAGE UP/DN: JOY-UP / JOY-DOWN (Page Up / Page Down).
+    - EQUIP/REM:  D-RIGHT (Equip) / D-LEFT (Remove).
+    - USE/DROP:   D-UP (Use) / D-DOWN (Discard).
 * TRANSFER:      While holding RT, click the recipient's button.
 
 * STAT DETAILS:  On Character Info screen, use D-PAD to highlight a stat, 
@@ -80,7 +81,8 @@ VERSION:       5.1
 ===============================================================================
 
 * OPEN MENU:     C (Click for Current / Hold for New).
-* NAVIGATE:      D-UP / D-DOWN (Scrolls list).
+* MOVE LIST:     D-UP / D-DOWN (Scrolls list).
+* PAGE UP/DN:    RT + JOY-UP / JOY-DN (Page Up / Page Down).
 * SELECT/CAST:   START (Confirm) or C again.
 * SELECT ELEMENT (C-HOLD): D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
 
