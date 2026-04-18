@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       4.2 (The Complete Reference)
+VERSION:       4.4 (The "Fast-Nav" Update)
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -45,22 +45,26 @@ VERSION:       4.2 (The Complete Reference)
 ===============================================================================
 
 * SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
-    - QUICK TAP: Opens Character Info/Status Screen (View stats/conditions).
-    - LONG HOLD: Opens Character Inventory Bag.
-* IN-BAG (RT):   While holding RT, use D-PAD:
+    - QUICK TAP: Character Info Screen.
+    - LONG HOLD: Character Inventory Bag.
+
+* FAST-NAV MODE (Hold SELECT):
+    - CYCLE CHAR: Tap LT (Previous) / Tap RT (Next).
+    - MOVE LIST:  Tap Y (Up) / Tap B (Down).
+    - PAGE UP/DN: Tap Z (Page Up) / Tap C (Page Down).
+    - EQUIP/REM:  Tap A (Toggle Equip).
+    - USE/DROP:   Tap X (Click for Use / Hold for Discard).
+    - EXIT BAG:   Tap START.
+
+* STANDARD BAG (Hold RT):
     - NAVIGATE:  D-UP / D-DOWN (Single Item).
-    - PAGE UP:   Joystick UP (Moves cursor beyond visible screen).
-    - PAGE DOWN: Joystick DOWN (Moves cursor beyond visible screen).
+    - PAGE UP:   Joystick UP.
+    - PAGE DOWN: Joystick DOWN.
     - USE ITEM:  Tap D-PAD UP.
     - DISCARD:   Tap D-PAD DOWN.
     - EQUIP:     Tap D-PAD RIGHT.
     - REMOVE:    Tap D-PAD LEFT.
-* SWITCH PAGE:   Hold SELECT and use:
-                 - PAGE UP:   Tap Z or LT.
-                 - PAGE DOWN: Tap C or RT.
 * TRANSFER:      While holding RT, click the recipient's button.
-                 *PRO-TIP: Keep holding the button to jump directly into their 
-                 inventory after the item transfers.*
 
 ===============================================================================
 [SEC4] SPELL MENU & ELEMENTAL SPELLS
@@ -68,7 +72,7 @@ VERSION:       4.2 (The Complete Reference)
 
 * OPEN MENU:     C (Click for Current / Hold for New).
 * NAVIGATE:      D-UP / D-DOWN (Scrolls list).
-* PAGE SCROLL:   Joystick UP / DOWN (Fast scroll through large spellbooks).
+* PAGE SCROLL:   Joystick UP / DOWN (Fast scroll).
 * SELECT/CAST:   START (Confirm) or C again.
 * SELECT ELEMENT (C-HOLD): D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
 * WIZARD EYE:    B + Y (Quick Cast).
@@ -127,9 +131,6 @@ VERSION:       4.2 (The Complete Reference)
     - D-RIGHT:   Armor / Donate (2nd).
     - D-DOWN:    Sell / Uncurse (3rd).
 
-    * NESTED BUY MENU:  D-UP: Weapons | D-RIGHT: Armor | D-DOWN: Misc.
-    * NESTED SELL MENU: D-UP: Sell | D-RIGHT: Repair | D-DOWN: Identify.
-
 * TAVERN / GUILD (Z): Hold Z + Direction.
     - D-UP:      Drink / Info (1st).
     - D-RIGHT:   Food / Buy Spells (2nd).
@@ -152,9 +153,7 @@ VERSION:       4.2 (The Complete Reference)
 
 ===============================================================================
 [SEC9] RETROARCH NAVIGATION
--------------------------------------------------------------------------------
-  Note: Game pauses while RA Menu is open.
--------------------------------------------------------------------------------
+===============================================================================
 
 * OPEN MENU:     START + SELECT.
 * MOVE:          Hold START + D-PAD UP/DOWN.
