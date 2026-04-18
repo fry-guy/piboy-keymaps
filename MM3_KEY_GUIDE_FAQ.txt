@@ -82,7 +82,7 @@ VERSION:       5.1
 
 * OPEN MENU:     C (Click for Current / Hold for New).
 * MOVE LIST:     D-UP / D-DOWN (Single Item).
-* PAGE UP/DN:    RT + JOY-UP / JOY-DOWN (Scrolls List).
+* PAGE UP/DN:    JOY-UP / JOY-DOWN (Hold RT to Scroll List).
 * SELECT/CAST:   START (Confirm) or C again.
 * SELECT ELEMENT (C-HOLD): D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
 
