@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       3.9
+VERSION:       4.1
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -24,7 +24,7 @@ VERSION:       3.9
 ===============================================================================
 
 * MOVE:          D-Pad (or LT + Joystick). 
-* SIDESTEP:      LT + RT + Joystick.
+* SIDESTEP:      LT + RT + Joystick. (Uses undocumented Ctrl+Arrow logic).
 * INTERACT:      RT (Maps to SPACE).
 * MOUSE MODE:    Left Joystick. Hold X for Left Click.
 * SHOOT/BASH:    LT + D-UP. (Click to Shoot / Hold to Bash).
@@ -95,7 +95,12 @@ VERSION:       3.9
 ===============================================================================
 
 * MIRRORS:       L3 + [Z:Home] [Y:Seadog] [X:Freeman] [C:Doomed] [B:Redhot] [A:Arena]
-                 *Use D-Pad for Elemental Planes.*
+
+* ELEMENTAL PLANES (L3 + D-PAD Macros):
+    - D-UP:      Plane of Fire
+    - D-RIGHT:   Plane of Electricity
+    - D-DOWN:    Plane of Cold
+    - D-LEFT:    Plane of Acid
 
 * KEYBOARD (OSK):Click Left Joystick (L3) to Activate.
     - TYPING:    D-Pad (Move) | A (Select) | X (Backspace).
