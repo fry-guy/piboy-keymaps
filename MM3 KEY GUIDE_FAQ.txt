@@ -1,7 +1,7 @@
 ===============================================================================
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
-AUTHOR:        Gemini / Fry-Guy
+AUTHOR:        Fry-Guy / Gemini
 VERSION:       5.1
 ===============================================================================
 
@@ -24,8 +24,8 @@ VERSION:       5.1
 ===============================================================================
 
 * MOVE:          D-Pad (or LT + Joystick). 
-* SIDESTEP:      LT + RT + Joystick. (Uses undocumented Ctrl+Arrow logic).
-* INTERACT:      RT (Maps to SPACE).
+* SIDESTEP:      LT + RT + Joystick. (Uses Ctrl+Arrow logic).
+* INTERACT:      RT (SPACE).
 * SHOOT/BASH:    LT + D-UP. (Click to Shoot / Hold to Bash).
 * REST/DISMISS:  LT + D-DOWN. (Click to Rest / Hold to Dismiss).
 
@@ -45,13 +45,12 @@ VERSION:       5.1
 * QUICK FIGHT:   Executes a pre-set action (Attack/Block/Cast/Retreat).
     - CYCLE:     Hold B + D-RIGHT to rotate stances.
     - LOCK/SET:  Hold B + D-DOWN or press START.
-* MODIFIERS:     D-UP + A (Block) | D-DOWN + A (Retreat).
+* OTHER MOVES:   D-UP + A (Block) | D-DOWN + A (Retreat).
 
 ===============================================================================
 [SEC3] INVENTORY & PARTY MANAGEMENT
 ===============================================================================
-
-* SELECT CHAR:   LT + Button (Corresponds to Party Position 1-8).
+* SELECT CHAR:   LT + Button (Selects Party Position 1-8).
     - [X: 1] [Y: 2] [Z: 3]
     - [C: 4] [B: 5] [A: 6]
     - [START: 7] [SELECT: 8]
@@ -123,7 +122,7 @@ VERSION:       5.1
     - D-DOWN:    WATER (Plane of Cold)
     - D-LEFT:    EARTH (Plane of Acid)
 
-* KEYBOARD (OSK):Click Left Joystick (L3).
+* KEYBOARD (OSK): Click Left Joystick (L3).
 
 ===============================================================================
 [SEC7] SHOPS & SERVICES
@@ -148,7 +147,7 @@ VERSION:       5.1
 
 * BANK (X): Hold X + Direction.
     - D-UP/DN:   Gold / Gems.
-    - SELECT:    D-LEFT (Deposit) | D-RIGHT (Withdraw).
+    - D-L/R:     Deposit / Withdraw.
 
 ===============================================================================
 [SEC8] CHARACTER CREATION
@@ -176,15 +175,18 @@ VERSION:       5.1
 ===============================================================================
 
 * OPEN MENU:     START + SELECT.
-* NAVIGATE:      Hold START + D-PAD.
+* NAVIGATE:      Hold START + D-PAD UP/DOWN.
+* SELECT/ENTER:  Hold START + D-PAD RIGHT (or A).
+* BACK/CANCEL:   Hold START + D-PAD LEFT (or B).
+* CLOSE MENU:    START + SELECT again.
 
 ===============================================================================
 [SEC10] PRO-TIPS FOR EFFICIENCY
 ===============================================================================
 
-* MASTER CONFIRM:Hold START for 2 seconds (Enter).
-* PANIC ESCAPE:  Hold SELECT for 2 seconds (Esc spam).
-* GEAR SHUFFLE:  Hold SELECT + LT/RT (Cycle party) then Tap A (Quick Equip).
+* MASTER CONFIRM: Hold START for 2 seconds (Enter).
+* PANIC ESCAPE:   Hold SELECT for 2 seconds (Esc spam).
+* GEAR SHUFFLE:   Hold SELECT + LT/RT (Cycle party) then Tap A (Quick Equip).
 
 ===============================================================================
 [SEC11] SCENARIO WALKTHROUGHS
