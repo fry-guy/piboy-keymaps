@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       4.4 (The "Fast-Nav" Update)
+VERSION:       4.5
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -72,11 +72,16 @@ VERSION:       4.4 (The "Fast-Nav" Update)
 
 * OPEN MENU:     C (Click for Current / Hold for New).
 * NAVIGATE:      D-UP / D-DOWN (Scrolls list).
-* PAGE SCROLL:   Joystick UP / DOWN (Fast scroll).
 * SELECT/CAST:   START (Confirm) or C again.
 * SELECT ELEMENT (C-HOLD): D-UP: Fire | D-RIGHT: Elec | D-DOWN: Cold | D-LEFT: Acid.
-* WIZARD EYE:    B + Y (Quick Cast).
-* UTILITY MACRO: B + D-DOWN (Casts Wizard Eye, Levitate, Light, Walk on Water).
+
+* FAST-NAV SPELLS (Hold SELECT):
+    - CYCLE CHAR: Tap LT (Prev) / Tap RT (Next).
+    - MOVE LIST:  Tap Y (Up) / Tap B (Down).
+    - PAGE UP/DN: Tap Z (Page Up) / Tap C (Page Down).
+    - EXIT MENU:  Hold START.
+
+* UTILITY MACRO: B + D-DOWN (Wizard Eye, Levitate, Light, Walk on Water).
 * BUFF MACROS:   B + D-LEFT (Prot Elements) | B + D-UP (Exploration Buffs).
 
 ===============================================================================
