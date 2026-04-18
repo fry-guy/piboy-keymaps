@@ -133,7 +133,7 @@ VERSION:       5.1
   1st (Up/North) | 2nd (Right/East) | 3rd (Down/South) | 4th (Left/West)
 -------------------------------------------------------------------------------
 
-* BLACKSMITH / TEMPLE (Y): Hold Y + Direction.
+* BLACKSMITH / TEMPLE / TRAINING (Y): Hold Y + Direction.
     - D-UP:      Buy / Heal / Train (1st).
     - D-RIGHT:   Armor / Donate (2nd).
     - D-DOWN:    Sell / Uncurse (3rd).
