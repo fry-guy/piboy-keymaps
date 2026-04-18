@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       4.9 (The Complete Reference)
+VERSION:       5.0 
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -121,11 +121,28 @@ VERSION:       4.9 (The Complete Reference)
 
 ===============================================================================
 [SEC7] SHOPS & SERVICES
-===============================================================================
+-------------------------------------------------------------------------------
+  Logic: D-Pad directions follow the visual menu list order:
+  1st (Up/North) | 2nd (Right/East) | 3rd (Down/South) | 4th (Left/West)
+-------------------------------------------------------------------------------
 
-* BLACKSMITH (Y):Hold Y + D-PAD [UP:Buy] [RIGHT:Armor] [DOWN:Sell].
-* TAVERN (Z):    Hold Z + D-PAD [UP:Drink] [RIGHT:Food] [DOWN:Tip] [LEFT:Rumor].
-* BANK (X):      Hold X + D-PAD [UP:Gold] [DOWN:Gems] [SEL+LEFT:Dep] [SEL+RIGHT:Wth].
+* BLACKSMITH / TEMPLE (Y): Hold Y + Direction.
+    - D-UP:      Buy / Heal / Train (1st).
+    - D-RIGHT:   Armor / Donate (2nd).
+    - D-DOWN:    Sell / Uncurse (3rd).
+
+    * NESTED BUY MENU:  D-UP: Weapons | D-RIGHT: Armor | D-DOWN: Misc.
+    * NESTED SELL MENU: D-UP: Sell | D-RIGHT: Repair | D-DOWN: Identify.
+
+* TAVERN / GUILD (Z): Hold Z + Direction.
+    - D-UP:      Drink / Info (1st).
+    - D-RIGHT:   Food / Buy Spells (2nd).
+    - D-DOWN:    Tip / Spell Info (3rd).
+    - D-LEFT:    Rumor (4th).
+
+* BANK (X): Hold X + Direction.
+    - D-UP/DN:   Gold / Gems.
+    - SELECT:    D-LEFT (Deposit) | D-RIGHT (Withdraw).
 
 ===============================================================================
 [SEC8] CHARACTER CREATION
