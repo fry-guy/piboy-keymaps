@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       4.7
+VERSION:       4.8
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -35,7 +35,7 @@ VERSION:       4.7
 
 * MOUSE EMULATION: 
     - POINTER:   Left Joystick (Moves cursor).
-    - LEFT CLICK:Hold X (A brief hold registers the click).
+    - LEFT CLICK:Hold X (Registers click).
 
 ===============================================================================
 [SEC2] COMBAT & QUICK FIGHT
@@ -102,7 +102,21 @@ VERSION:       4.7
 ===============================================================================
 
 * MIRRORS:       L3 + [Z:HOME] [Y:SEADOG] [X:FREEMAN] [C:DOOMED] [B:REDHOT] [A:ARENA]
-* PLANES:        L3 + D-PAD [UP:Fire] [RIGHT:Air] [DOWN:Water] [LEFT:Earth]
+
+* TOWN KEY (MIRROR DESTINATIONS):
+    - [Z] HOME:       Fountain Head
+    - [Y] SEADOG:     Baywatch
+    - [X] FREEMAN:    Wildabar
+    - [C] DOOMED:     Swamptown
+    - [B] REDHOT:     Blistering Heights
+    - [A] ARENA:      The Arena
+
+* ELEMENTAL PLANES (L3 + D-PAD Macros):
+    - D-UP:      FIRE (Plane of Fire)
+    - D-RIGHT:   AIR (Plane of Electricity)
+    - D-DOWN:    WATER (Plane of Cold)
+    - D-LEFT:    EARTH (Plane of Acid)
+
 * KEYBOARD (OSK):Click Left Joystick (L3).
 
 ===============================================================================
