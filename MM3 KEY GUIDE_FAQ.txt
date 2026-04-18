@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       4.5
+VERSION:       4.7
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -14,7 +14,7 @@ VERSION:       4.5
     5.  Quick Spells & Transport Macros................................[SEC5]
     6.  Magic Mirrors and On Screen Keyboard...........................[SEC6]
     7.  Shops & Services...............................................[SEC7]
-    8.  Character Creation & Inn.......................................[SEC8]
+    8.  Character Creation.............................................[SEC8]
     9.  RetroArch Navigation...........................................[SEC9]
     10. Pro-Tips for Efficiency........................................[SEC10]
     11. Scenario Walkthroughs..........................................[SEC11]
@@ -24,11 +24,18 @@ VERSION:       4.5
 ===============================================================================
 
 * MOVE:          D-Pad (or LT + Joystick). 
-* SIDESTEP:      LT + RT + Joystick. (Uses undocumented Ctrl+Arrow logic).
+* SIDESTEP:      LT + RT + Joystick. (Undocumented Ctrl+Arrow logic).
 * INTERACT:      RT (Maps to SPACE).
-* MOUSE MODE:    Left Joystick. Hold X for Left Click.
 * SHOOT/BASH:    LT + D-UP. (Click to Shoot / Hold to Bash).
 * REST/DISMISS:  LT + D-DOWN. (Click to Rest / Hold to Dismiss).
+
+* QUICK CHARTS:  
+    - TAP Z:     Quick Reference Chart (Q).
+    - HOLD Z:    General Information (I).
+
+* MOUSE EMULATION: 
+    - POINTER:   Left Joystick (Moves cursor).
+    - LEFT CLICK:Hold X (A brief hold registers the click).
 
 ===============================================================================
 [SEC2] COMBAT & QUICK FIGHT
@@ -58,13 +65,12 @@ VERSION:       4.5
 
 * STANDARD BAG (Hold RT):
     - NAVIGATE:  D-UP / D-DOWN (Single Item).
-    - PAGE UP:   Joystick UP.
-    - PAGE DOWN: Joystick DOWN.
-    - USE ITEM:  Tap D-PAD UP.
-    - DISCARD:   Tap D-PAD DOWN.
-    - EQUIP:     Tap D-PAD RIGHT.
-    - REMOVE:    Tap D-PAD LEFT.
+    - USE/DROP:  D-UP (Use) / D-DOWN (Discard).
+    - EQUIP/REM: D-RIGHT (Equip) / D-LEFT (Remove).
 * TRANSFER:      While holding RT, click the recipient's button.
+
+* STAT DETAILS:  On Character Info screen, use D-PAD to highlight a stat, 
+                 then press A for detailed attribute info.
 
 ===============================================================================
 [SEC4] SPELL MENU & ELEMENTAL SPELLS
@@ -81,118 +87,78 @@ VERSION:       4.5
     - PAGE UP/DN: Tap Z (Page Up) / Tap C (Page Down).
     - EXIT MENU:  Hold START.
 
-* UTILITY MACRO: B + D-DOWN (Wizard Eye, Levitate, Light, Walk on Water).
-* BUFF MACROS:   B + D-LEFT (Prot Elements) | B + D-UP (Exploration Buffs).
-
 ===============================================================================
 [SEC5] QUICK SPELLS & TRANSPORT MACROS
--------------------------------------------------------------------------------
-  Input Logic: A + D-PAD
--------------------------------------------------------------------------------
+===============================================================================
+
 * D-LEFT:        Transport Box.
 * D-UP:          Teleport.
 * D-DOWN:        Town Portal.
 * D-RIGHT:       Lloyd's Beacon (Cast).
-    - SET:       When prompted, hold D-LEFT.
-    - RETURN:    When prompted, hold D-RIGHT.
-
-* ENTER NUMS:    Hold RT and use:
-                 [X:1] [Y:2] [Z:3] [C:4] [B:5] [A:6] [ST:7] [SL:8] [J-E:9] [J-W:0]
+* ENTER NUMS:    Hold RT and use face buttons (X=1, Y=2, etc. per SEC5 legacy).
 
 ===============================================================================
 [SEC6] MAGIC MIRRORS AND ON SCREEN KEYBOARD
 ===============================================================================
 
 * MIRRORS:       L3 + [Z:HOME] [Y:SEADOG] [X:FREEMAN] [C:DOOMED] [B:REDHOT] [A:ARENA]
-
-* TOWN KEY (MIRROR DESTINATIONS):
-    - [Z] HOME:       Fountain Head
-    - [Y] SEADOG:     Baywatch
-    - [X] FREEMAN:    Wildabar
-    - [C] DOOMED:     Swamptown
-    - [B] REDHOT:     Blistering Heights
-    - [A] ARENA:      The Arena
-
-* ELEMENTAL PLANES (L3 + D-PAD Macros):
-    - D-UP:      FIRE (Plane of Fire)
-    - D-RIGHT:   AIR (Plane of Electricity)
-    - D-DOWN:    WATER (Plane of Cold)
-    - D-LEFT:    EARTH (Plane of Acid)
-
-* KEYBOARD (OSK):Click Left Joystick (L3) to Activate.
-    - TYPING:    D-Pad (Move) | A (Select) | X (Backspace).
-    - MODIFIERS: Y (Space) | START (Enter).
-    - EXIT:      Click L3 again or press B.
+* PLANES:        L3 + D-PAD [UP:Fire] [RIGHT:Air] [DOWN:Water] [LEFT:Earth]
+* KEYBOARD (OSK):Click Left Joystick (L3).
 
 ===============================================================================
 [SEC7] SHOPS & SERVICES
--------------------------------------------------------------------------------
-  Logic: D-Pad directions follow the visual menu list order:
-  1st (Up/North) | 2nd (Right/East) | 3rd (Down/South) | 4th (Left/West)
--------------------------------------------------------------------------------
-
-* BLACKSMITH / TEMPLE (Y): Hold Y + Direction.
-    - D-UP:      Buy / Heal / Train (1st).
-    - D-RIGHT:   Armor / Donate (2nd).
-    - D-DOWN:    Sell / Uncurse (3rd).
-
-* TAVERN / GUILD (Z): Hold Z + Direction.
-    - D-UP:      Drink / Info (1st).
-    - D-RIGHT:   Food / Buy Spells (2nd).
-    - D-DOWN:    Tip / Spell Info (3rd).
-    - D-LEFT:    Rumor (4th).
-
-* BANK (X): Hold X + Direction.
-    - D-UP/DN:   Gold / Gems.
-    - SELECT:    D-LEFT (Deposit) | D-RIGHT (Withdraw).
-
-===============================================================================
-[SEC8] CHARACTER CREATION & INN
 ===============================================================================
 
-* NAVIGATE:      D-UP / D-DOWN.
-* CYCLE OPTIONS: Hold SELECT and tap LT or RT.
-* REROLL STATS:  Hold SELECT and press X.
-* SAVE/CONFIRM:  Hold START (Enter).
-* EXIT/DISCARD:  Hold SELECT (Esc).
+* BLACKSMITH (Y):Hold Y + D-PAD [UP:Buy] [RIGHT:Armor] [DOWN:Sell].
+* TAVERN (Z):    Hold Z + D-PAD [UP:Drink] [RIGHT:Food] [DOWN:Tip] [LEFT:Rumor].
+* BANK (X):      Hold X + D-PAD [UP:Gold] [DOWN:Gems] [SEL+LEFT:Dep] [SEL+RIGHT:Wth].
+
+===============================================================================
+[SEC8] CHARACTER CREATION
+===============================================================================
+
+* NAVIGATION:    D-UP / D-DOWN (Move through Race/Class/Alignment).
+* CYCLE OPTIONS: Hold SELECT + LT or RT.
+* ROLL STATS:    RT + D-LEFT (R).
+* CREATE:        C Button (C).
+
+* VIEW STATS (Keyboard Shortcuts):
+    - D-UP:      Might (M)
+    - D-RIGHT:   Intelligence (I)
+    - D-DOWN:    Endurance (E)
+    - D-LEFT:    Speed (S)
+    - A:         Luck (L)
+    - X:         Accuracy (A)
+    - Y:         Personality (P)
+
+* FINALIZE:      Hold START (Master Confirm/Enter).
+* DISCARD:       Hold SELECT (Esc).
 
 ===============================================================================
 [SEC9] RETROARCH NAVIGATION
 ===============================================================================
 
 * OPEN MENU:     START + SELECT.
-* MOVE:          Hold START + D-PAD UP/DOWN.
-* ENTER:         Hold START + D-PAD RIGHT.
-* BACK:          Hold START + D-PAD LEFT.
+* NAVIGATE:      Hold START + D-PAD.
 
 ===============================================================================
 [SEC10] PRO-TIPS FOR EFFICIENCY
 ===============================================================================
 
-* GEAR SHUFFLE:  Hold SELECT (Fast Mode) + LT/RT to scroll through party.
-                 Tap A to equip gear instantly without menu loops.
-* CONFIRMATION:  START is always "Yes." SELECT is always "No/Esc."
+* MASTER CONFIRM:Hold START for 2 seconds (Enter).
+* PANIC ESCAPE:  Hold SELECT for 2 seconds (Esc spam).
+* GEAR SHUFFLE:  Hold SELECT + LT/RT (Cycle party) then Tap A (Quick Equip).
 
 ===============================================================================
 [SEC11] SCENARIO WALKTHROUGHS
 ===============================================================================
 
 [A] TRADING GEAR:
-    1. LT + Hold X (Character 1's bag opens).
-    2. Use D-Pad to highlight the item.
-    3. Hold RT + Tap B (Sends item to Character 5). 
-    4. Keep holding B to jump directly into Character 5's bag to equip it.
-
+    LT + Hold X (Bag 1) -> Highlight Item -> Hold RT + Tap B (Send to Char 5).
 [B] HEALING:
-    1. LT + Tap Z (Cleric).
-    2. Tap C (Spells) -> Use D-Pad/Joystick to highlight "Heal" -> START.
-    3. LT + Tap X (Target Char 1).
-
-[C] BLACKSMITH BUY/SELL:
-    1. Y + D-UP (Enter Buy).
-    2. Y + D-RIGHT (Select Armor) -> START to buy.
-    3. Exit -> Y + D-DOWN (Enter Sell).
-    4. Y + D-UP (Choose Sell) -> Hold Y (Confirm Yes).
+    LT + Tap Z (Cleric) -> Tap C (Heal) -> START -> LT + Tap X (Target).
+[C] SHOPPING:
+    Y + D-UP (Buy) -> D-RIGHT (Armor) -> START (Confirm).
 
 ===============================================================================
 (c) 2026 PIBOY SCRIPTING PROJECT. ALL RIGHTS RESERVED.
