@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       5.0 
+VERSION:       5.1 (The Final Complete Reference)
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -51,9 +51,13 @@ VERSION:       5.0
 [SEC3] INVENTORY & PARTY MANAGEMENT
 ===============================================================================
 
-* SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
-    - QUICK TAP: Character Info Screen.
-    - LONG HOLD: Character Inventory Bag.
+* SELECT CHAR:   LT + Button (Corresponds to Party Position 1-8).
+    - [X: 1] [Y: 2] [Z: 3]
+    - [C: 4] [B: 5] [A: 6]
+    - [START: 7] [SELECT: 8]
+    
+    * QUICK TAP: Character Info Screen.
+    * LONG HOLD: Character Inventory Bag.
 
 * FAST-NAV MODE (Hold SELECT):
     - CYCLE CHAR: Tap LT (Previous) / Tap RT (Next).
@@ -95,7 +99,9 @@ VERSION:       5.0
 * D-UP:          Teleport.
 * D-DOWN:        Town Portal.
 * D-RIGHT:       Lloyd's Beacon (Cast).
-* ENTER NUMS:    Hold RT and use face buttons (X=1, Y=2, etc. per SEC5 legacy).
+
+* ENTER NUMS:    Hold RT and use face buttons to input coordinates/teleport data.
+                 [X:1] [Y:2] [Z:3] [C:4] [B:5] [A:6] [ST:7] [SL:8] [J-E:9] [J-W:0]
 
 ===============================================================================
 [SEC6] MAGIC MIRRORS AND ON SCREEN KEYBOARD
