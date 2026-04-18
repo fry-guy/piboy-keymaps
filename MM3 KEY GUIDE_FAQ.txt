@@ -191,6 +191,7 @@ VERSION:       5.1
 * PANIC ESCAPE:   Hold SELECT for 2 seconds (Esc spam).
 * GEAR SHUFFLE:   Hold SELECT (Fast Mode) + LT/RT to scroll through party.
                   Tap A to equip gear instantly without menu loops.
+
 ===============================================================================
 [SEC11] SCENARIO WALKTHROUGHS
 ===============================================================================
