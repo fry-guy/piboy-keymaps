@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Gemini / Fry-Guy
-VERSION:       3.7
+VERSION:       3.8
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
@@ -26,6 +26,7 @@ VERSION:       3.7
 * MOVE:          D-Pad (or LT + Joystick). 
 * SIDESTEP:      LT + RT + Joystick.
 * INTERACT:      RT (Maps to SPACE).
+* SEARCH:        RT + D-LEFT (Maps to 'S').
 * MOUSE MODE:    Left Joystick. Hold X for Left Click.
 * SHOOT/BASH:    LT + D-UP. (Click to Shoot / Hold to Bash).
 * REST/DISMISS:  LT + D-DOWN. (Click to Rest / Hold to Dismiss).
@@ -35,6 +36,7 @@ VERSION:       3.7
 ===============================================================================
 
 * STANDARD:      A (Attack), B (Quick Fight), C (Cast).
+* DELAY TURN:    RT + A (Maps to 'D' - Pass character turn).
 * QUICK FIGHT:   Executes a pre-set action (Attack/Block/Cast/Retreat).
     - CYCLE:     Hold B + D-RIGHT to rotate stances.
     - LOCK/SET:  Hold B + D-DOWN or press START.
@@ -45,7 +47,8 @@ VERSION:       3.7
 ===============================================================================
 
 * SELECT CHAR:   LT + [X, Y, Z / C, B, A / START, SELECT].
-* OPEN BAG:      LT + Hold Character Button (or LT + L3).
+    - QUICK TAP: Opens Character Info/Status Screen.
+    - LONG HOLD: Opens Character Inventory Bag.
 * IN-BAG (RT):   While holding RT, use D-PAD:
     - NAVIGATE:  D-UP / D-DOWN (Single Item).
     - PAGE UP:   Joystick UP (Moves cursor beyond visible screen).
