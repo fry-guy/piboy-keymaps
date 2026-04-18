@@ -145,9 +145,10 @@ VERSION:       5.1
     - D-DOWN:    Tip / Spell Info (3rd).
     - D-LEFT:    Rumor (4th).
 
-* BANK (X): Hold X + Direction.
+* BANK (X):      Hold X + Direction.
     - D-UP/DN:   Gold / Gems.
-    - D-L/R:     Deposit / Withdraw.
+    - D-LEFT:    Deposit (Hold X).
+    - D-RIGHT:   Withdraw (Hold X).
 
 ===============================================================================
 [SEC8] CHARACTER CREATION
