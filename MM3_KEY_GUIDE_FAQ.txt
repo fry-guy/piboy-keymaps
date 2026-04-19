@@ -34,7 +34,7 @@ VERSION:       5.3
     - TAP Z:     Quick Reference Chart (Q).
     - HOLD Z:    General Information (I).
     - TAP Y:     View Map (M).
-    - HOLD Y:    Corak's Notes (V).
+    - HOLD Y:    Quest Log / Corak's Notes (V).
 
 * MOUSE EMULATION: 
     - POINT:     Left Joystick (Moves cursor).
