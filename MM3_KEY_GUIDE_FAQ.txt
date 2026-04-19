@@ -188,7 +188,7 @@ VERSION:       5.3
 
 * MENU NAVIGATION (While TAB Menu is Open):
    - SAVE GAME:   RT + D-DOWN (S)
-   - LOAD GAME:   RT + D-UP (L)
+   - LOAD GAME:   RT + D-UP (R for Restore)
    - MR. WIZARD:  X + D-RIGHT (W)
    - SOUND FX:    C + D-DOWN (E)
    - TEXT DELAY:  C + D-UP (D)
