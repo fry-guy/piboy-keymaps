@@ -62,8 +62,8 @@ VERSION:       5.3
     * LONG HOLD: Character Inventory Bag.
 
 * FAST-NAV PARTY MODE (Hold C):
-    - NEXT CHAR:  B (Cycles 1-8 Forward).
-    - LAST CHAR:  A (Cycles 8-1 Backward).
+    - NEXT CHAR: B (Cycles 1-8 Forward).
+    - LAST CHAR: A (Cycles 8-1 Backward).
 
 * STANDARD BAG NAV MODE (Hold RT):
     - MOVE LIST:  D-UP / D-DOWN (Single Item).
@@ -76,8 +76,8 @@ VERSION:       5.3
     - CYCLE CHAR: Tap LT (Previous) / Tap RT (Next).
     - MOVE LIST:  Tap Y (Up) / Tap B (Down).
     - PAGE UP/DN: Tap Z (Page Up) / Tap C (Page Down).
-    - EQUIP/REM:  Tap A (Click for Equip / Hold for Remove).
-    - USE/DROP:   Tap X (Click for Use / Hold for Discard).
+    - EQUIP/REM:  Tap A (Equip) / Hold A (Remove).
+    - USE/DROP:   Tap X (Use) / Hold X (Discard).
     - EXIT BAG:   Tap START.
 
 * STAT DETAILS: On Character Info screen, use D-PAD to highlight a stat, 
