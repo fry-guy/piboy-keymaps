@@ -33,8 +33,8 @@ VERSION:       5.2
 * QUICK CHARTS:  
     - TAP Z:     Quick Reference Chart (Q).
     - HOLD Z:    General Information (I).
-    - TL+B:      View Map (M)
-    - TL+A:      Corak's Notes (V)
+    - TAP Y:     View Map (M).
+    - HOLD Y:    Corak's Notes (V).
 
 * MOUSE EMULATION: 
     - POINT:     Left Joystick (Moves cursor).
@@ -181,21 +181,12 @@ VERSION:       5.2
  
 * OPEN MENU:     TR + D-UP (TAB).
 * MENU NAVIGATION (While TAB Menu is Open):
-   - SAVE GAME:   TL + DL + B (S)
-   - LOAD GAME:   TL + DL + A (L)
-   - MR. WIZARD:  TL + DL + Y (W)
-   - SOUND FX:    TL + DL + X (E)
-   - TEXT DELAY:  TL + DL + LB (D)
-   - QUIT TO DOS: TL + DL + RB (Q)
-
- * SYSTEM SHORTCUTS:
-   - CONFIRM:     START (ENTER)
-   - CANCEL/EXIT: SELECT (ESC)
-   - BACKSPACE:   BACK + TL
-   - CAPS LOCK:   TR + L3 (Guide)
-
- * PRO-TIP: To save your game quickly, tap TR + D-UP to bring up the menu,
-   then hold TL and tap D-LEFT + B. Use START to confirm the save slot.
+   - SAVE GAME:   TR + D-LEFT (S)
+   - LOAD GAME:   TL + D-LEFT (L)
+   - MR. WIZARD:  X + TR (W)
+   - SOUND FX:    TR + D-DOWN (E)
+   - TEXT DELAY:  TR + D-UP (D)
+   - QUIT TO DOS: START + SELECT (Q)
 
 ===============================================================================
 [SEC10] RETROARCH NAVIGATION
