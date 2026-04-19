@@ -15,9 +15,10 @@ VERSION:       5.1
     6.  Magic Mirrors and On Screen Keyboard...........................[SEC6]
     7.  Shops & Services...............................................[SEC7]
     8.  Character Creation.............................................[SEC8]
-    9.  RetroArch Navigation...........................................[SEC9]
-    10. Pro-Tips for Efficiency........................................[SEC10]
-    11. Scenario Walkthroughs..........................................[SEC11]
+    9.  Game Menu & System...................................,.........[SEC9]
+    9.  RetroArch Navigation...........................................[SEC10]
+    10. Pro-Tips for Efficiency........................................[SEC11]
+    11. Scenario Walkthroughs..........................................[SEC12]
 
 ===============================================================================
 [SEC1] EXPLORATION & OVERWORLD
@@ -32,6 +33,8 @@ VERSION:       5.1
 * QUICK CHARTS:  
     - TAP Z:     Quick Reference Chart (Q).
     - HOLD Z:    General Information (I).
+    - TL+B:      View Map (M)
+    - TL+A:      Corak's Notes (V)
 
 * MOUSE EMULATION: 
     - POINT:     Left Joystick (Moves cursor).
@@ -173,7 +176,29 @@ VERSION:       5.1
 * DISCARD:       Hold SELECT (Esc).
 
 ===============================================================================
-[SEC9] RETROARCH NAVIGATION
+[SEC9] GAME MENU & SYSTEM
+===============================================================================
+ 
+* OPEN MENU:     TR + D-UP (TAB).
+* MENU NAVIGATION (While TAB Menu is Open):
+   - SAVE GAME:   TL + DL + B (S)
+   - LOAD GAME:   TL + DL + A (L)
+   - MR. WIZARD:  TL + DL + Y (W)
+   - SOUND FX:    TL + DL + X (E)
+   - TEXT DELAY:  TL + DL + LB (D)
+   - QUIT TO DOS: TL + DL + RB (Q)
+
+ * SYSTEM SHORTCUTS:
+   - CONFIRM:     START (ENTER)
+   - CANCEL/EXIT: SELECT (ESC)
+   - BACKSPACE:   BACK + TL
+   - CAPS LOCK:   TR + L3 (Guide)
+
+ * PRO-TIP: To save your game quickly, tap TR + D-UP to bring up the menu,
+   then hold TL and tap D-LEFT + B. Use START to confirm the save slot.
+
+===============================================================================
+[SEC10] RETROARCH NAVIGATION
 ===============================================================================
 
 * OPEN MENU:     START + SELECT.
@@ -183,7 +208,7 @@ VERSION:       5.1
 * CLOSE MENU:    START + SELECT again.
 
 ===============================================================================
-[SEC10] PRO-TIPS FOR EFFICIENCY
+[SEC11] PRO-TIPS FOR EFFICIENCY
 ===============================================================================
 
 * MASTER CONFIRM: Hold START for 2 seconds (Enter).
@@ -192,7 +217,7 @@ VERSION:       5.1
                   Tap A to equip gear instantly without menu loops.
 
 ===============================================================================
-[SEC11] SCENARIO WALKTHROUGHS
+[SEC12] SCENARIO WALKTHROUGHS
 ===============================================================================
 
 [A] TRADING GEAR:
