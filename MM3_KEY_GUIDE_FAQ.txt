@@ -179,14 +179,15 @@ VERSION:       5.3
 [SEC9] GAME MENU & SYSTEM
 ===============================================================================
  
-* OPEN MENU:     TR + D-UP (TAB).
+* OPEN MENU:      RT + JOYSTICK CLICK (TAB).
+
 * MENU NAVIGATION (While TAB Menu is Open):
-   - SAVE GAME:   TR + D-LEFT (S)
-   - LOAD GAME:   TL + D-LEFT (L)
-   - MR. WIZARD:  X + TR (W)
-   - SOUND FX:    TR + D-DOWN (E)
-   - TEXT DELAY:  TR + D-UP (D)
-   - QUIT TO DOS: START + SELECT (Q)
+   - SAVE GAME:   RT + D-DOWN (S)
+   - LOAD GAME:   RT + D-UP (L)
+   - MR. WIZARD:  X + D-RIGHT (W)
+   - SOUND FX:    C + D-DOWN (E)
+   - TEXT DELAY:  C + D-UP (D)
+   - QUIT TO DOS: Z (Q)
 
 ===============================================================================
 [SEC10] RETROARCH NAVIGATION
