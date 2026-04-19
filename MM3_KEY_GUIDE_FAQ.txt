@@ -184,7 +184,7 @@ VERSION:       5.3
 [SEC9] GAME MENU & SYSTEM
 ===============================================================================
  
-* OPEN MENU:      RT + JOYSTICK CLICK (TAB).
+* OPEN MENU:      RT or LT + JOYSTICK CLICK (TAB).
 
 * MENU NAVIGATION (While TAB Menu is Open):
    - SAVE GAME:   RT + D-DOWN (S)
