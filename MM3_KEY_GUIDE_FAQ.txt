@@ -54,29 +54,34 @@ VERSION:       5.3
 [SEC3] INVENTORY & PARTY MANAGEMENT
 ===============================================================================
 * SELECT CHAR:   LT + Button (Selects Party Position 1-8).
-    - Main Party [X: 1] [Y: 2] [Z: 3] [C: 4] [B: 5] [A: 6]
-    - Hirlings [START: 7] [SELECT: 8]
+    - FRONT ROW: [X: 1] [Y: 2] [Z: 3] 
+    - BACK ROW:  [C: 4] [B: 5] [A: 6]
+    - HIRLINGS:  [START: 7] [SELECT: 8]
     
     * QUICK TAP: Character Info Screen.
     * LONG HOLD: Character Inventory Bag.
 
-* FAST-NAV MODE (Hold SELECT):
-    - CYCLE CHAR: Tap LT (Previous) / Tap RT (Next).
-    - MOVE LIST:  Tap Y (Up) / Tap B (Down).
-    - PAGE UP/DN: Tap Z (Page Up) / Tap C (Page Down).
-    - EQUIP/REM:  Tap A (Toggle Equip).
-    - USE/DROP:   Tap X (Click for Use / Hold for Discard).
-    - EXIT BAG:   Tap START.
+* FAST-NAV PARTY MODE (Hold C):
+    - NEXT CHAR:  B (Cycles 1-8 Forward).
+    - LAST CHAR:  A (Cycles 8-1 Backward).
 
-* STANDARD BAG (Hold RT):
+* STANDARD BAG NAV MODE (Hold RT):
     - MOVE LIST:  D-UP / D-DOWN (Single Item).
     - PAGE UP/DN: JOY-UP / JOY-DOWN (Page Up / Page Down).
     - EQUIP/REM:  D-RIGHT (Equip) / D-LEFT (Remove).
     - USE/DROP:   D-UP (Use) / D-DOWN (Discard).
-* TRANSFER:      While holding RT, click the recipient's button.
+* TRANSFER: While holding RT, click the recipient's button.
 
-* STAT DETAILS:  On Character Info screen, use D-PAD to highlight a stat, 
-                 then press A for detailed attribute info.
+* FAST-NAV BAG MODE (Hold SELECT):
+    - CYCLE CHAR: Tap LT (Previous) / Tap RT (Next).
+    - MOVE LIST:  Tap Y (Up) / Tap B (Down).
+    - PAGE UP/DN: Tap Z (Page Up) / Tap C (Page Down).
+    - EQUIP/REM:  Tap A (Click for Equip / Hold for Remove).
+    - USE/DROP:   Tap X (Click for Use / Hold for Discard).
+    - EXIT BAG:   Tap START.
+
+* STAT DETAILS: On Character Info screen, use D-PAD to highlight a stat, 
+                then press A for detailed attribute info.
 
 ===============================================================================
 [SEC4] SPELL MENU & ELEMENTAL SPELLS
@@ -121,8 +126,8 @@ VERSION:       5.3
     - [A] ARENA:      The Arena
 
 * ELEMENTAL PLANES (L3 + D-PAD Macros):
-    - D-UP:      FIRE (Plane of Fire)
-    - D-RIGHT:   AIR (Plane of Electricity)
+    - D-UP:     FIRE (Plane of Fire)
+    - D-RIGHT:  AIR (Plane of Electricity)
     - D-DOWN:    WATER (Plane of Cold)
     - D-LEFT:    EARTH (Plane of Acid)
 
