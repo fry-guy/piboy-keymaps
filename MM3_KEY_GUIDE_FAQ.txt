@@ -2,7 +2,7 @@
 SYSTEM:        Retropie / PiBoy DMG
 GAME:          Might and Magic III: Isles of Terra (DOSBox Pure)
 AUTHOR:        Fry-Guy / Gemini
-VERSION:       5.2
+VERSION:       5.3
 ===============================================================================
 
 [ TABLE OF CONTENTS ]
