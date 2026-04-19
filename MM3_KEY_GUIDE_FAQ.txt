@@ -87,7 +87,7 @@ VERSION:       5.3
 [SEC4] SPELL MENU & ELEMENTAL SPELLS
 ===============================================================================
 
-* OPEN MENU:     C (Click for Current / Hold for New).
+* OPEN MENU:     C (Tap for Current / Tap and then Hold for New).
 * MOVE LIST:     D-UP / D-DOWN (Single Item).
 * PAGE UP/DN:    RT + JOY-UP / JOY-DOWN (Scrolls List).
 * SELECT/CAST:   START (Confirm) or C again.
